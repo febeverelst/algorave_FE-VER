@@ -22,3 +22,8 @@ yarn-error.log
 
 # OS
 Thumbs.db
+
+# Large video files (use Google Drive links instead)
+*.mov
+*.mp4
+assets/videos/

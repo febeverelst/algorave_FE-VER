@@ -167,6 +167,69 @@ body {
     color: #e1e4e8;
 }
 
+/* Week cards gallery */
+.week-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.week-grid a {
+    display: block;
+    width: calc(33.333% - 0.66rem);
+    min-width: 200px;
+    background: linear-gradient(180deg, #0c1116, #0f141a);
+    border: 1px solid #232830;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    color: #c9d1d9;
+    text-decoration: none;
+    box-shadow: 0 6px 18px rgba(2, 6, 23, 0.6);
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.week-grid a h3 {
+    margin: 0 0 0.2rem 0;
+    color: #58a6ff;
+    font-size: 1.1rem;
+}
+
+.week-grid a p {
+    margin: 0;
+    color: #8b949e;
+    font-size: 0.95rem;
+}
+
+.week-grid a:hover {
+    transform: translateY(-6px);
+    border-color: rgba(88, 166, 255, 0.9);
+    box-shadow: 0 10px 24px rgba(8, 20, 40, 0.6), 0 0 18px rgba(88, 166, 255, 0.15);
+    text-decoration: none;
+    /* prevent underline on hover */
+}
+
+/* keyboard focus shows the same glow */
+.week-grid a:focus-visible {
+    outline: none;
+    border-color: rgba(88, 166, 255, 0.95);
+    box-shadow: 0 10px 24px rgba(8, 20, 40, 0.6), 0 0 26px rgba(88, 166, 255, 0.22);
+}
+
+@media (max-width: 900px) {
+    .week-grid a {
+        width: calc(50% - 0.5rem);
+    }
+}
+
+@media (max-width: 560px) {
+    .week-grid a {
+        width: 100%;
+    }
+}
+
 .content strong {
     color: #c9d1d9;
     font-weight: 600;

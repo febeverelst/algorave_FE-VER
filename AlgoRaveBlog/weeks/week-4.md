@@ -4,7 +4,8 @@
 
 ## Monday
 
-<video src="assets/videos/firstRecording.mov" width="200" height="400" controls></video>
+<iframe src="https://drive.google.com/file/d/1Kx4RFA3PJVOk155wWX6Mh_SuuU8rHoKQ/preview" width="300" height="500px" style="border: 1px solid #30363d; border-radius: 6px;"></iframe>
+
 
 I tried recording myself, coding a session, for the first time so i can look back at it and learn from things that im doing. for the first time I only recorded myself so you couldn’t see my face. I did a set of 4 minutes and a half.
 
@@ -14,8 +15,7 @@ Best part can be found at **1’10” / 2’10” / 3’40”**
 
 Then i tried screenrecording a session but i tried doing it with internal audio using blackhole. It’s a program that I installed and then it should record the internal audio instead of using the microphone of my mac. I recorded a session of 5 and a half minutes but after wanting to watch it back…. It didn’t record the audio :(
 
-<video src="assets/videos/screenRecording_noAudio.mov" width="80%" height="400" controls></video>
-
+<iframe src="https://drive.google.com/file/d/1fENi4PmUrDTG6KAq1FI5-6MyKvTl_cwh/preview" width="100%" height="500px" style="border: 1px solid #30363d; border-radius: 6px;"></iframe>
 ---
 
 ## Tuesday
@@ -32,7 +32,7 @@ I composed a little EDM sample to try it out and it finally worked.
 
 ⚠️ **WARNING** ⚠️: The audio is actually loud so beware if your wearing headphones.
 
-<video src="assets/videos/screenRecord_wAudio_try.mov" width="80%" height="400" controls></video>
+<iframe src="https://drive.google.com/file/d/1flieeDL6zd4BZB43-LxlCqn063-4wScf/preview" width="100%" height="500px" style="border: 1px solid #30363d; border-radius: 6px;"></iframe>
 
 ---
 

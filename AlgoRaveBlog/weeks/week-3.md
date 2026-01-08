@@ -18,10 +18,8 @@ Full Circle — Sweet Nothing Event, Antwerp Expo:
 
 This is an example of what i mean with filters ontop of live videos while the dj in playing
 
-<video width="100%" height="400" controls>
-  <source src="assets/videos/week3_pegassi.MOV" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<iframe src="https://drive.google.com/file/d/1zgvLyDHbuEjIfZ_DXW8TXvJG5PkHW3QX/preview" width="100%" height="500px" style="border: 1px solid #30363d; border-radius: 6px;"></iframe>
+
 
 ---
 

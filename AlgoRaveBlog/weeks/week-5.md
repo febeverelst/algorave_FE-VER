@@ -1,7 +1,5 @@
 # Week 5: 1–7 December 2025
 
----
-
 ## Monday
 
 ### References & Inspiration

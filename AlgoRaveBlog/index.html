@@ -11,7 +11,6 @@
 
 <body>
     <div class="container">
-        <!-- Navigation -->
         <nav class="navbar">
             <a href="#" class="nav-brand" onclick="loadPage('home'); return false;">PP: FE_VER</a>
             <ul class="nav-menu">
@@ -65,7 +64,6 @@
             currentPage = page;
             if (week) currentWeek = week;
 
-            // Update active nav link
             document.querySelectorAll('.nav-link').forEach(link => link.classList.remove('active'));
             if (page === 'blog') {
                 document.querySelector(`[data-page="blog"]`)?.classList.add('active');

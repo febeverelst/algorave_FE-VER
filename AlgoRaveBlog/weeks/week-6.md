@@ -1,7 +1,5 @@
 # Week 6: 8–14 December 2025
 
----
-
 ## Monday
 
 A big inspiration for me these past few weeks has been **KI/KI**. She’s a Dutch DJ who is deeply passionate about **acid and trance**. I’ve been listening a lot to her set from **AMF 2025 (Amsterdam Music Festival)**.

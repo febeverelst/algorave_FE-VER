@@ -1,7 +1,5 @@
 # Week 7: 15–21 December 2025
 
----
-
 ## Tuesday
 
 I had some time left this week, so I started looking deeper into **samplers** and how I could add **vocals** into the sessions I’m working on. I mainly focused on vocals that would fit well in a **trance or techno** context.

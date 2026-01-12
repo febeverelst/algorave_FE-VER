@@ -46,7 +46,7 @@ This page summarizes your activity across weeks. Use the cards below to jump to 
 	</a>
     <a href="#" onclick="loadPage('blog', 'week-10'); return false;">
 		<h3>Week 10</h3>
-		<p>Placeholder for Week 10.</p>
+		<p>Hydra exploration & strudel structures</p>
 	</a>
     <a href="#" onclick="loadPage('blog', 'week-11'); return false;">
 		<h3>Week 11</h3>

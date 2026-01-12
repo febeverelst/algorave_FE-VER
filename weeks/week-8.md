@@ -1,0 +1,44 @@
+<a href="#" onclick="loadPage('blog'); return false;" style="font-size: 0.9em; color: #888;">← Back to Daily Log</a>
+
+# Week 8: 22–28 December 2025
+
+## Monday
+
+I had nothing to do this day, so I decided to **work ahead** a bit by doing both **full documentation research** and figuring out how to **add vocal samples** into my sessions. I am a big fan of **stutter-effect vocals**, which are often ad-libs with a post-gain effect on them.
+
+I found a really cool playlist with **royalty-free ad-libs and vocal samples** that I could use:
+
+<iframe width="100%" height="400"
+src="https://www.youtube.com/embed/9xp9JRMd6HE?list=PLM1_74IP-VY7-oUo9fXtSaRCMvtIO_okS&index=2"
+title="Vocal & Ad-lib Sample Playlist"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+
+
+### irand-function with breaks stack
+
+For this session, I experimented with **irand-generated patterns**, layered with a **breaks stack** and some vocal/postgain elements.
+
+<iframe   src="https://strudel.cc/#CnNhbXBsZXMoJ2dpdGh1Yjp0aWRhbGN5Y2xlcy9kaXJ0LXNhbXBsZXMnKQpzYW1wbGVzKCdnaXRodWI6YWxnb3JhdmUtZGF2ZS9zYW1wbGVzJykKc2FtcGxlcygnc2hhYmRhL3NwZWVjaC9lbi1VUy9mOlRlY2hubyxBY2lkJykKc2V0Q3BzKDE0MC82MC80KQoKCgpjb25zdCBTdHJ1Y3R1cmVzID0gWwogICJ7fn0iLAogICJ4KjQiLAogICJ7eCB%2BITYgeCB%2BIH4geCB%2BITMgeCB%2BfSUxNiIsCiAgInt4IH4hMyB4IH4hMyB4IH4hMiB4IH4hMiB4IH59JTE2IiwKICAie3ggfiE5IHggfiE1IHggfiB4IH4hNyB4IH4hMyA8IH4geCA%2BIH59JTE2IiwKICAie34hMyB4IH4hMyB4IH4hMyB4IH4hMyB4KlsyfDNdfSU4IiwKXQoKY29uc3QgUEcgPSBbCiAgInswLjh9IiwKICAiMC4zIDAuOCIuZmFzdCg0KSwKICAiezAuMyAwLjghNiAwLjMgMC44ITIgMC4zIDAuOCEzIDAuMyAxfSIsCiAgInswLjMgMC44ITMgMC4zIDAuOCEzIDAuMyAwLjghMiAwLjMgMC44ITIgMC4zIDAuOH0lMTYiLAogICJ7MC40IDEhOSAwLjQgMSE1IDAuNCAxIDAuNCAxITcgMC40IDEhMyA8MSBPLjQ%2BIDF9JTE2IiwKXQoKY29uc3QgYmVhdCA9IDEKLy8wIC0gT0ZGCi8vMSAtIDRPVEYKLy8yIC0gSFIgTUFJTgovLzMgLSBKRVJTRVkgQ0xVQgovLzQgLSBHSTJNCi8vNSAtIERVQgoKY29uc3QgZW5lcmd5ID0gc2xpZGVyKDI0NjAuOCwgNDAwLCA1MDAwKQoKLy8gLy9cXC8vXFwvL1xcLy9cXC8vXFwvL1xcLy9cXC8vXFwvL1xcLy9cXC8vXFwvL1xcLy9cXC8vXFwvL1xcLy9cXC8vXFwvL1xcLy9cXC8vXFwvL1xcLy9cXC8vXFwvL1xcLy9cXC8vXFwvL1xcLy9cXC8vXFwvL1xcLy9cXAoKTk9URVM6IG4oaXJhbmQoIjghMyAxITUiKSkuc2NhbGUoIjxkMyBhMz46bWlub3I6cGVudGF0b25pYyIpCi5zdHJ1Y3QoIngqMTYiKQoucGx5KCIwLjUiKQouZGVsYXkoMC41KQouZ2FpbigiMSAwLjggMSAwLjYiKS5qdXgocmV2KQouX3B1bmNoY2FyZCh7d2lkdGg6IDE0MDAsIGhlaWdodDogMjAwfSkKX0JVSUxEOiBuKCI8MCoxNj4sIDwxKjQgMyo0PiIpLnNvdW5kKCJzdXBlcnNhdywgc2F3dG9vdGgiKQovLy5zY2FsZSgiRzptaW5vciIpCi5scGYoZW5lcmd5KQouX3B1bmNoY2FyZCgpCgpEUlVNUzogc3RhY2soCiAgcygidGVjaDo1IikucG9zdGdhaW4oNSkuaHBmKDc1KS5zdHJ1Y3QocGljayhTdHJ1Y3R1cmVzLCBiZWF0KSkuZGVsYXkoMC41KSwKICAKICBzKCJbfiBjcF0iKS5iYW5rKCJLb3JnRERNMTEwIikuc3BlZWQoMSkuZmFzdCgyKS5wb3N0Z2FpbigwLjIpLmxwZigzMDAwKSwKICBzKCJoaCIpLnN0cnVjdCgiW3ghMyB%2BITIgeCExMCB%2BXSIpLnBvc3RnYWluKDAuNSkuYmFuaygiUm9sYW5kVFI4MDgiKS5zcGVlZCgxLjI1KS5yb29tKHNpbmUucmFuZ2UoMC4xLCAwLjQpKS5nYWluKDAuNikuanV4KHJldiksCiAgLy9zKCJ%2BIGhoIikuYmFuaygiUm9sYW5kVFI4MDgiKS5yb29tKDAuMikuc3BlZWQoMC43NSkuZ2FpbigwLjUpLmZhc3QoNCksLy8uY2xpcCgwLjE1KSwKICBzKCJicmVha3MxNjUiKS5nYWluKDAuNikubG9vcEF0KDEpLmZpdCgpLnBvc3RnYWluKHBpY2soUEcsIGJlYXQpKSwKICAvL3MoInBzcjpbMnwxMnwyNHwyNV0iLmZhc3QoNCkpLnN0cnVjdCgieCE3IH4geCEzIH4geCEzIH4iKS5qdXgocmV2KS5ocGYoMjAwKS5wb3N0Z2FpbihwaWNrKFBHLCBiZWF0KSkuc3BlZWQoMC41KS5nYWluKDAuNCkKKQouX3B1bmNoY2FyZCh7d2lkdGg6IDE0MDAsIGhlaWdodDogMjAwfSkKCl9NX0JBU1NMSU5FOiBub3RlKCJnIzJAMTYgYSMyQDggYzNAMyBkIzNANiIpCi5zdHJ1Y3QoIngqOCIpCi5zdXN0YWluKCIwLjUiKQouc291bmQoIltzcXVhcmUsIHNhd3Rvb3RoXSIpCi50cmFuc3Bvc2UoIi0xMiwgMCwgNyIpCi5jb2Fyc2UoMikKLmRlY2F5KDAuMDc1KS5nYWluKDAuNzUpLmhwZigxNTApCi5scGYoc2xpZGVyKDM2OS4xLDEwMCw0MDAwKSkKLnBvc3RnYWluKHBpY2soUEcsIGJlYXQpKQouX3B1bmNoY2FyZCh7d2lkdGg6IDE0MDB9KQoKX1NQRUVDSDogCiAgcygiPFRlY2hubyBBY2lkPiIpLmJlZ2luKCI8MC4wNSAwLjE%2BIikKICAucm9vbSgwLjUpCiAgLnBvc3RnYWluKCI8MC42IDE%2BIikKICAvLy5mYXN0KDgpLmN1dCgxKQogIC5zbG93KDIpCiAgLmVjaG8oOCwwLjI1LDAuNzUp"
+ width="100%" height="700"></iframe>
+
+
+This setup includes:
+- Randomized note patterns using `irand`  
+- Post-gain structuring for dynamic energy  
+- Layered drum stacks with breaks and hi-hats  
+- A small bassline and speech samples for texture  
+- Adjustable energy and LPF sliders for live manipulation  
+
+
+<div class="week-grid" style="margin-top: 2em;">
+	<a href="#" onclick="loadPage('blog', 'week-7'); return false;">
+		<h3>Week 7</h3>
+		<p>Ambient vocals &amp; samplers</p>
+	</a>
+	<a href="#" onclick="loadPage('blog', 'week-9'); return false;">
+		<h3>Week 9</h3>
+		<p>Project Kick off &amp; documentation research</p>
+	</a>
+</div>

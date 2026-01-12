@@ -1,0 +1,21 @@
+name: Deploy AlgoRaveBlog to GitHub Pages
+on:
+  push:
+    branches:
+      - main  # change this if your default branch is not `main`
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Deploy AlgoRaveBlog folder to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./AlgoRaveBlog
+          commit_message: "Deploy AlgoRaveBlog: ${{ github.sha }}"
+          # keep_files: false  # optional: set true to preserve files already on gh-pages

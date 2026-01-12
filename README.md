@@ -53,7 +53,9 @@ Over time, the focus has started shifting from *just sound* toward **performance
 My process is documented weekly. Each week contains:
 - experiments and code studies  
 - influences and references  
-- reflections on what worked and what didn’t  
+- reflections on what worked and what didn't  
+
+**[👉 Read the Blog →](AlgoRaveBlog/blog-summary.md)** to explore my weekly logs and experiments.
 
 
 ### 🧩 Code Snippets

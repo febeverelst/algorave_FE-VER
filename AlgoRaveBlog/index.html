@@ -73,11 +73,11 @@
 
             try {
                 let filename;
-                if (page === 'home') filename = 'home.md';
-                else if (page === 'snippets') filename = 'snippets.md';
+                if (page === 'home') filename = '../home.md';
+                else if (page === 'snippets') filename = '../snippets.md';
                 else if (page === 'blog') {
                     if (week && week !== 'all') filename = `weeks/${week}.md`;
-                    else filename = 'blog-summary.md';
+                    else filename = '../blog-summary.md';
                 }
 
                 const response = await fetch(filename);

@@ -1,0 +1,82 @@
+# Week 4: 24–30 November 2025
+
+## Monday
+
+<iframe src="https://drive.google.com/file/d/1Kx4RFA3PJVOk155wWX6Mh_SuuU8rHoKQ/preview" width="300" height="500px" style="border: 1px solid #30363d; border-radius: 6px;"></iframe>
+
+
+I tried recording myself, coding a session, for the first time so i can look back at it and learn from things that im doing. for the first time I only recorded myself so you couldn’t see my face. I did a set of 4 minutes and a half.
+
+Best part can be found at **1’10” / 2’10” / 3’40”**
+
+---
+
+Then i tried screenrecording a session but i tried doing it with internal audio using blackhole. It’s a program that I installed and then it should record the internal audio instead of using the microphone of my mac. I recorded a session of 5 and a half minutes but after wanting to watch it back…. It didn’t record the audio :(
+
+<iframe src="https://drive.google.com/file/d/1fENi4PmUrDTG6KAq1FI5-6MyKvTl_cwh/preview" width="100%" height="500px" style="border: 1px solid #30363d; border-radius: 6px;"></iframe>
+---
+
+## Tuesday
+
+### Tuesday morning session
+
+<iframe src="https://strudel.cc/#CnNldENwcygxODAvNDAvNCkKY29uc3QgbHBmID0gc2xpZGVyKDQwMCwxMDAsIDEwMDApCgpMRUFESElHSDogbihpcmFuZCg4KS5zZWcoNCkpLnNvdW5kKCJzYXciKS5zY2FsZSgiZiMzOm1pbm9yOnBlbnRhdG9uaWMiKS5scGYobHBmKQogIC5zbG93KCIxIDIgMC41IDIiKS5yZXYoKS5yb29tKDEpLmRlY2F5KDAuNzUpLmhwZig4MDApCiAgLnRyYW5zcG9zZSgiNyAwIikKLl9wdW5jaGNhcmQoKQoKX0xFQURNRUxPRFk6IG4oIjwwIDQgMCA0IDYgOCAyPiIpLnNvdW5kKCJqYXp6Iikuc2NhbGUoImQ6bWlub3IiKS5zZWcoNCkucm9vbSgwLjUpLmxwZigzMDApCiAgLm9yYml0KCI2IikuZHVjaygiNDo2IikuZHVja2RlcHRoKC41KQogIC5zbG93KCIxIDIgMC41Iikudm93ZWwoIltpfHVdIikKLl9wdW5jaGNhcmQoKQoKX0JBU1NLSUNLOiBzKCJzYmQ6MiEyIikuX3B1bmNoY2FyZCgpCi5scGYoMjAwKQoKS0lDSzogcygiYmQ6MiEyIikuc2NvcGUoKQpfS0lDSzI6IHMoImhoOjIqNCIpLl9zY29wZSgp" width="100%" height="500"></iframe>
+
+After yesterdays fiasco of trying to record the internal audio I had a little breakdown 😛 because i couldn’t understand how hard it could be to just record the internal audio. Jana then send me this article so I read that and tried it out.
+
+📎 [Record internal audio on Mac? - Apple Community](https://discussions.apple.com/thread/254034712)
+
+I composed a little EDM sample to try it out and it finally worked.
+
+⚠️ **WARNING** ⚠️: The audio is actually loud so beware if your wearing headphones.
+
+<iframe src="https://drive.google.com/file/d/1flieeDL6zd4BZB43-LxlCqn063-4wScf/preview" width="100%" height="500px" style="border: 1px solid #30363d; border-radius: 6px;"></iframe>
+
+---
+
+### Whatever this was
+
+<iframe src="https://strudel.cc/#CnNldENwcygxNDAvNjAvOCkKCl9MRUFEOiBuKCI8ZiBlIGIgZT4iKS5zZWcoMTYpLnNjYWxlKCJnOm1pbm9yIikucm9vbSgxKQogIC5zbG93KCIwLjI1IDEgMC41IikKLl9wdW5jaGNhcmQoKQpNRUxPRFk6IG4oaXJhbmQoOCkuc2VnKDE2KSkuc2NhbGUoImc6bWlub3IiKS5zb3VuZCgiZ21fc3ludGhfYnJhc3NfMiIpLmxwZig1MDApCi5fcHVuY2hjYXJkKCkKCkJBU1M6IG4oIjwwIDIgMCA0PiIpLnNjYWxlKCJnOm1pbm9yIikucm9vbSgxKQogIC5zb3VuZCgic2F3IikubHBmKDUwMCkKLl9wdW5jaGNhcmQoKQoKX0tJQ0s6IHMoImJkOjIhOCIp" width="100%" height="500"></iframe>
+
+---
+
+## Wednesday
+
+### Some other session
+
+<iframe src="https://strudel.cc/#CnNldENwcygxODAvNDAvMikKY29uc3QgZW5lcmd5ID0gc2xpZGVyKDY0MzUuOCwgMTAwLCA4MDAwKQpyZWdpc3RlcignYWNpZGVudicsICh4LCBwYXQpID0%2BIHBhdC5scGYoMTAwKQogICAgICAgIC5scGVudih4ICogOSkubHBzKC4yKS5scGQoLjEyKQopCgpQRUdBU1NJOiBuKCI8MyAzIDMgNSA1IDQgNSA0IDM%2BIikuc291bmQoInNhdyIpLnNjYWxlKCJkOm1pbm9yOnBlbnRhdG9uaWMiKQogIC5zZWcoIjIiKS5zbG93KCIxLDAuNSIpCi5scGYoNzAwKS5ocGYoMjAwKS5hY2lkZW52KHNsaWRlcigwLjMyOSkpCi8vIC50cmFuc3Bvc2UoIi0xMiwgMCwgLTciKQouX3B1bmNoY2FyZCgpCkJBU1M6IG4oIjwwPio4IikKLnNjYWxlKCJkOm1pbm9yOnBlbnRhdG9uaWMiKS50cmFucygtMTIpCi5zb3VuZCgic3VwZXJzYXciKS5scGYoc2xpZGVyKDUwMCwgNDAwLCAxMDAwKSkKLl9wdW5jaGNhcmQoKQpfUkJBU1M6IG4oaXJhbmQoOCkuc2VnKDIpKS5zY2FsZSgiZDptaW5vcjpwZW50YXRvbmljIikubHBmKGVuZXJneSkKICAuYWNpZGVudihzbGlkZXIoMC41ODIpKQogIC50cmFuc3Bvc2UoIi0xMiwgMCwgLTciKQouX3B1bmNoY2FyZCgpCgpfS0lDSzogcygic2JkOjIhMSIpLnNjb3BlKCk%3D" width="100%" height="500"></iframe>
+
+I also looked a bit deeper in the documentation of how i can import the strudel interface/editor in my own project. I now have an imported version working in my live server. Im able to change the code in the browser import too so that’s nice for the jury so that they can see what im coding.
+
+---
+
+## Thursday
+
+### New session
+
+<iframe src="https://strudel.cc/#CnNldENwcygxODAvNDAvOCkKcmVnaXN0ZXIoJ2FjaWRlbnYnLCAoeCwgcGF0KSA9PiBwYXQubHBmKDEwMCkKICAgICAgICAubHBlbnYoeCAqIDkpLmxwcyguMikubHBkKC4xMikKKQpjb25zdCBlbmVyZ3kgPSBzbGlkZXIoMjQxNS40LCAyMDAsIDQwMDApCgpfQkFTUzogbigiPDAgMCAwIDEgMT4qOCIpLnNvdW5kKCJzYXd0b290aCIpLmxwZihlbmVyZ3kpCiAgLnNjYWxlKCJnOm1pbm9yIikuc2xvdygiMSAwLjUiKQouX3B1bmNoY2FyZCgpCiAgCl9NRUxPRFk6IG4oIjwyIDUgMiA1IDQ%2BKjgiKS5zb3VuZCgic2F3dG9vdGgiKS5zY2FsZSgiZzptaW5vciIpLnNsb3coIjEgMC41IikucmV2KCkKICAubHBmKDgwMCkuZ2FpbigiWzEgMC41XSo0IikKLl9wdW5jaGNhcmQoKQpfS0lDSzogcygiYmQ6MSE0IikKCk5FV0RSVU1TOiBzKCJiZCo0LFt%2BIGhoXSoyIikubHBmKGVuZXJneSkKCgpMRUFEOiBuKGlyYW5kKDQpLnNlZyg4KSkuc291bmQoInNxdWFyZSIpLnNjYWxlKCJnOm1pbm9yIikKICAuYWNpZGVudihzbGlkZXIoMC4zMjcpKQogIC5zbG93KCIxIDAuNSAxIDIiKS5nYWluKCJbLjMgMV0qNCIpLnRyYW5zcG9zZSgiMCwgLTEyIikKLl9wdW5jaGNhcmQoKQ%3D%3D" width="100%" height="500"></iframe>
+
+---
+
+## Friday
+
+### Daily Session joepi
+
+<iframe src="https://strudel.cc/#CnNldENwcygxODAvNDAvOCkKcmVnaXN0ZXIoJ2FjaWRlbnYnLCAoeCwgcGF0KSA9PiBwYXQubHBmKDEwMCkKICAgICAgICAubHBlbnYoeCAqIDkpLmxwcyguMikubHBkKC4xMikKKQoKY29uc3QgZW5lcmd5ID0gc2xpZGVyKDEzMDIsIDIwMCwgNDAwMCkKY29uc3Qgc2NhbGUgPSAiZjptaW5vcjpwZW50YXRvbmljIgoKQkFTUzogbigiPDAgMCAwIDEgMT4qOCIpLnNvdW5kKCJzYXd0b290aCIpLmxwZig1MDApCiAgLnNjYWxlKHNjYWxlKS5zbG93KCIxIDAuNSIpLnJldigpCiAgLnRyYW5zcG9zZSgiMCwgLTEyIikKLl9wdW5jaGNhcmQoKQoKX0JVSUxEOiBuKCI8MD4hMTYiKS5zb3VuZCgic2F3IikubHBmKHNsaWRlcigxMDAsIDEwMCwgNDAwMCkpLl9wdW5jaGNhcmQoKQoKTUVMT0RZOiBuKCI8MiA1IDIgNSA0Pio4Iikuc291bmQoInNhd3Rvb3RoIikuc2NhbGUoc2NhbGUpLnNsb3coIjEgMC41IikucmV2KCkKICAubHBmKDQwMCkuZ2FpbigiWzEgMC41XSo0IikudHJhbnNwb3NlKCIwLCAtMTIiKQouX3B1bmNoY2FyZCgpCl9ZQVlBWTogemlwKCJlIGYiLCAiZSBmIGciLCAiZyBbZiBlXSBhIGY0IGMiKS5ub3RlKCkuc2NhbGUoc2NhbGUpCiAgIC5zb3VuZCgic2F3dG9vdGgiKS5scGYoZW5lcmd5KS5nYWluKCJbMSAwLjUgMV0qNCIpCiAgIC5wYWNlKCI4IDE2IikudHJhbnNwb3NlKCIwLCAtMTIiKQouX3B1bmNoY2FyZCgpCgpfS0lDSzogcygiYmQhNCIpLl9zY29wZSgpCl9ORVdEUlVNUzogcygiYmQqNCxbfiBoaDoyXSoyIikubHBmKGVuZXJneSkKCl9MRUFEOiBuKGlyYW5kKDQpLnNlZyg4KSkuc291bmQoInNxdWFyZSIpLnNjYWxlKHNjYWxlKS5hY2lkZW52KHNsaWRlcigwLjY4NSkpCiAgLnNsb3coIjEgMC41IDEgMiIpLmdhaW4oIlsuMyAxXSo0IikudHJhbnNwb3NlKCIwLCAtMTIiKQouX3B1bmNoY2FyZCgp" width="100%" height="500"></iframe>
+
+---
+
+## Saturday
+
+This day i revisited a set that i did earlier this week to start selecting note combinations that could work in a live session.
+
+### Friday’s revisited session
+
+<iframe src="https://strudel.cc/#CnNldENwcygxODAvNDAvNCkKY29uc3QgbHBmID0gc2xpZGVyKDEwMCwxMDAsIDEwMDApCgpMRUFESElHSDogbihpcmFuZCg4KS5zZWcoNCkpLnNvdW5kKCJzYXciKS5zY2FsZSgiZiMzOm1pbm9yOnBlbnRhdG9uaWMiKS5scGYobHBmKQogIC5zbG93KCIxIDIgMC41IDIiKS5yZXYoKS5yb29tKDEpLmRlY2F5KDAuNzUpLmhwZigxMDApCiAgLnRyYW5zcG9zZSgiNyAwIikKLl9wdW5jaGNhcmQoKQpCQVNTOiBuKCI8MD4qOCIpLnNvdW5kKCJzYXd0b290aCIpLnNjYWxlKCJmIzM6bWlub3I6cGVudGF0b25pYyIpLnRyYW5zKCIwIikKICAubHBmKHNsaWRlcigwLDAsMzAwKSkuc2xvdygiMSAxIDAuNSIpCi5fcHVuY2hjYXJkKCkKCgpfTEVBRE1FTE9EWTogbigiPDAgNCAwIDQgNiA4IDI%2BIikuc291bmQoInNhdyIpLnNjYWxlKCJmIzM6bWlub3I6cGVudGF0b25pYyIpLnNlZygiNCw4Iikucm9vbSgxKS5scGYoMzAwKQogIC5zbG93KCIxIDIgMC41IikucmV2KCkKLl9wdW5jaGNhcmQoKQoKX0JBU1NLSUNLOiBzKCJzYmQ6MiEyIikuX3B1bmNoY2FyZCgpCi5scGYoMjAwKQoKX0tJQ0s6IHMoImJkOjIhMiIpCiAgLmxwZihscGYpCiAgLl9zY29wZSgpCl9LSUNLMjogcygiaGg6MiIpCiAgLl9zY29wZSgp" width="100%" height="500"></iframe>
+
+> **Hello this is future me (dec 8th)**  
+> I was looking back at the blog and decided to pick up this sample that I made and tried to improve it with the knowledge i gained these past few weeks. For now i tried experimenting with patterning inside of current patterns and i played a bit with the postgains and jux-reverb to create some interesting sounds.
+
+### Improved revisited session
+
+<iframe src="https://strudel.cc/#CnNldENwcygxODAvNDAvNCkKY29uc3QgbHBmID0gc2xpZGVyKDgwMCwxMDAsIDQwMDApCgpfTEVBREhJR0g6IG4oaXJhbmQoOCkuc2VnKDQpKS5zb3VuZCgic2F3Iikuc2NhbGUoImYjMzptaW5vcjpwZW50YXRvbmljIikubHBmKGxwZikKICAuc2xvdygiMSAyIDAuNSAyIikuanV4KHJldikucm9vbSgxKS5kZWNheSgwLjc1KS5ocGYoMTApCiAgLnBvc3RnYWluKCIwLjcgMSAxIDAuNyIpCiAgLnRyYW5zcG9zZSgiNyAwIikKLl9wdW5jaGNhcmQoe3dpZHRoOiAxNDAwLCBoZWlnaHQ6IDIwMH0pCkJBU1M6IG4oIjwwPio4Iikuc291bmQoInN1cGVyc2F3Iikuc2NhbGUoImYjMzptaW5vcjpwZW50YXRvbmljIikudHJhbnMoIjAsIC0xMiwgLTI0IikKICAubHBmKHNsaWRlcigxMjk2LDAsNDAwMCkpLnNsb3coIjEgMSAwLjUiKQouX3B1bmNoY2FyZCgpCgoKTEVBRE1FTE9EWTogbigiPDAgNCAwIDQgNiA4IDI%2BIikuc291bmQoInNhd3Rvb3RoLCBzcXVhcmUiKQogIC5zY2FsZSgiZiMzOm1pbm9yOnBlbnRhdG9uaWMiKS5zZWcoIjQsOCIpLnJvb20oMSkubHBmKGxwZikKICAuZmFzdCgiMSAyIDAuNSIpLmp1eChyZXYpCiAgLnBvc3RnYWluKCIwLjcgMSAxIDAuNyIpCi5fcHVuY2hjYXJkKCkKCkJBU1NLSUNLOiBzKCJzYmQ6MiEyIikuX3B1bmNoY2FyZCgpCgpfS0lDSzogcygiYmQ6MiEyIikuZmFzdCgyKQogIC5scGYobHBmKQogIC5fc2NvcGUoKQpLSUNLMjogcygiaGg6MioyLCBbfiBjcDo1XSIpLy8uZmFzdCgyKQogIC5fc2NvcGUoKQ%3D%3D" width="100%" height="500"></iframe>

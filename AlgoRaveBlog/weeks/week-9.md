@@ -1,3 +1,5 @@
+<a href="#" onclick="loadPage('blog'); return false;" style="font-size: 0.9em; color: #888;">← Back to Daily Log</a>
+
 # Week 9: 5 – 11 January 2026
 
 ## Monday
@@ -13,7 +15,6 @@ My friend recommended me to look up some cool touchdesigner tutorials and he gav
 
 📎 Amsterdam ADL 2025 - Pegassi: https://soundcloud.com/dgtl-festival/pegassi-full-set-dgtl-amsterdam-2025-1942025
 
----
 
 ## Tuesday
 
@@ -44,14 +45,13 @@ ex: `samples('github:tidalcycles/dirt-samples')` format is **`samples('github:<
 → omitting the branch (like ex. above) will just take the main branch as default
 !! It assumes a **`strudel.json`** file to be present at the root of the repository !!
 
----
+
 While looking at the documentation i was smart shuffling trough my “[hard gaan] (https://open.spotify.com/playlist/7MGatkR55pKlSJg6GWibE7?si=9e29801b0c9b48fe)” playlist with all the best bangers and virtual zone started playing. I browsed to it’s artist profile and started pressing play on that because at that time i was really feeling the music. I stared wondering why and i noticed that all of the notes had a bizarre echt/reverb on them that made the song sound like you’re almost dreaming; I really liked that and i will definetly start experimenting with the room() function 
 
 <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7MGatkR55pKlSJg6GWibE7?utm_source=generator" width="80%" height="400" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 This embed somehow only shows the 1st 100 songs but the other ones are also bangers so I definetly recommend checking out the whole playlist ;-)
 
----
 
 ## Wednesday
 
@@ -59,10 +59,22 @@ This day was filled with snowfall so I forced myself to take it easy and lay off
 
 It’s still a struggle to change from Notion to Markdown because for now i see no benefits for it except that markdown let’s me play the coding segments and notion (as far as i know doesn’t). With UX i’ve grown very fond of notion so i know how it works.
 
----
+
 
 ## Thursday
 
 I used this day to convert my whole blog into markdown but im having struggles trying to import the exact coding segments. I have to encode the whole session for it to be imported exactly like the codeblock in notion because if i just use the normal iframe with the default strudel link, i can live edit in the editor but when the page refreshes, it goes back to the default content…
 
 > Update: I fixed it. I put each coding segment in a REPL and then pressed the sharing button to get the link of that session. That's the link that I then used in the scr-tag to make the correct section play the correct sound.
+
+
+<div class="week-grid" style="margin-top: 2em;">
+	<a href="#" onclick="loadPage('blog', 'week-8'); return false;">
+		<h3>Week 8</h3>
+		<p>Experimentation</p>
+	</a>
+	<a href="#" onclick="loadPage('blog', 'week-10'); return false;">
+		<h3>Week 10</h3>
+		<p>Placeholder for Week 10.</p>
+	</a>
+</div>

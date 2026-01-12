@@ -1,9 +1,9 @@
 # Welcome to FE_VER
 
 FE_VER is my personal project, playground, and research archive for an ongoing exploration into **algorave, live coding, and generative music**.  
-This blog will document my whole project throughout these weeks. From what im thinking to what im actually doing while experimenting.
+<a href="#" onclick="loadPage('blog'); return false;">This blog</a> will document my whole project throughout these weeks. From what im thinking to what im actually doing while experimenting.
 
----
+
 
 ## Who I Am
 
@@ -16,7 +16,7 @@ Lately, rather than just listening, I’m drawn to:
 
 FE_VER started as a way to make sense of that curiosity.
 
----
+
 
 ## Why FE_VER?
 
@@ -33,7 +33,7 @@ This blog exists to **document that friction honestly**.
 
 FE_VER is an abbreviation of my own name: Febe Verelst
 
----
+
 
 ## What I’m Exploring
 
@@ -45,27 +45,23 @@ Throughout this project I experiment with:
 
 Over time, the focus has started shifting from *just sound* toward **performance, embodiment, and interaction**.
 
----
+
 
 ## How This Blog Works
 
-### 📅 Daily Log
+### Daily Log
 My process is documented weekly. Each week contains:
 - experiments and code studies  
 - influences and references  
 - reflections on what worked and what didn’t  
 
 
-### 🧩 Code Snippets
+### Code Snippets
 Some experiments are worth keeping.  
 The **Code Snippets** page collects reusable patterns, functions, and ideas I want to return to later.
 
----
 
 ## Goals for This Project
 
 - Become fluent enough to improvise live with code
-- Translate experimentation into live performance
-- creating an accessible way for other people to start experimenting with strudel
-
----
+- Creating an accessible way for other people to start experimenting with strudel

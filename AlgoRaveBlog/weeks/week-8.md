@@ -1,3 +1,5 @@
+<a href="#" onclick="loadPage('blog'); return false;" style="font-size: 0.9em; color: #888;">← Back to Daily Log</a>
+
 # Week 8: 22–28 December 2025
 
 ## Monday
@@ -13,7 +15,6 @@ frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
----
 
 ### irand-function with breaks stack
 
@@ -29,3 +30,15 @@ This setup includes:
 - Layered drum stacks with breaks and hi-hats  
 - A small bassline and speech samples for texture  
 - Adjustable energy and LPF sliders for live manipulation  
+
+
+<div class="week-grid" style="margin-top: 2em;">
+	<a href="#" onclick="loadPage('blog', 'week-7'); return false;">
+		<h3>Week 7</h3>
+		<p>Ambient vocals &amp; samplers</p>
+	</a>
+	<a href="#" onclick="loadPage('blog', 'week-9'); return false;">
+		<h3>Week 9</h3>
+		<p>Project Kick off &amp; documentation research</p>
+	</a>
+</div>

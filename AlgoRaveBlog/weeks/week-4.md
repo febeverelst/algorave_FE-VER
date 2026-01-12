@@ -1,3 +1,5 @@
+<a href="#" onclick="loadPage('blog'); return false;" style="font-size: 0.9em; color: #888;">← Back to Daily Log</a>
+
 # Week 4: 24–30 November 2025
 
 ## Monday
@@ -9,12 +11,10 @@ I tried recording myself, coding a session, for the first time so i can look bac
 
 Best part can be found at **1’10” / 2’10” / 3’40”**
 
----
-
 Then i tried screenrecording a session but i tried doing it with internal audio using blackhole. It’s a program that I installed and then it should record the internal audio instead of using the microphone of my mac. I recorded a session of 5 and a half minutes but after wanting to watch it back…. It didn’t record the audio :(
 
 <iframe src="https://drive.google.com/file/d/1fENi4PmUrDTG6KAq1FI5-6MyKvTl_cwh/preview" width="100%" height="500px" style="border: 1px solid #30363d; border-radius: 6px;"></iframe>
----
+
 
 ## Tuesday
 
@@ -32,13 +32,11 @@ I composed a little EDM sample to try it out and it finally worked.
 
 <iframe src="https://drive.google.com/file/d/1flieeDL6zd4BZB43-LxlCqn063-4wScf/preview" width="100%" height="500px" style="border: 1px solid #30363d; border-radius: 6px;"></iframe>
 
----
 
 ### Whatever this was
 
 <iframe src="https://strudel.cc/#CnNldENwcygxNDAvNjAvOCkKCl9MRUFEOiBuKCI8ZiBlIGIgZT4iKS5zZWcoMTYpLnNjYWxlKCJnOm1pbm9yIikucm9vbSgxKQogIC5zbG93KCIwLjI1IDEgMC41IikKLl9wdW5jaGNhcmQoKQpNRUxPRFk6IG4oaXJhbmQoOCkuc2VnKDE2KSkuc2NhbGUoImc6bWlub3IiKS5zb3VuZCgiZ21fc3ludGhfYnJhc3NfMiIpLmxwZig1MDApCi5fcHVuY2hjYXJkKCkKCkJBU1M6IG4oIjwwIDIgMCA0PiIpLnNjYWxlKCJnOm1pbm9yIikucm9vbSgxKQogIC5zb3VuZCgic2F3IikubHBmKDUwMCkKLl9wdW5jaGNhcmQoKQoKX0tJQ0s6IHMoImJkOjIhOCIp" width="100%" height="500"></iframe>
 
----
 
 ## Wednesday
 
@@ -48,7 +46,6 @@ I composed a little EDM sample to try it out and it finally worked.
 
 I also looked a bit deeper in the documentation of how i can import the strudel interface/editor in my own project. I now have an imported version working in my live server. Im able to change the code in the browser import too so that’s nice for the jury so that they can see what im coding.
 
----
 
 ## Thursday
 
@@ -56,7 +53,6 @@ I also looked a bit deeper in the documentation of how i can import the strudel 
 
 <iframe src="https://strudel.cc/#CnNldENwcygxODAvNDAvOCkKcmVnaXN0ZXIoJ2FjaWRlbnYnLCAoeCwgcGF0KSA9PiBwYXQubHBmKDEwMCkKICAgICAgICAubHBlbnYoeCAqIDkpLmxwcyguMikubHBkKC4xMikKKQpjb25zdCBlbmVyZ3kgPSBzbGlkZXIoMjQxNS40LCAyMDAsIDQwMDApCgpfQkFTUzogbigiPDAgMCAwIDEgMT4qOCIpLnNvdW5kKCJzYXd0b290aCIpLmxwZihlbmVyZ3kpCiAgLnNjYWxlKCJnOm1pbm9yIikuc2xvdygiMSAwLjUiKQouX3B1bmNoY2FyZCgpCiAgCl9NRUxPRFk6IG4oIjwyIDUgMiA1IDQ%2BKjgiKS5zb3VuZCgic2F3dG9vdGgiKS5zY2FsZSgiZzptaW5vciIpLnNsb3coIjEgMC41IikucmV2KCkKICAubHBmKDgwMCkuZ2FpbigiWzEgMC41XSo0IikKLl9wdW5jaGNhcmQoKQpfS0lDSzogcygiYmQ6MSE0IikKCk5FV0RSVU1TOiBzKCJiZCo0LFt%2BIGhoXSoyIikubHBmKGVuZXJneSkKCgpMRUFEOiBuKGlyYW5kKDQpLnNlZyg4KSkuc291bmQoInNxdWFyZSIpLnNjYWxlKCJnOm1pbm9yIikKICAuYWNpZGVudihzbGlkZXIoMC4zMjcpKQogIC5zbG93KCIxIDAuNSAxIDIiKS5nYWluKCJbLjMgMV0qNCIpLnRyYW5zcG9zZSgiMCwgLTEyIikKLl9wdW5jaGNhcmQoKQ%3D%3D" width="100%" height="500"></iframe>
 
----
 
 ## Friday
 
@@ -64,7 +60,6 @@ I also looked a bit deeper in the documentation of how i can import the strudel 
 
 <iframe src="https://strudel.cc/#CnNldENwcygxODAvNDAvOCkKcmVnaXN0ZXIoJ2FjaWRlbnYnLCAoeCwgcGF0KSA9PiBwYXQubHBmKDEwMCkKICAgICAgICAubHBlbnYoeCAqIDkpLmxwcyguMikubHBkKC4xMikKKQoKY29uc3QgZW5lcmd5ID0gc2xpZGVyKDEzMDIsIDIwMCwgNDAwMCkKY29uc3Qgc2NhbGUgPSAiZjptaW5vcjpwZW50YXRvbmljIgoKQkFTUzogbigiPDAgMCAwIDEgMT4qOCIpLnNvdW5kKCJzYXd0b290aCIpLmxwZig1MDApCiAgLnNjYWxlKHNjYWxlKS5zbG93KCIxIDAuNSIpLnJldigpCiAgLnRyYW5zcG9zZSgiMCwgLTEyIikKLl9wdW5jaGNhcmQoKQoKX0JVSUxEOiBuKCI8MD4hMTYiKS5zb3VuZCgic2F3IikubHBmKHNsaWRlcigxMDAsIDEwMCwgNDAwMCkpLl9wdW5jaGNhcmQoKQoKTUVMT0RZOiBuKCI8MiA1IDIgNSA0Pio4Iikuc291bmQoInNhd3Rvb3RoIikuc2NhbGUoc2NhbGUpLnNsb3coIjEgMC41IikucmV2KCkKICAubHBmKDQwMCkuZ2FpbigiWzEgMC41XSo0IikudHJhbnNwb3NlKCIwLCAtMTIiKQouX3B1bmNoY2FyZCgpCl9ZQVlBWTogemlwKCJlIGYiLCAiZSBmIGciLCAiZyBbZiBlXSBhIGY0IGMiKS5ub3RlKCkuc2NhbGUoc2NhbGUpCiAgIC5zb3VuZCgic2F3dG9vdGgiKS5scGYoZW5lcmd5KS5nYWluKCJbMSAwLjUgMV0qNCIpCiAgIC5wYWNlKCI4IDE2IikudHJhbnNwb3NlKCIwLCAtMTIiKQouX3B1bmNoY2FyZCgpCgpfS0lDSzogcygiYmQhNCIpLl9zY29wZSgpCl9ORVdEUlVNUzogcygiYmQqNCxbfiBoaDoyXSoyIikubHBmKGVuZXJneSkKCl9MRUFEOiBuKGlyYW5kKDQpLnNlZyg4KSkuc291bmQoInNxdWFyZSIpLnNjYWxlKHNjYWxlKS5hY2lkZW52KHNsaWRlcigwLjY4NSkpCiAgLnNsb3coIjEgMC41IDEgMiIpLmdhaW4oIlsuMyAxXSo0IikudHJhbnNwb3NlKCIwLCAtMTIiKQouX3B1bmNoY2FyZCgp" width="100%" height="500"></iframe>
 
----
 
 ## Saturday
 
@@ -80,3 +75,15 @@ This day i revisited a set that i did earlier this week to start selecting note 
 ### Improved revisited session
 
 <iframe src="https://strudel.cc/#CnNldENwcygxODAvNDAvNCkKY29uc3QgbHBmID0gc2xpZGVyKDgwMCwxMDAsIDQwMDApCgpfTEVBREhJR0g6IG4oaXJhbmQoOCkuc2VnKDQpKS5zb3VuZCgic2F3Iikuc2NhbGUoImYjMzptaW5vcjpwZW50YXRvbmljIikubHBmKGxwZikKICAuc2xvdygiMSAyIDAuNSAyIikuanV4KHJldikucm9vbSgxKS5kZWNheSgwLjc1KS5ocGYoMTApCiAgLnBvc3RnYWluKCIwLjcgMSAxIDAuNyIpCiAgLnRyYW5zcG9zZSgiNyAwIikKLl9wdW5jaGNhcmQoe3dpZHRoOiAxNDAwLCBoZWlnaHQ6IDIwMH0pCkJBU1M6IG4oIjwwPio4Iikuc291bmQoInN1cGVyc2F3Iikuc2NhbGUoImYjMzptaW5vcjpwZW50YXRvbmljIikudHJhbnMoIjAsIC0xMiwgLTI0IikKICAubHBmKHNsaWRlcigxMjk2LDAsNDAwMCkpLnNsb3coIjEgMSAwLjUiKQouX3B1bmNoY2FyZCgpCgoKTEVBRE1FTE9EWTogbigiPDAgNCAwIDQgNiA4IDI%2BIikuc291bmQoInNhd3Rvb3RoLCBzcXVhcmUiKQogIC5zY2FsZSgiZiMzOm1pbm9yOnBlbnRhdG9uaWMiKS5zZWcoIjQsOCIpLnJvb20oMSkubHBmKGxwZikKICAuZmFzdCgiMSAyIDAuNSIpLmp1eChyZXYpCiAgLnBvc3RnYWluKCIwLjcgMSAxIDAuNyIpCi5fcHVuY2hjYXJkKCkKCkJBU1NLSUNLOiBzKCJzYmQ6MiEyIikuX3B1bmNoY2FyZCgpCgpfS0lDSzogcygiYmQ6MiEyIikuZmFzdCgyKQogIC5scGYobHBmKQogIC5fc2NvcGUoKQpLSUNLMjogcygiaGg6MioyLCBbfiBjcDo1XSIpLy8uZmFzdCgyKQogIC5fc2NvcGUoKQ%3D%3D" width="100%" height="500"></iframe>
+
+
+<div class="week-grid" style="margin-top: 2em;">
+	<a href="#" onclick="loadPage('blog', 'week-3'); return false;">
+		<h3>Week 3</h3>
+		<p>Synthesis and sound design notes.</p>
+	</a>
+	<a href="#" onclick="loadPage('blog', 'week-5'); return false;">
+		<h3>Week 5</h3>
+		<p>Youtube research &amp; DJ observation</p>
+	</a>
+</div>

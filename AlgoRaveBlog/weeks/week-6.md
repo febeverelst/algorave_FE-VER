@@ -1,3 +1,5 @@
+<a href="#" onclick="loadPage('blog'); return false;" style="font-size: 0.9em; color: #888;">← Back to Daily Log</a>
+
 # Week 6: 8–14 December 2025
 
 ## Monday
@@ -12,8 +14,6 @@ title="KI/KI – AMF 2025 Set"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
-
----
 
 ### Short-form inspiration
 
@@ -42,8 +42,6 @@ allowfullscreen></iframe>
 
 I started looking more deeply into the use of samples in Strudel that you can use. Almost every ‘professional DJ’ who works with Strudel uses them, so I think they really add enormous value. I haven't watched this video all the way through yet (because I'm currently working on my bachelor's thesis), but I'll definitely keep this in mind for the four weeks of the passion project.
 
----
-
 ### Visuals & Hydra
 
 I also found a longer video that dives deeper into **Hydra**, showing how it can be used as a visual layer alongside live-coded sound.
@@ -57,6 +55,17 @@ frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
----
-
 This week mainly focused on **listening, observing, and analysing** how repetition, minimal changes, and visuals can keep long-form performances engaging. These insights feel especially relevant as I start shaping the narrative and structure of my own jury set.
+
+
+<div class="week-grid" style="margin-top: 2em;">
+	<a href="#" onclick="loadPage('blog', 'week-5'); return false;">
+		<h3>Week 5</h3>
+		<p>Youtube research &amp; DJ observation</p>
+	</a>
+	<a href="#" onclick="loadPage('blog', 'week-7'); return false;">
+		<h3>Week 7</h3>
+		<p>Ambient vocals &amp; samplers</p>
+	</a>
+</div>
+

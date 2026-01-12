@@ -1,3 +1,5 @@
+<a href="#" onclick="loadPage('blog'); return false;" style="font-size: 0.9em; color: #888;">← Back to Daily Log</a>
+
 # Week 3: 17 - 23 November 2025
 
 ## Algorave Experiments & Visual Ideas: My Idea
@@ -21,13 +23,10 @@ This is an example of what i mean with filters ontop of live videos while the dj
 <iframe src="https://drive.google.com/file/d/1zgvLyDHbuEjIfZ_DXW8TXvJG5PkHW3QX/preview" width="100%" height="500px" style="border: 1px solid #30363d; border-radius: 6px;"></iframe>
 
 
----
-
 ## Feedback
 
 Project is approved; no further consultation required.
 
----
 
 ## CODING OF THE WEEK
 
@@ -47,4 +46,14 @@ Have fun with this one to! I added some more sliders for certain values to have 
 
 <iframe src="https://strudel.cc/#CnNldENwcygxNDAvNjAvNCkKY29uc3QgbEVuZXJneSA9IHNsaWRlcigxODA2LDQwMCw4MDAwKQpjb25zdCBoRW5lcmd5ID0gc2xpZGVyKDExNzQuNCwxMDAsODAwMCkKY29uc3Qga0VuZXJneSA9IHNsaWRlcig0OTkwLjQsIDQwMCwgODAwMCkKY29uc3QgcGFuID0gc2xpZGVyKDAuMzgxLCAwLCAxKQoKX0JBU1NMSU5FOiBuKGlyYW5kKDE2KS5zdWIoMTIpLnNlZygxNikpLnNjYWxlKCJmIzM6bWlub3I6cGVudGF0b25pYyIpCiAgLmxwZigyMDApLnNvdW5kKCJzYXciKS5yb29tKDEpLmRlY2F5KDAuNzUpCiAgLl9wdW5jaGNhcmQoKQpfTEVBRDogbigiPDAgMyAwIDYgNyA3IDIgNT4qOCIpLnNvdW5kKCJzYXciKS5zY2FsZSgiZiMzOm1pbm9yOnBlbnRhdG9uaWMiKS5wYW4ocGFuKS5zbG93KCIxIDAuNSAyIikubHBmKGxFbmVyZ3kpCiAgLmRlY2F5KDAuMDc1KS5nYWluKDAuNzUpLmhwZihoRW5lcmd5KS5yb29tKDEpCi5fcHVuY2hjYXJkKCkKTEVBRDI6IG4oaXJhbmQoOCkuc2VnKDgpKS5zb3VuZCgic2F3Iikuc2NhbGUoImYjMzptaW5vcjpwZW50YXRvbmljIikucGFuKHBhbikuc2xvdygiMSIpLmxwZihsRW5lcmd5KQogIC5kZWNheSgwLjA3NSkuZ2FpbigwLjc1KS5ocGYoaEVuZXJneSkucm9vbSgxKQouX3B1bmNoY2FyZCgpCgpfRFJVTVM6IHMoImx0KjQgW2hoKjIgYmRdIikubHBmKGtFbmVyZ3kpCi5fc2NvcGUoKQoKX0tJQ0tTOiBzKCJiZCIpLnNlZyg0KS5fc2NvcGUoKQ%3D%3D" width="100%" height="500px"></iframe>
 
----
+
+<div class="week-grid" style="margin-top: 2em;">
+	<a href="#" onclick="loadPage('blog', 'week-2'); return false;">
+		<h3>Week 2</h3>
+		<p>Rhythms &amp; pattern experiments.</p>
+	</a>
+	<a href="#" onclick="loadPage('blog', 'week-4'); return false;">
+		<h3>Week 4</h3>
+		<p>Performance &amp; optimization ideas.</p>
+	</a>
+</div>

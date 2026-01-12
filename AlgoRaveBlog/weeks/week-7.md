@@ -1,3 +1,5 @@
+<a href="#" onclick="loadPage('blog'); return false;" style="font-size: 0.9em; color: #888;">← Back to Daily Log</a>
+
 # Week 7: 15–21 December 2025
 
 ## Tuesday
@@ -30,8 +32,6 @@ frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
----
-
 ## Wednesday
 
 On Wednesday, I decided to simplify my workflow. Instead of constantly changing everything, I worked with a **fixed base**:  
@@ -52,7 +52,6 @@ I noticed that starting from a solid foundation makes it much easier to experime
 
 This set functions as a **reliable rhythmic backbone** that I can return to whenever I want to test new ideas quickly.
 
----
 
 ### Small Melody Experiment
 
@@ -67,6 +66,17 @@ From that same base, I added a simple melodic layer to see how minimal melodic m
 
 Keeping the melody restrained helped me focus more on **texture**, **rhythm**, and **energy flow** rather than complexity.
 
----
-
 This week was smaller, but important. It helped me realise how powerful **vocals**, **sampling**, and **working from a fixed base** can be when building longer live-coded performances.
+
+
+<div class="week-grid" style="margin-top: 2em;">
+	<a href="#" onclick="loadPage('blog', 'week-6'); return false;">
+		<h3>Week 6</h3>
+		<p>Sample documentation &amp; tutorials</p>
+	</a>
+	<a href="#" onclick="loadPage('blog', 'week-8'); return false;">
+		<h3>Week 8</h3>
+		<p>Experimentation</p>
+	</a>
+</div>
+

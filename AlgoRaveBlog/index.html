@@ -48,10 +48,7 @@
                         Snippets</a></li>
             </ul>
         </nav>
-
-        <!-- Main Content Area -->
         <main class="content" id="content">
-            <!-- Content will be loaded here -->
         </main>
     </div>
 
@@ -85,14 +82,13 @@
                 const markdown = await response.text();
                 const html = marked.parse(markdown);
                 document.getElementById('content').innerHTML = html;
+                window.scrollTo(0, 0);
 
-                // If we loaded a week file, no extra scrolling needed.
             } catch (error) {
                 document.getElementById('content').innerHTML = `<div class="error">Error loading page: ${error.message}</div>`;
             }
         }
 
-        // Load homepage on startup
         window.addEventListener('load', () => {
             loadPage('home');
         });

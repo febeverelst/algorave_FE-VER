@@ -171,7 +171,8 @@ body {
 .week-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 5rem;
+    row-gap: 1rem;
     justify-content: center;
 }
 
@@ -232,7 +233,7 @@ body {
 
 .content strong {
     color: #c9d1d9;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .content em {
@@ -410,4 +411,44 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #484f58;
+}
+
+/* Overview Table Styles */
+.overview-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.overview-table thead {
+    background: #0d1117;
+    border-bottom: 2px solid #30363d;
+}
+
+.overview-table th {
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+    color: #58a6ff;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.overview-table tbody tr {
+    border-bottom: 1px solid #30363d;
+    transition: background-color 0.2s ease;
+}
+
+.overview-table tbody tr:hover {
+    background-color: #21262d;
+}
+
+.overview-table td {
+    padding: 0.75rem 1rem;
+    color: #e1e4e8;
 }

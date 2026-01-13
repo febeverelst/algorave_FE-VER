@@ -1,42 +1,24 @@
 # Daily Log Summary
 
-This page summarizes your activity across weeks. Use the cards below to jump to the week you want to read.
+This page summarizes your activity across weeks. Use the cards or table below to jump to the week you want to read.
 
-### before Passion Project
-<div class="week-grid">
-	<a href="#" onclick="loadPage('blog', 'week-1'); return false;">
-		<h3>Week 1</h3>
-		<p>Project setup, initial Strudel experiments and blog creation.</p>
-	</a>
-	<a href="#" onclick="loadPage('blog', 'week-2'); return false;">
-		<h3>Week 2</h3>
-		<p>Rhythms &amp; pattern experiments (placeholders).</p>
-	</a>
-	<a href="#" onclick="loadPage('blog', 'week-3'); return false;">
-		<h3>Week 3</h3>
-		<p>Synthesis and sound design notes.</p>
-	</a>
-	<a href="#" onclick="loadPage('blog', 'week-4'); return false;">
-		<h3>Week 4</h3>
-		<p>Performance &amp; optimization ideas.</p>
-	</a>
-	<a href="#" onclick="loadPage('blog', 'week-5'); return false;">
-		<h3>Week 5</h3>
-		<p>Youtube research & DJ observation</p>
-	</a>
-	<a href="#" onclick="loadPage('blog', 'week-6'); return false;">
-		<h3>Week 6</h3>
-		<p>Sample documentation & tutorials</p>
-	</a>
-	<a href="#" onclick="loadPage('blog', 'week-7'); return false;">
-		<h3>Week 7</h3>
-		<p>Ambient vocals & samplers</p>
-	</a>
-	<a href="#" onclick="loadPage('blog', 'week-8'); return false;">
-		<h3>Week 8</h3>
-		<p>Experimentation</p>
-	</a>
-</div>
+## Overview Table
+
+| Week | Title | Description | Modified Date |
+|------|-------|-------------|----------------|
+| [Week 1](#week-link-1) | Project Setup | Project setup, initial Strudel experiments and blog creation. | 2025-09-15 |
+| [Week 2](#week-link-2) | Rhythms & Patterns | Rhythms & pattern experiments (placeholders). | 2025-09-22 |
+| [Week 3](#week-link-3) | Synthesis | Synthesis and sound design notes. | 2025-09-29 |
+| [Week 4](#week-link-4) | Performance | Performance & optimization ideas. | 2025-10-06 |
+| [Week 5](#week-link-5) | Research | Youtube research & DJ observation | 2025-10-13 |
+| [Week 6](#week-link-6) | Documentation | Sample documentation & tutorials | 2025-10-20 |
+| [Week 7](#week-link-7) | Vocals | Ambient vocals & samplers | 2025-10-27 |
+| [Week 8](#week-link-8) | Experimentation | Experimentation | 2025-11-03 |
+| [Week 9](#week-link-9) | Project Kickoff | Project Kick off & documentation research | 2026-01-05 |
+| [Week 10](#week-link-10) | Hydra & Strudel | Hydra exploration & strudel structures | 2026-01-12 |
+| [Week 11](#week-link-11) | TBA | Placeholder for Week 11. | TBD |
+| [Week 12](#week-link-12) | TBA | Placeholder for Week 12. | TBD |
+
 
 ### During Passion Project
 <div class="week-grid">

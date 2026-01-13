@@ -46,6 +46,8 @@
                 </li>
                 <li><a href="#" class="nav-link" data-page="snippets" onclick="loadPage('snippets'); return false;">Code
                         Snippets</a></li>
+                <li><a href="#" class="nav-link" data-page="cookbook"
+                        onclick="loadPage('cookbook'); return false;">Cookbook</a></li>
             </ul>
         </nav>
         <main class="content" id="content">
@@ -61,6 +63,10 @@
             currentPage = page;
             if (week) currentWeek = week;
 
+            // Save current page state to localStorage
+            localStorage.setItem('currentPage', page);
+            if (week) localStorage.setItem('currentWeek', week);
+
             document.querySelectorAll('.nav-link').forEach(link => link.classList.remove('active'));
             if (page === 'blog') {
                 document.querySelector(`[data-page="blog"]`)?.classList.add('active');
@@ -72,6 +78,7 @@
                 let filename;
                 if (page === 'home') filename = 'home.md';
                 else if (page === 'snippets') filename = 'snippets.md';
+                else if (page === 'cookbook') filename = 'cookbook.md';
                 else if (page === 'blog') {
                     if (week && week !== 'all') filename = `weeks/${week}.md`;
                     else filename = 'blog-summary.md';
@@ -87,10 +94,29 @@
             } catch (error) {
                 document.getElementById('content').innerHTML = `<div class="error">Error loading page: ${error.message}</div>`;
             }
+
+            // Handle table row clicks for week links
+            setTimeout(() => {
+                document.querySelectorAll('a[href^="#week-link-"]').forEach(link => {
+                    link.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        const weekNum = link.href.split('#week-link-')[1];
+                        loadPage('blog', `week-${weekNum}`);
+                    });
+                });
+            }, 100);
         }
 
         window.addEventListener('load', () => {
-            loadPage('home');
+            // Check if there's a saved page state in localStorage
+            const savedPage = localStorage.getItem('currentPage');
+            const savedWeek = localStorage.getItem('currentWeek');
+
+            if (savedPage && savedPage !== 'home') {
+                loadPage(savedPage, savedWeek);
+            } else {
+                loadPage('home');
+            }
         });
     </script>
 </body>

@@ -83,6 +83,161 @@ The video helped a bit but at the end I had to ask ChatGPT to help me and that g
 
 The pads lit up, which meant they recognised the touch, but I didn't hear any sound. Fortunately, Jules was sitting opposite me and he told me that the pads probably had some kind of velocity coding (which was correct), so I just had to hit them harder. I tried that for a while, but then my fingers started to hurt, so I looked up how to adjust the sensitivity. After that, it was much more comfortable to work with.
 
+## Wednesday
+
+I was checking my instagram [@fe_ver.studio](https://www.instagram.com/fe_ver.studio/) and came across a story that was really benefitial to my project!
+
+<img src="assets/images/week10_p5live.png" alt="Instagram story p5LIVE" width="30%"> 
+
+## Friday
+My planning told me that I had to dig some more into the strudel documentation but for me now that felt a bit unnecessary because I was still very intrigued with the P5LIVE and the hydra x strudel combo. I started testing it out.
+
+### Initial research
+When I looked it up, on [Google](https://www.google.com/search?q=P5+Live&sca_esv=e7e7d7f7344b061f&ei=3ypqacbnMr2lkdUPqajb8QM&ved=0ahUKEwiG09flg5CSAxW9UqQEHSnUNj4Q4dUDCBE&uact=5&oq=P5+Live&gs_lp=Egxnd3Mtd2l6LXNlcnAiB1A1IExpdmUyBRAAGIAEMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSJoSUJsJWIIRcAN4AZABAJgBaqABpwGqAQMxLjG4AQPIAQD4AQGYAgWgArUBwgIKEAAYsAMY1gQYR5gDAIgGAZAGCJIHAzQuMaAHtgmyBwMxLjG4B64BwgcFMC40LjHIBwuACAA&sclient=gws-wiz-serp&safe=active&ssui=on) I was a bit confused because I expected it to be on the official P5.js website but i coudn't find it. But I quickly added coding behind it and I click the [first link](https://www.google.com/search?q=P5+live+coding&sca_esv=e7e7d7f7344b061f&ei=4ypqadbbGdmskdUP8fy3oAc&ved=0ahUKEwiW2bLng5CSAxVZVqQEHXH-DXQQ4dUDCBE&uact=5&oq=P5+live+coding&gs_lp=Egxnd3Mtd2l6LXNlcnAiDlA1IGxpdmUgY29kaW5nMgYQABgWGB4yBhAAGBYYHjIFEAAY7wUyCBAAGIAEGKIEMggQABiiBBiJBTIIEAAYgAQYogQyBRAAGO8FSNppUO4CWM9ocAZ4AZABAJgBoQGgAdsKqgEEMTIuNbgBA8gBAPgBAZgCF6AC2gvCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICBxAAGIAEGBPCAggQABgTGBYYHsICChAAGIAEGEMYigXCAgsQABiABBixAxiDAcICCBAAGIAEGLEDwgIFEAAYgATCAg4QLhiABBixAxjRAxjHAcICDhAuGIAEGLEDGIMBGIoFwgILEC4YgAQYxwEYrwHCAgUQIRigAZgDAIgGAZAGCZIHBDE4LjWgB7VfsgcEMTIuNbgHvAvCBwgwLjMuMTkuMcgHXIAIAA&sclient=gws-wiz-serp&safe=active&ssui=on)
+
+<img src="assets/images/week10_P5load.png" alt="P5LIVE loader" width="100%"> 
+<img src="assets/images/week10_P5interface.png" alt="P5LIVE interface" width="100%"> 
+
+The website had a lot of presets that I could use to get to know the library. It gives you demo's in different other languages where you can experiment with them. I immediatly went to the hydra section and started looking around.
+
+
+### Preset experimentation
+
+There were a lot of interesting presets to get to know the workflow but the most interesting one for me was the audio reactive one. It uses your mic input to get the sound values and map them to the drawing canvas to make the drawing move.
+
+I was at school trying this out so I had to be a bit more quiet so i tried it with just snapping my fingers for this demo
+<iframe src="https://drive.google.com/file/d/1OnaAHoWV4Opbn4B5nQx7H293Y09ETrWF/preview" width="50%" height="250px" style="border: 1px solid #30363d; border-radius: 6px;"></iframe>
+
+On the right there is a window that you can collapse and I was looking though all the options they have there and you're able to open a window that will only show the visual as long as you keep the original window open. It will also live update/mirror the original one. This opens up a lot of opportunities for the performance aspect of my project.
+<iframe src="https://drive.google.com/file/d/17Zuv-lJNCRw9pY1JbGHvkcyLpCQYC8ob/preview" width="100%" height="500px" style="border: 1px solid #30363d; border-radius: 6px;"></iframe>
+
+### Internal audio implementation
+
+Ofcourse should this cool discovery be even better when I could sync it with my music that im creating with Strudel. So for now i just experimented with the internal audio to use that. I had blackhole 2ch installed to record internal audio. So I created a multi-output divice in the Audio MIDI setup app so that my browser would listed to the internal audio and that I would also be able to hear it.
+
+That got me to this:
+<iframe src="https://drive.google.com/file/d/1gb5g73-mUEwYQgYwrUO49MVjS1wiY_Kw/preview" width="100%" height="500px" style="border: 1px solid #30363d; border-radius: 6px;"></iframe>
+
+### End result
+
+I created a fast script that would somewhat give me raving visuals to test out how reactive it would be. Im pretty impressed with what I was able to do so far. Enjoy
+<iframe src="https://drive.google.com/file/d/1tPXNlLcCg32M4oGECcosBWJqT-LgY_nf/preview" width="100%" height="500px" style="border: 1px solid #30363d; border-radius: 6px;"></iframe>
+
+This is the code that was used:
+
+```js
+/*	
+	P5LIVE + HYDRA — UNDERGROUND TECHNO RAVE (STABLE)
+	audio reactive visuals
+*/
+
+// LOAD HYDRA
+let libs = ['https://unpkg.com/hydra-synth']
+
+let hc = document.createElement('canvas')
+hc.width = window.innerWidth
+hc.height = window.innerHeight
+document.body.appendChild(hc)
+
+let hydra = new Hydra({
+	detectAudio: true,
+	canvas: hc
+})
+
+noize = hydra.synth.noise
+
+// AUDIO
+a.show()
+a.setBins(8)
+a.setSmooth(0.8)
+
+// HYDRA BACKGROUND (CONTROLLED FEEDBACK)
+let kick = () => a.fft[0] * 2
+let mids = () => a.fft[3] * 1.2
+
+osc(10, 0.02, () => kick())
+	.rotate(() => time * 0.08 + kick() * 0.4)
+	.modulate(
+		noize(3, 0.3)
+			.rotate(() => time * 0.15)
+			.scale(() => 1 + kick() * 0.25),
+		() => mids()
+	)
+	.colorama(() => 0.3 + mids())
+	.kaleid(6)
+	.add(
+		src(o0)
+			.scale(1.008)
+			.rotate(0.0005),
+		0.75   // 🔑 LOWER FEEDBACK
+	)
+	.contrast(1.3)
+	.brightness(() => kick() * 0.1)
+	.out()
+
+// P5 SETUP
+function setup() {
+	createCanvas(windowWidth, windowHeight)
+	s0.init({ src: canvas })
+	rectMode(CENTER)
+	noFill()
+}
+
+// P5 DRAW (FADE, NOT CLEAR)
+function draw() {
+	// FADE instead of clear()
+	background(0, 40) // alpha fade
+
+	let kickVal = a.fft[0]
+	let kickSize = kickVal * height * 0.8
+	let midSize = a.fft[3] * height * 0.5
+
+	translate(width / 2, height / 2)
+	rotate(frameCount * 0.008)
+
+	strokeWeight(2)
+
+	let raveColors = [
+		color(0, 255, 150),
+		color(255, 0, 200),
+		color(0, 180, 255)
+	]
+
+	// SOFT STROBE (NO FULL WHITE)
+	if (kickVal > 0.6) {
+		stroke(255, 180)
+		ellipse(0, 0, width * 1.2, height * 1.2)
+	}
+
+	// LASER RINGS
+	for (let i = 0; i < 16; i++) {
+		stroke(raveColors[i % raveColors.length])
+		let r =
+			kickSize +
+			i * 30 +
+			sin(frameCount * 0.05 + i) * midSize
+		ellipse(0, 0, r, r)
+	}
+
+	// GLITCH LINES
+	for (let i = 0; i < 30; i++) {
+		stroke(raveColors[i % raveColors.length])
+		let a = random(TWO_PI)
+		let len = kickSize * random(0.4, 1.1)
+		line(0, 0, cos(a) * len, sin(a) * len)
+	}
+}
+
+// RESIZE
+function windowResized() {
+	resizeCanvas(windowWidth, windowHeight)
+	hc.width = window.innerWidth
+	hc.height = window.innerHeight
+}
+```
+
+Now I have the opportunity to create scenes and link those to the AKAI pads to switch between them during the preformance.
+
 ---
 <div class="week-grid" style="margin-top: 2em;">
 	<a href="#" onclick="loadPage('blog', 'week-9'); return false;">

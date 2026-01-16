@@ -208,8 +208,6 @@ body {
     transform: translateY(-6px);
     border-color: rgba(88, 166, 255, 0.9);
     box-shadow: 0 10px 24px rgba(8, 20, 40, 0.6), 0 0 18px rgba(88, 166, 255, 0.15);
-    text-decoration: none;
-    /* prevent underline on hover */
 }
 
 /* keyboard focus shows the same glow */
@@ -344,6 +342,10 @@ body {
     padding: 0.75rem;
     border: 1px solid #30363d;
     color: #e1e4e8;
+}
+
+.content td:first-of-type {
+    width: 6rem;
 }
 
 .content tr:hover {

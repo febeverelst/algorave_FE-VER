@@ -249,7 +249,9 @@ the documentation has a lot of fields that already have code in them so when i w
 - MPD226 Remote
 - GarageBand Virtual Out
 
-I guess i'll have to try some things out to see which one is the right one since it's only connected though the usb port
+I guess i'll have to try some things out to see which one is the right one since it's only connected though the usb port. 
+
+> I failed to make the pad work together with the strudel REPL and connect them to the sliders. At 5PM I had to leave the school so I wasn't able to work on this during the weekend.
 
 ---
 <div class="week-grid" style="margin-top: 2em;">

@@ -50,6 +50,9 @@
                         onclick="loadPage('cookbook'); return false;">Cookbook</a></li>
             </ul>
         </nav>
+        <aside class="sidebar" id="sidebar">
+            <div class="toc" id="toc"></div>
+        </aside>
         <main class="content" id="content">
         </main>
     </div>
@@ -58,6 +61,34 @@
     <script>
         let currentPage = 'home';
         let currentWeek = 'all';
+
+        function generateTOC() {
+            const content = document.getElementById('content');
+            const headings = content.querySelectorAll('h2');
+            const toc = document.getElementById('toc');
+            toc.innerHTML = '<h3>Table of Contents</h3><ul></ul>';
+            const ul = toc.querySelector('ul');
+
+            headings.forEach((heading, index) => {
+                const id = `section-${index}`;
+                heading.id = id;
+                const li = document.createElement('li');
+                const a = document.createElement('a');
+                a.href = `#${id}`;
+                a.textContent = heading.textContent;
+                a.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const offset = 90; // Offset to keep title visible
+                    const elementPosition = heading.getBoundingClientRect().top + window.pageYOffset;
+                    window.scrollTo({ top: elementPosition - offset, behavior: 'smooth' });
+                });
+                li.appendChild(a);
+                ul.appendChild(li);
+            });
+
+            document.getElementById('sidebar').style.display = 'block';
+            document.body.classList.add('sidebar-active');
+        }
 
         async function loadPage(page, week = null) {
             currentPage = page;
@@ -90,6 +121,14 @@
                 const html = marked.parse(markdown);
                 document.getElementById('content').innerHTML = html;
                 window.scrollTo(0, 0);
+
+                // Generate TOC for week pages
+                if (page === 'blog' && week && week !== 'all') {
+                    generateTOC();
+                } else {
+                    document.getElementById('sidebar').style.display = 'none';
+                    document.body.classList.remove('sidebar-active');
+                }
 
             } catch (error) {
                 document.getElementById('content').innerHTML = `<div class="error">Error loading page: ${error.message}</div>`;

@@ -2,21 +2,6 @@
 
 This page showcases the code snippets and patterns I'm proud of - the ones I know I'll want to reference and reuse in future projects. These are the gems of my AlgoRave journey.
 
----
-
-## 📌 How to Use This Page
-
-As you work on your AlgoRave project, whenever you create something that:
-- Sounds amazing
-- Creates interesting patterns
-- Uses clever techniques
-- Solves an elegant problem
-- Has educational value
-
-...add it to this gallery! Include a description of what makes it special and how you might reuse it.
-
----
-
 ## ✨ Featured Snippets
 
 ### Snippet #1: [Your Title Here]
@@ -92,15 +77,4 @@ Optimizations and clever implementations for live performance.
 
 ---
 
-## 💾 How to Add New Snippets
-
-1. Write your code and test it thoroughly
-2. Give it a descriptive title
-3. Explain what makes it special
-4. Document when and how you'd reuse it
-5. Add it to the appropriate category
-6. Include the working iframe if it's interactive code
-
----
-
-**Your growing library of creative solutions! 🎨✨**
+**My growing library of creative solutions!**

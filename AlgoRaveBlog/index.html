@@ -14,6 +14,10 @@
         <nav class="navbar">
             <a href="#" class="nav-brand" onclick="loadPage('home'); return false;">PP: FE_VER</a>
             <ul class="nav-menu">
+                <li><a href="#" class="nav-link" data-page="snippets" onclick="loadPage('snippets'); return false;">Code
+                        Snippets</a></li>
+                <li><a href="#" class="nav-link" data-page="cookbook"
+                        onclick="loadPage('cookbook'); return false;">Cookbook</a></li>
                 <li class="nav-item">
                     <a href="#" class="nav-link" data-page="blog" onclick="loadPage('blog', 'all'); return false;">Daily
                         Log</a>
@@ -44,10 +48,6 @@
                                 12</a></li>
                     </ul>
                 </li>
-                <li><a href="#" class="nav-link" data-page="snippets" onclick="loadPage('snippets'); return false;">Code
-                        Snippets</a></li>
-                <li><a href="#" class="nav-link" data-page="cookbook"
-                        onclick="loadPage('cookbook'); return false;">Cookbook</a></li>
             </ul>
         </nav>
         <aside class="sidebar" id="sidebar">
@@ -122,8 +122,8 @@
                 document.getElementById('content').innerHTML = html;
                 window.scrollTo(0, 0);
 
-                // Generate TOC for week pages
-                if (page === 'blog' && week && week !== 'all') {
+                // Generate TOC for week pages and cookbook
+                if ((page === 'blog' && week && week !== 'all') || page === 'cookbook') {
                     generateTOC();
                 } else {
                     document.getElementById('sidebar').style.display = 'none';

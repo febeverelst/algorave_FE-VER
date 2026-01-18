@@ -238,6 +238,19 @@ function windowResized() {
 
 Now I have the opportunity to create scenes and link those to the AKAI pads to switch between them during the preformance.
 
+### AKAI connection with strudel
+
+I wanted to see if I was already able to connect the MIDI pad controller to the strudel evironment so I went back to the [documentation](https://strudel.cc/learn/input-output/#midi-osc-and-mqtt) and read through it once again to make the connection.
+
+the documentation has a lot of fields that already have code in them so when i wanted to start the first one I immediatly got an error message telling me to specify the port with the following options that it was able to read:
+- MPD226 Port A
+- MPD226 Port B
+- MPD226 MIDI
+- MPD226 Remote
+- GarageBand Virtual Out
+
+I guess i'll have to try some things out to see which one is the right one since it's only connected though the usb port
+
 ---
 <div class="week-grid" style="margin-top: 2em;">
 	<a href="#" onclick="loadPage('blog', 'week-9'); return false;">

@@ -1,25 +1,41 @@
 # The Cookbook
 
-The Cookbook is a collection of **proven live-coding patterns** from my Strudel performances that are practical, reusable approaches for creating sounds, structures, and moments in a set.
+The Cookbook is a collection of proven live-coding patterns from my Strudel performances. Both practical and reusable approaches for creating sounds, structures, and moments in a set.
 
-Think of it as a shortcut from experimentation to performance:  
-less theory, more *“what do I type when I want this?”*
+It’s a shortcut from experimentation to performance:
+less theory, more _“what do I use when I want this?”_
 
+Rather than being organized like technical documentation, the Cookbook is structured around performance states, the kinds of decisions you make while playing live.
+
+## Structure
+
+The Cookbook is divided into chapters inspired by a meal, each representing a different role in a live set:
+
+- _Entrées_: Foundational rhythms and core techno beats. The essential that establish tempo, and momentum.
+
+- _Palate Cleanser_: Moments of reduction and contrast. Beatless textures, resets between heavier sections.
+
+- _Main Course_: The identity of the set. From random melodies to structured formation of notes.
+
+- _Sides_: Optional additions that enhance "flavor". Custom samples, accents, FX layers, and extra detail.
+
+- _Dessert_: Payoff and closure. Peak release and end-of-set techniques leaving an impression.
+
+They aren’t meant to be followed in order. They’re states you can move between as a set evolves.
 
 ## Recipes
 
-A **recipe** is a reproducible way to achieve a specific musical goal.  
-Each one includes:
+A recipe is a reproducible way to achieve a specific musical goal in performance.
+Each recipe includes:
 
-- **Goal:** What you’re trying to create  
-- **Ingredients:** Key functions, patterns, or concepts  
-- **Method:** Step-by-step code examples  
-- **Variations:** Ways to remix or extend it  
+- _Goal_: what you’re trying to create
+- _Ingredients_: key functions, patterns, or concepts
+- _Method_: step-by-step code examples
+- _Variations_: ways to remix, adapt, or extend the idea
 
 Short, focused, and designed for live use.
 
-
-## Why Use the Cookbook?
+## Why
 
 Traditional docs explain *how things work*.  
 The Cookbook helps you decide *what to do*.
@@ -30,16 +46,6 @@ Use it when you want to:
 - Create texture or atmosphere  
 - Shape energy across a set  
 - Use your own external audio files  
-
-
-## How to Use It
-
-1. Find a recipe by **goal**  
-2. Try it live  
-3. Remix it  
-4. Add your own discoveries  
-
-Each recipe links back to the **Daily Log**, connecting raw experimentation to refined technique.
 
 
 ## Featured Recipes (Coming Soon)
@@ -58,4 +64,4 @@ Each recipe links back to the **Daily Log**, connecting raw experimentation to r
 
 Live coding is about **decision-making in real time**.  
 The better your muscle memory, the more present you can be on stage.  
-The Cookbook isn’t about following rules — it’s about freeing your attention so you can *listen, react, and perform*.
+The Cookbook isn’t about following rules but about freeing your attention so you can *listen, react, and perform*.

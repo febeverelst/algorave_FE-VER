@@ -141,11 +141,11 @@ body.sidebar-active .content {
 /* Sidebar */
 .sidebar {
     position: fixed;
-    left: 0;
-    top: 80px;
+    /* left: 0;
+    top: 80px; */
     /* Below navbar */
     width: 250px;
-    height: calc(100vh - 80px);
+    height: 100vh;
     background: #161b22;
     border-right: 1px solid #30363d;
     padding: 1rem;

@@ -169,7 +169,7 @@ osc(10, 0.02, () => kick())
 		src(o0)
 			.scale(1.008)
 			.rotate(0.0005),
-		0.75   // 🔑 LOWER FEEDBACK
+		0.75   // LOWER FEEDBACK
 	)
 	.contrast(1.3)
 	.brightness(() => kick() * 0.1)
@@ -252,6 +252,46 @@ the documentation has a lot of fields that already have code in them so when i w
 I guess i'll have to try some things out to see which one is the right one since it's only connected though the usb port. 
 
 > I failed to make the pad work together with the strudel REPL and connect them to the sliders. At 5PM I had to leave the school so I wasn't able to work on this during the weekend.
+
+## Sunday
+
+### Cookbook creation
+
+I further refined the content and idea of the cookbook. (Take a look at the Cookbook Tab)
+Because before writing recipes, I need to know how the cookbook itself should be structured. Instead of organizing it like technical documentation, I chose a course-based structure inspired by food (we're talking about a strudel ;p ), because live sets unfold in phases and not features.
+
+Each chapter represents a performance state rather than a fixed order:
+
+- _Entrées_: Foundational rhythms and core techno beats. The essential that establish tempo, and momentum.
+
+- _Palate Cleanser_: Moments of reduction and contrast. Beatless textures, resets between heavier sections.
+
+- _Main Course_: The identity of the set. From random melodies to structured formation of notes.
+
+- _Sides_: Optional additions that enhance "flavor". Custom samples, accents, FX layers, and extra detail.
+
+- _Dessert_: Payoff and closure. Peak release and end-of-set techniques leaving an impression.
+
+**_Recipes are not songs, but performable states._** They are reusable patterns designed to support decision-making in real time. This structure keeps the Cookbook focused on what matters most on stage: flow, contrast, and confidence.
+
+### Cookbook experimentation
+
+I was experimenting in the strudel REPL to see how I could start writing down recipes and I created this as a start. I don't think it'll make it into the cookbook because it is not that great sounding in my opinion but this segment is a really good start for others to play with the variables of all the functions.
+
+<iframe src="https://strudel.cc/#CnNldENwcygxMjAvNjAvNCkKICAKRFJVTVMkOiBzb3VuZCgiYmQqNCwgWy0gY3BdKjIsIFstIGhoXSo0IikuYmFuaygiUm9sYW5kVFI5MDkiKQoKTUVMT0RZOiBuKCI8MCEzIH4gWzEgMyA1XUAzIH4gNEAyIDMhMiB%2BIDMhMj4qMTYgLCA8MCAxIDAgMiAwIDA%2BKjQiKS5zY2FsZSgiZzptaW5vciIpCiAgLnNvdW5kKCJzdXBlcnNhdywgZ21fZWxlY3RyaWNfZ3VpdGFyX2NsZWFuIikKICAucm9vbSgxKS5yb29tc2l6ZSg0KQogIC5nYWluKDAuNSkKICAuc2xvdygiPDIgMSAyIDEgMT4iKQogIC5fcHVuY2hjYXJkKCk%3D"
+ width="100%" height="500"></iframe>
+
+ > This experiment made me realise that I will prioritize the drum layering and the use of structures in the _Entrées_ section because if you just start creating melodies out of the blue just to have some sound you'll easily get out of tune effects.
+ > There are also different difficulties of layering your drums so I'll explain 3 levels of drum layering and try do keep that consistency throughout all the recipes. 
+
+ ### Vocal samples
+ Im still a huge fan of using the vocal samples so next week I'll start with actually creating and importing those. I've read and summarized the documentation so I know where to begin. I found some cook royalty free samples on tiktok that I've downloaded and will be using.
+
+ <iframe src="https://drive.google.com/file/d/1O9_Awz7lq_bs3crb8ItyxSc-NTOLRJJz/preview" width="24%" height="400px" style="border: 1px solid #30363d; border-radius: 6px;"></iframe>
+  <iframe src="https://drive.google.com/file/d/1mg7e7hKm33li5lwCTd32kWMl5tVhLYYE/preview" width="24%" height="400px" style="border: 1px solid #30363d; border-radius: 6px;"></iframe>
+  <iframe src="https://drive.google.com/file/d/1TDz3KPEnZNjUE1fPGPgFQ0bWoGI-dNWu/preview" width="24%" height="400px" style="border: 1px solid #30363d; border-radius: 6px;"></iframe>
+ <iframe src="https://drive.google.com/file/d/134EsTPfhWvzrnml_LObI62mGQnjbnPkt/preview" width="24%" height="400px" style="border: 1px solid #30363d; border-radius: 6px;"></iframe>
+
 
 ---
 <div class="week-grid" style="margin-top: 2em;">

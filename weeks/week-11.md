@@ -39,7 +39,16 @@ I uploaded my samples folder in there and the `try`-sound worked now, but the ot
 I've decided to let the samples rest for a minute and focus back on the cookbook. I was talking with Jana, a friend of mine that is also studying Devine, and she asked me if I was planning on doing the Cookbook online or on paper. That made me realise that I actually don't know on what medium I'll be doing the cookbook on. I Thought it was obvious that I would do it on paper since it's a cookbook but if people will be using it during a set, as intended, it would be much easier for them to copy past the part and then start modifying it. Meaning that I have to make another website
 
 ### Cookbook Website
+I stared by just quickly adding 3 pieces in there to have an overview and something to show on my consult for the next day.
 
+I made the websiter using Astro and decided to store the recepies in a data folder (recipes.js) to maybe later convert them to an actual database but that will only be the case if I have time left. For now this way will do.
+<img src="assets/images/week11_cbHome.png" alt="Homepage" width="100%"> 
+<img src="assets/images/week11_cbEntree.png" alt="Entrées page" width="100%"> 
+<img src="assets/images/week11_cbRecipe1.png" alt="recipe slug 1" width="100%"> 
+<img src="assets/images/week11_cbRecipe2.png" alt="recipe slug 2" width="100%"> 
+
+
+## Tuesday
 
 ---
 

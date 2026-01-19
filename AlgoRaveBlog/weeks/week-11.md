@@ -32,6 +32,15 @@ As I was looking at the REPL under the sound category I saw the tab _import-soun
 
 I uploaded my samples folder in there and the `try`-sound worked now, but the others didn't. The actual vocals that I want to use still give me the _decoding failed error_
 
+> I found this really cool [sample library](https://samples.landr.com/browse?tab=samples&instruments=vocals&utm_source=google&utm_medium=paid_search&utm_campaign=sales_samples_en_intl_generic&utm_term=vocal+samples&utm_content=756223495604&gad_source=1&gad_campaignid=20410427518&gbraid=0AAAAADpPPVE3h6wRomFNtPtvepKqUtHNx&gclid=CjwKCAiAybfLBhAjEiwAI0mBBmibiKsF2iMn6X3cPF9hMpi8HsaqxY4isEhwB0g4HJERRiJMA7-SIhoCWTYQAvD_BwE&genres=techno&bpmlowerbound=140&bpmupperbound=160&page=2) that I could use for finding different vocal samples that I want to use.
+
+---
+
+I've decided to let the samples rest for a minute and focus back on the cookbook. I was talking with Jana, a friend of mine that is also studying Devine, and she asked me if I was planning on doing the Cookbook online or on paper. That made me realise that I actually don't know on what medium I'll be doing the cookbook on. I Thought it was obvious that I would do it on paper since it's a cookbook but if people will be using it during a set, as intended, it would be much easier for them to copy past the part and then start modifying it. Meaning that I have to make another website
+
+### Cookbook Website
+
+
 ---
 
 <div class="week-grid" style="margin-top: 2em;">

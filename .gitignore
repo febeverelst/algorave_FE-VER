@@ -4,6 +4,7 @@
 .LSOverride
 *.swp
 *.swo
+*.pkf
 
 # Node.js
 node_modules/

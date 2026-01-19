@@ -2,37 +2,43 @@
 const { title, course, level, risk, goal, usedWhen, ingredients } = Astro.props;
 ---
 
-<h1>{title}</h1>
+<article class="recipe">
+    <!-- TAGS -->
+    <div class="recipe-tags">
+        <span class="tag">{course}</span>
+        <span class="tag">{level}</span>
+        <span class="tag">{risk}</span>
+    </div>
 
-<p>
-    <strong>Course:</strong>
-    {course}<br />
-    <strong>Level:</strong>
-    {level}<br />
-    <strong>Risk:</strong>
-    {risk}
-</p>
+    <h1>{title}</h1>
 
-<section>
-    <h2>Goal</h2>
-    <p>{goal}</p>
-</section>
+    <!-- CORE INTENT -->
+    <section class="recipe-intent">
+        <div class="goal">
+            <h2>Goal</h2>
+            <p>{goal}</p>
+        </div>
 
-<section>
-    <h2>Used When</h2>
-    <ul>
-        {usedWhen.map((item) => <li>{item}</li>)}
-    </ul>
-</section>
+        <div class="context">
+            <div>
+                <h3>Used When</h3>
+                <ul>
+                    {usedWhen.map((item) => <li>{item}</li>)}
+                </ul>
+            </div>
 
-<section>
-    <h2>Ingredients</h2>
-    <ul>
-        {ingredients.map((item) => <li>{item}</li>)}
-    </ul>
-</section>
+            <div>
+                <h3>Ingredients</h3>
+                <ul>
+                    {ingredients.map((item) => <li>{item}</li>)}
+                </ul>
+            </div>
+        </div>
+    </section>
 
-<section>
-    <h2>Method</h2>
-    <slot />
-</section>
+    <!-- METHOD -->
+    <section class="recipe-method">
+        <h2>Method</h2>
+        <slot />
+    </section>
+</article>

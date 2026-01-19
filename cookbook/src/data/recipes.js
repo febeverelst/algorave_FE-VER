@@ -1,9 +1,9 @@
 export const recipes = [
     {
         slug: "single-drum-voice",
-        title: "Single Drum Voice (Banked Silence)",
+        title: "Single Drum Beat",
         course: "Entrées",
-        level: "Foundation",
+        level: "Beginner",
         risk: "Low",
         goal:
             "Establish a single drum voice while introducing silence and sound banking.",
@@ -26,7 +26,7 @@ export const recipes = [
         title: "Layered Drum Stack",
         course: "Entrées",
         level: "Performable",
-        risk: "Medium",
+        risk: "Intermediate",
         goal:
             "Create a layered drum stack with simple, controllable drum voices.",
         usedWhen: [
@@ -44,7 +44,7 @@ export const recipes = [
         slug: "structured-drum-engine",
         title: "Structured Drum Engine",
         course: "Entrées",
-        level: "System",
+        level: "Advances",
         risk: "High",
         goal:
             "Build an advanced drum engine using structured rhythm logic and parameter groups.",

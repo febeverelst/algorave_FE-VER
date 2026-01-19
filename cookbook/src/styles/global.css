@@ -1,5 +1,5 @@
 /* ------------------------------
-   Base Reset
+   Reset & Base
 ------------------------------ */
 
 * {
@@ -8,19 +8,25 @@
 
 body {
     margin: 0;
-    padding: 2rem;
+    padding: 3rem 2rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-    line-height: 1.6;
-    background: #0e0e0e;
-    color: #eaeaea;
+    line-height: 1.7;
+    background: #f4f3ef;
+    /* warm paper */
+    color: #1a1a1a;
 }
 
 /* ------------------------------
    Layout
 ------------------------------ */
 
+header {
+    margin-bottom: 4rem;
+    /* BIG separation */
+}
+
 main {
-    max-width: 80vw;
+    max-width: 760px;
     margin: 0 auto;
 }
 
@@ -31,17 +37,19 @@ main {
 nav {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
-    margin-bottom: 1rem;
+    gap: 1.5rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
 }
 
 nav a {
     text-decoration: none;
-    color: #aaa;
+    color: #555;
 }
 
 nav a:hover {
-    color: #fff;
+    color: #000;
 }
 
 /* ------------------------------
@@ -49,19 +57,22 @@ nav a:hover {
 ------------------------------ */
 
 h1 {
-    font-size: 2.2rem;
-    margin-top: 0;
+    font-size: 2.4rem;
+    margin: 0 0 1.5rem 0;
+    letter-spacing: -0.02em;
 }
 
 h2 {
-    margin-top: 2rem;
-    font-size: 1.4rem;
-    border-bottom: 1px solid #333;
-    padding-bottom: 0.25rem;
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #333;
 }
 
 p {
-    max-width: 65ch;
+    max-width: 68ch;
+    margin-bottom: 1.2rem;
 }
 
 ul {
@@ -69,15 +80,15 @@ ul {
 }
 
 li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.6rem;
 }
 
 /* ------------------------------
-   Recipe Metadata
+   Metadata Blocks (Recipe info)
 ------------------------------ */
 
-strong {
-    color: #fff;
+section>p strong {
+    font-weight: 600;
 }
 
 /* ------------------------------
@@ -85,17 +96,17 @@ strong {
 ------------------------------ */
 
 pre {
-    background: #161616;
-    padding: 1rem;
+    background: #e8e6df;
+    padding: 1.2rem;
+    margin: 2rem 0;
     overflow-x: auto;
-    border-radius: 4px;
-    margin-top: 1rem;
+    border-left: 4px solid #111;
 }
 
 code {
     font-family: "JetBrains Mono", monospace;
-    font-size: 0.9rem;
-    color: #9ef;
+    font-size: 0.85rem;
+    color: #111;
 }
 
 /* ------------------------------
@@ -103,9 +114,11 @@ code {
 ------------------------------ */
 
 a {
-    color: #9ef;
+    color: #111;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
 }
 
 a:hover {
-    color: #cff;
+    color: #000;
 }

@@ -2,7 +2,9 @@
 
 # Week 11: 19–25 January 2026
 
-*Content coming soon...*
+## Monday
+
+I start the day with summarizing what I did previous week to adapt/improve my planning. 
 
 ---
 

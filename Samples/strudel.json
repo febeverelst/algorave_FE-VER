@@ -1,12 +1,12 @@
 {
     "_base": "https://raw.githubusercontent.com/algorave_FE-VER/samples/main/",
     "vocals": [
-        "vocals/slavicVox.mp3",
-        "vocals/emoVox.mp3",
-        "vocals/lsdVox.mp3",
-        "vocals/humVox.mp3"
+        "vocals/slavicVox.wav",
+        "vocals/emoVox.wav",
+        "vocals/lsdVox.wav",
+        "vocals/humVox.wav"
     ],
     "try": [
-        "try/try.mp3"
+        "try/try.wav"
     ]
 }

@@ -5,5 +5,8 @@
         "vocals/emoVox.mp3",
         "vocals/lsdVox.mp3",
         "vocals/humVox.mp3"
+    ],
+    "try": [
+        "try/try.mp3"
     ]
 }

@@ -1,0 +1,38 @@
+---
+const { title, course, level, risk, goal, usedWhen, ingredients } = Astro.props;
+---
+
+<h1>{title}</h1>
+
+<p>
+    <strong>Course:</strong>
+    {course}<br />
+    <strong>Level:</strong>
+    {level}<br />
+    <strong>Risk:</strong>
+    {risk}
+</p>
+
+<section>
+    <h2>Goal</h2>
+    <p>{goal}</p>
+</section>
+
+<section>
+    <h2>Used When</h2>
+    <ul>
+        {usedWhen.map((item) => <li>{item}</li>)}
+    </ul>
+</section>
+
+<section>
+    <h2>Ingredients</h2>
+    <ul>
+        {ingredients.map((item) => <li>{item}</li>)}
+    </ul>
+</section>
+
+<section>
+    <h2>Method</h2>
+    <slot />
+</section>

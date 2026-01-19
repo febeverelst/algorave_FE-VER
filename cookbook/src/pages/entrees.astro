@@ -1,0 +1,23 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { recipes } from "../data/recipes";
+
+const entrees = recipes.filter((r) => r.course === "Entrées");
+---
+
+<BaseLayout title="Entrées">
+    <h1>Entrées</h1>
+
+    <p>Foundational drum systems that establish pulse, trust, and momentum.</p>
+
+    <ul>
+        {
+            entrees.map((recipe) => (
+                <li>
+                    <a href={`/recipes/${recipe.slug}`}>{recipe.title}</a>—{" "}
+                    {recipe.level}
+                </li>
+            ))
+        }
+    </ul>
+</BaseLayout>

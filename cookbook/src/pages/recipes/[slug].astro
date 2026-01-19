@@ -1,0 +1,35 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import RecipeLayout from "../../layouts/RecipeLayout.astro";
+import { recipes } from "../../data/recipes";
+
+/**
+ * REQUIRED for static builds
+ */
+export function getStaticPaths() {
+    return recipes.map((recipe) => ({
+        params: { slug: recipe.slug },
+    }));
+}
+
+const { slug } = Astro.params;
+const recipe = recipes.find((r) => r.slug === slug);
+
+if (!recipe) {
+    throw new Error(`Recipe not found: ${slug}`);
+}
+---
+
+<BaseLayout title={recipe.title}>
+    <RecipeLayout
+        title={recipe.title}
+        course={recipe.course}
+        level={recipe.level}
+        risk={recipe.risk}
+        goal={recipe.goal}
+        usedWhen={recipe.usedWhen}
+        ingredients={recipe.ingredients}
+    >
+        <iframe src={recipe.code} width="100%" height="500"></iframe>
+    </RecipeLayout>
+</BaseLayout>

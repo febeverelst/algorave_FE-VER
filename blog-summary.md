@@ -78,7 +78,7 @@ I refined my technical understanding of Strudel’s sampling system, including J
 
 ## <a id="week-10"></a>Week 10
 
-Coming soon...
+This week I shifted focus toward visuals and structure, experimenting with Hydra, P5LIVE, and audio-reactive visuals synced to internal sound. Coaching feedback highlighted the need for clearer planning, which led to refining the Cookbook concept into performance-based sections and starting more intentional documentation. I also began integrating hardware by setting up an AKAI MPD226 MIDI controller and exploring its future use for live control, while continuing hands-on experimentation with Strudel, visuals, and workflow.
 
 ## <a id="week-11"></a>Week 11
 

@@ -2,11 +2,8 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import RecipeLayout from "../../layouts/RecipeLayout.astro";
 import { recipes } from "../../data/recipes";
-import "../../styles/recipe.css"; // 👈 recipe-only styles
+import "../../styles/recipe.css";
 
-/**
- * REQUIRED for static builds
- */
 export function getStaticPaths() {
     return recipes.map((recipe) => ({
         params: { slug: recipe.slug },
@@ -31,6 +28,6 @@ if (!recipe) {
         usedWhen={recipe.usedWhen}
         ingredients={recipe.ingredients}
     >
-        <iframe src={recipe.code} width="100%" height="500"></iframe>
+        <iframe src={recipe.code} width="100%" height="400"></iframe>
     </RecipeLayout>
 </BaseLayout>

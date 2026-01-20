@@ -44,7 +44,7 @@ export const recipes = [
         slug: "structured-drum-engine",
         title: "Structured Drum Engine",
         course: "Entrées",
-        level: "Advances",
+        level: "Advanced",
         risk: "High",
         goal:
             "Build an advanced drum engine using structured rhythm logic and parameter groups.",

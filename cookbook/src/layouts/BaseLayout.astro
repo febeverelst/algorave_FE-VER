@@ -1,5 +1,18 @@
 ---
 const { title = "Cookbook" } = Astro.props;
+import "../styles/global.css";
+import { recipes } from "../data/recipes";
+
+type Recipe = (typeof recipes)[number];
+
+const recipesByCourse = recipes.reduce<Record<string, Recipe[]>>(
+    (acc, recipe) => {
+        if (!acc[recipe.course]) acc[recipe.course] = [];
+        acc[recipe.course].push(recipe);
+        return acc;
+    },
+    {},
+);
 ---
 
 <!doctype html>
@@ -14,13 +27,46 @@ const { title = "Cookbook" } = Astro.props;
 
     <body>
         <header>
-            <nav>
-                <a href="/">Home</a>
-                <a href="/entrees">Entrées</a>
-                <a href="/palate-cleansers">Palate Cleansers</a>
-                <a href="/main-courses">Main Courses</a>
-                <a href="/sides">Sides</a>
-                <a href="/desserts">Desserts</a>
+            <nav class="main-nav">
+                <a href="/" class="nav-home">
+                    <img src="/fe_verLogo.png" alt="Cookbook Home" width="70"/>
+                </a>
+
+                <!-- Entrées -->
+                <div class="nav-group">
+                    <a href="/entrees">Entrées</a>
+                    <ul class="dropdown">
+                        {
+                            recipesByCourse["Entrées"]?.map((recipe) => (
+                                <li>
+                                    <a href={`/recipes/${recipe.slug}`}>
+                                        {recipe.title}
+                                    </a>
+                                </li>
+                            ))
+                        }
+                    </ul>
+                </div>
+
+                <!-- Palate Cleansers -->
+                <div class="nav-group">
+                    <a href="/palate-cleansers">Palate Cleansers</a>
+                </div>
+
+                <!-- Main Courses -->
+                <div class="nav-group">
+                    <a href="/main-courses">Main Courses</a>
+                </div>
+
+                <!-- Sides -->
+                <div class="nav-group">
+                    <a href="/sides">Sides</a>
+                </div>
+
+                <!-- Desserts -->
+                <div class="nav-group">
+                    <a href="/desserts">Desserts</a>
+                </div>
             </nav>
             <hr />
         </header>

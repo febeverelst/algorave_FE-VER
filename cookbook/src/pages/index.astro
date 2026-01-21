@@ -1,8 +1,38 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import RecipeCard from "../components/RecipeCard.astro";
+import { recipes } from "../data/recipes";
+
+const courses = [
+	{
+		title: "Entrées",
+		slug: "entrees",
+		description: "Foundational rhythms",
+	},
+	{
+		title: "Palate Cleansers",
+		slug: "palate-cleansers",
+		description: "Resets & contrast",
+	},
+	{
+		title: "Main Courses",
+		slug: "main-courses",
+		description: "Bass & melody systems",
+	},
+	{
+		title: "Sides",
+		slug: "sides",
+		description: "Samples & add-ons",
+	},
+	{
+		title: "Desserts",
+		slug: "desserts",
+		description: "Peaks & endings",
+	},
+];
 ---
 
-<BaseLayout title="The Cookbook">
+<BaseLayout title="Homepage">
 	<h1>The Cookbook</h1>
 
 	<p>
@@ -16,25 +46,77 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 		theory, more <em>“what do I type when I want this?”</em>
 	</p>
 
+	<h2>Disclaimer</h2>
+	<p>
+		This website does not replace the original documentation. It is intended
+		as a tool for exploration and experimentation. We will use technical
+		jargon that can be examined in depth at
+		<a href="https://strudel.cc/workshop/getting-started/">
+			The Strudel Docs
+		</a>.
+	</p>
+
 	<h2>The Courses</h2>
 
-	<ul>
-		<li>
-			<a href="/entrees"><strong>Entrées</strong></a> — foundational rhythms
-		</li>
-		<li>
-			<a href="/palate-cleansers"><strong>Palate Cleansers</strong></a> — resets
-			& contrast
-		</li>
-		<li>
-			<a href="/main-courses"><strong>Main Courses</strong></a> — bass & melody
-			systems
-		</li>
-		<li><a href="/sides"><strong>Sides</strong></a> — samples & add-ons</li>
-		<li>
-			<a href="/desserts"><strong>Desserts</strong></a> — peaks & endings
-		</li>
-	</ul>
+	<section class="courses">
+		{
+			courses.map((course) => {
+				const courseRecipes = recipes.filter(
+					(recipe) => recipe.course === course.title,
+				);
+
+				return (
+					<section class="course">
+						<h3>
+							<a href={`/${course.slug}`}>{course.title}</a>
+						</h3>
+						<p class="course-description">{course.description}</p>
+
+						<div class="course-cards">
+							{courseRecipes.map((recipe) => (
+								<RecipeCard
+									title={recipe.title}
+									level={recipe.level}
+									slug={recipe.slug}
+								/>
+							))}
+						</div>
+					</section>
+				);
+			})
+		}
+	</section>
 
 	<p><em>Recipes are not songs. They are performable states.</em></p>
 </BaseLayout>
+
+<style>
+	.courses {
+		margin-top: 3rem;
+		display: flex;
+		flex-direction: column;
+		gap: 4rem;
+	}
+
+	.course h3 {
+		margin: 0;
+		font-size: 1.4rem;
+	}
+
+	.course h3 a {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	.course-description {
+		margin: 0.4rem 0 1.5rem 0;
+		font-size: 0.9rem;
+		color: #555;
+	}
+
+	.course-cards {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+		gap: 1.2rem;
+	}
+</style>

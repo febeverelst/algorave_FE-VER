@@ -1,5 +1,5 @@
 ---
-const { title = "Cookbook" } = Astro.props;
+const { title } = Astro.props;
 import "../styles/global.css";
 import { recipes } from "../data/recipes";
 
@@ -20,7 +20,7 @@ const recipesByCourse = recipes.reduce<Record<string, Recipe[]>>(
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width" />
-        <title>{title}</title>
+        <title>The Cookbook: {title}</title>
 
         <link rel="stylesheet" href="/src/styles/global.css" />
     </head>
@@ -29,7 +29,7 @@ const recipesByCourse = recipes.reduce<Record<string, Recipe[]>>(
         <header>
             <nav class="main-nav">
                 <a href="/" class="nav-home">
-                    <img src="/fe_verLogo.png" alt="Cookbook Home" width="70"/>
+                    <img src="/fe_verLogo.png" alt="Cookbook Home" width="70" />
                 </a>
 
                 <!-- Entrées -->
@@ -51,6 +51,19 @@ const recipesByCourse = recipes.reduce<Record<string, Recipe[]>>(
                 <!-- Palate Cleansers -->
                 <div class="nav-group">
                     <a href="/palate-cleansers">Palate Cleansers</a>
+                    <ul class="dropdown">
+                        {
+                            recipesByCourse["Palate Cleansers"]?.map(
+                                (recipe) => (
+                                    <li>
+                                        <a href={`/recipes/${recipe.slug}`}>
+                                            {recipe.title}
+                                        </a>
+                                    </li>
+                                ),
+                            )
+                        }
+                    </ul>
                 </div>
 
                 <!-- Main Courses -->

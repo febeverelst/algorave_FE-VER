@@ -1,0 +1,35 @@
+---
+const { title, level, slug } = Astro.props;
+---
+
+<a href={`/recipes/${slug}`} class="recipe-card">
+    <h3>{title}</h3>
+    <p>{level}</p>
+</a>
+
+<style>
+    .recipe-card {
+        display: block;
+        padding: 1rem;
+        border: 1px solid #111;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .recipe-card h3 {
+        margin: 0 0 0.3rem 0;
+        font-size: 1rem;
+    }
+
+    .recipe-card p {
+        margin: 0;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: #555;
+    }
+
+    .recipe-card:hover {
+        background: #e8e6df;
+    }
+</style>

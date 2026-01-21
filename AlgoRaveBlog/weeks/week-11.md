@@ -77,7 +77,65 @@ With the connection in place, by selecting the "MPD226 Port A" on the bottom und
 
 Now we tried it out with those number and IT WORKED! FINALLY!
 
+**Disclaimer**: This next code block will only work with an AKAI MPD226 connection though port A:
+<iframe src="https://strudel.cc/#CmxldCBjYyA9IGF3YWl0IG1pZGluKCdNUEQyMjYgUG9ydCBBJykKCnNhbXBsZXMoJ2dpdGh1Yjp0aWRhbGN5Y2xlcy9kaXJ0LXNhbXBsZXMnKQpzYW1wbGVzKCdnaXRodWI6YWxnb3JhdmUtZGF2ZS9zYW1wbGVzJykKc2V0Q3BzKDE0MC82MC80KQoKY29uc3QgU3RydWN0dXJlcyA9IFsKICAie359IiwKICAieCo0IiwKICAie3ggfiE2IHggfiB%2BIHggfiEzIHggfn0lMTYiLAogICJ7eCB%2BITMgeCB%2BITMgeCB%2BITIgeCB%2BITIgeCB%2BfSUxNiIsCiAgInt4IH4hOSB4IH4hNSB4IH4geCB%2BITcgeCB%2BITMgPCB%2BIHggPiB%2BfSUxNiIsCiAgInt4IH4hMyB4IH4hMyB4IH4hMyB4KlsyfDNdIH4hM30lOCIKXQoKY29uc3QgUEcgPSBbCiAgInswLjh9IiwKICAiezAuNSAwLjh9Ii5mYXN0KDQpLAogICJ7MC4zIDAuOCE2IDAuMyAwLjghMiAwLjMgMC44ITMgMC4zIDF9IiwKICAiezAuMyAwLjghMyAwLjMgMC44ITMgMC4zIDAuOCEyIDAuMyAwLjghMiAwLjMgMC44fSUxNiIsCiAgInswLjQgMSE5IDAuNCAxITUgMC40IDEgMC40IDEhNyAwLjQgMSEzIDwxIE8uND4gMX0lMTYiLApdCgpjb25zdCBiZWF0ID0gNAovLzAgLSBPRkYKLy8xIC0gNE9URgovLzIgLSBIUiBNQUlOCi8vMyAtIEpFUlNFWSBDTFVCCi8vNCAtIEdJMk0KLy81IC0gSU1QUk8KCgpMRUFEOiBuKCI8MCAzIDAgNiA3IDcgMiA1Pio4Iikuc291bmQoInNhdywgc3VwZXJzYXciKS5zY2FsZSgiZiMzOm1pbm9yOnBlbnRhdG9uaWMiKQogIC5zbG93KCIxIDAuNSAyIikucGx5KCIxQDIgWzJ8NF0iKQogIC5scGYoY2MoMTIpLnJhbmdlKDQwMCwgODAwMCkpCiAgLmdhaW4oY2MoMTMpLnJhbmdlKDEsIDQpKQogIC5yb29tKGNjKDE0KS5yYW5nZSgwLCAyKSkKICAuZGVjYXkoMC4wNzUpCiAgLy8uZ2FpbigyKQogIC8vLnJvb21zaXplKDIpCiAgLnBhbihyYW5kKQogIC8vLmp1eChyZXYpCiAgLnBvc3RnYWluKHBpY2soUEcsIGJlYXQpKQouX3B1bmNoY2FyZCgpCgpfUkFORF9TUEVBSzogcygic3BlYWtzcGVsbDo8WzEyIDhdIFszIFsxMHw1XSBbM3wxMV1dPio0IikvLy5maXQoKQogIC5wbHkoIjQiKQogIC5zbG93KCI8MkAzIDE%2BIikvLy5yZXYoKQogIC8vLmdhaW4oMC41KQogIC5yb29tKDEpLnJvb21zaXplKCI0IikKICAuZGVsYXkoLjIpCiAgLmxwZihjYygxMikucmFuZ2UoNDAwLCA4MDAwKSkKICAvLy5scGYoMTAwMCkKICAvLy5wYW4oc2luZSkKICAvLy5wb3N0Z2FpbihwaWNrKFBHLCBiZWF0KSkKLl9wdW5jaGNhcmQoKQoKRFJVTVM6IHN0YWNrKAogIHMoInRlY2g6NSIpLnBvc3RnYWluKDUpLmhwZig3NSkuc3RydWN0KHBpY2soU3RydWN0dXJlcywgYmVhdCkpLC8vLmdhaW4oMSksCiAgCiAgcygiW34gY3BdIikuYmFuaygiS29yZ0RETTExMCIpLnNwZWVkKDEpLmZhc3QoMikucG9zdGdhaW4oMC43KSwKICBzKCJoaCIpLnN0cnVjdCgiW3ghMyB%2BITIgeCExMCB%2BXSIpLnBvc3RnYWluKDAuNykuYmFuaygiUm9sYW5kVFI4MDgiKS5zcGVlZCgxLjI1KS5yb29tKHNpbmUucmFuZ2UoMC4xLCAwLjQpKS5nYWluKDAuOCkuanV4KHJldiksCiAgcygifiBoaCIpLmJhbmsoIlJvbGFuZFRSODA4Iikucm9vbSgwLjIpLnNwZWVkKDAuNzUpLmdhaW4oMC41KS5mYXN0KDQpLC8vLmNsaXAoMC4xNSksCiAgLy9zKCJicmVha3MxNjUiKS5nYWluKDAuNikubG9vcEF0KDEpLmZpdCgpLnBvc3RnYWluKHBpY2soUEcsIGJlYXQpKSwKICAvL3MoInBzcjpbMnwxMnwyNHwyNV0iLmZhc3QoNCkpLnN0cnVjdCgieCE3IH4geCEzIH4geCEzIH4iKS5qdXgocmV2KS5ocGYoMjAwKS5wb3N0Z2FpbihwaWNrKFBHLCBiZWF0KSkuc3BlZWQoMC41KS5nYWluKDAuNCkKKQouX3B1bmNoY2FyZCh7d2lkdGg6IDE0MDAsIGhlaWdodDogMjAwfSk%3D"
+ width="100%" height="500"></iframe>
 
+## Wednesday
+
+I started tonday with looking up some theory. I'm a big fan of acid techno but in order to have that vibe you need a very specific sound. I started with google and the AI-suggestion already gave a very detailed description of how to achieve the acid sound.
+
+### Acid Exploration
+
+> The "acid sound" in electronic music, known for its distinctive "squelching" or "gurgling" quality, is primarily created using a Roland TB-303 synthesizer (or emulations) by heavily modulating a low-pass filter with high resonance, combined with techniques like adding distortion, using accent/slide functions, and automating filter cutoff/resonance for that signature evolving, liquid sound. 
+>
+> Here's a breakdown of the core elements:
+> - **_The Synthesizer_**: The Roland TB-303 bass synthesizer is the original source of the sound, famous for its unique filter section.
+> - **_Low-Pass Filter_**: This filter removes higher frequencies, but when cranked up, it lets certain frequencies through.
+> - **_Resonance (Q)_**: Turning up the resonance creates a peak at the cutoff frequency, emphasizing those specific tones and causing the "squelch".
+> - **_Cutoff Frequency_**: Automating the cutoff frequency (sweeping it up and down) makes the sound change pitch and texture rapidly.
+> - **_Accent & Slide_**: The TB-303's built-in accent (for punchy notes) and slide (for smooth pitch bends) functions are key for rhythmic variations.
+> - **_Distortion/Overdrive_**: Adding saturation or distortion makes the sound scream and become more aggressive. 
+
+I gave this to AI and asked it to create me something with this information and I got this :/
+
+<iframe src="https://strudel.cc/#CnNldENwcygxNDAvNjAvNCkKCkFDSUROT1RFUzogbm90ZSgiPGMyIGMyIGcxIGMyIFtjMiBnMV0gYzI%2BIikKICAuc291bmQoInNhd3Rvb3RoIikKICAubGVnYXRvKCI8MSAxIDEuNSAxIDI%2BIikKICAuZ2FpbigiPDAuOCAwLjggMS4yIDAuOCAxLjM%2BIikKICAubHBmKHNpbmUucmFuZ2UoNDAwLCAzMDAwKS5zbG93KDQpKQogIC5scHEoMC44NSkKICAuZGlzdG9ydCgwLjYpCg%3D%3D"
+ width="100%" height="500"></iframe>
+
+After the consult yesterday I had some hopes that AI would've improved by now but this just shows that I really can't trust it for this project...
+
+So I went back to one of my favorite strudel DJ's (Switch_angel) and took inpiration from her video. 
+<iframe width="100%" height="400"
+src="https://www.youtube.com/watch?v=HkgV_-nJOuE"
+title="Fast Acid Switch_angel"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+This made me happy again :) 
+Remove the "_" infront of the _QUICKDRUM_ function when you see fit and press ctrl+enter for the beat to drop ;)
+
+
+<iframe src="https://strudel.cc/#CgpzZXRDcHMoMTQwLzYwLzQpCgpfUVVJQ0tEUlVNOiBzKCJzYmQhNCIpLmRpc3RvcnQoIjM6LjMiKQogIC5kdWNrKCIyOjM6NCIpLmR1Y2thdHRhY2soLjIpLmR1Y2tkZXB0aCguOCkKICAuX3Njb3BlKCkKCkFDSUROT1RFUzogbm90ZShpcmFuZCgxMCkuc3ViKDcpLnNlZygxNikpLnNjYWxlKCJjOm1pbm9yIikKICAuc291bmQoInNhd3Rvb3RoIikKICAubHBmKDIwMCkubHBlbnYoc2xpZGVyKDQuMDI0LDAsOCkpLmxwcSgxMikub3JiaXQoMikKICAucmliKDQ2LDEpCiAgLmRpc3RvcnQoIjIuMjouMyIpCi5fcHVuY2hjYXJkKCkKJDogcygnc3VwZXJzYXcnKS5kZXR1bmUoMSkucmVsKDUpLmJlYXQoMiwgMzIpLnNsb3coMikub3JiaXQoMykKICAuZm0oIjIiKS5mbWgoMi4wNCkKICAucm9vbSgxKS5yb29tc2l6ZSg2KQouX3B1bmNoY2FyZCgpCiQ6IHMoInB1bHNlIikub3JiaXQoNCkuc2VnKDE2KS5kZWMoMSkuZm0odGltZSkuZm1oKHRpbWUpCgo%3D"
+ width="100%" height="500"></iframe>
+
+Next, I connected the Midi pad to this session and made something really cool with it. I would be able to achieve the exact same thing without the AKAI but that required me to add multiple slider and then i'd have to change them one by one. But since I used the AKAI, I was able to change multiple values at one with just one hand and 3 fingers making the experience much more professional and better sounding.
+
+ <iframe src="https://drive.google.com/file/d/1aB9Wy1-5nVKDK44VIKZ3y1d2b-_PiSaz/preview" width="60%" height="500px" style="border: 1px solid #30363d; border-radius: 6px;"></iframe>
+
+ I thought it would also be cool to add a vocal sample so I imported my samples file locally and experimented a bit with those
+
+``` 
+VOCAL: s("vocals:4").begin("<[.5|.4] <[.3|.8] [.2|.4]>>")
+  .clip(.99)
+  //.room(2)
+  .orbit(5)
+  .gain(cc(12).range(0,1))
+._punchcard()
+```
+
+### Cookbook Additions
+
+I started modifying the content of the _entrées_ to have a clear and refined idea of how I want to put all the different recipes on there.
 
 ---
 

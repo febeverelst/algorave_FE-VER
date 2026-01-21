@@ -137,6 +137,15 @@ VOCAL: s("vocals:4").begin("<[.5|.4] <[.3|.8] [.2|.4]>>")
 
 I started modifying the content of the _entrées_ to have a clear and refined idea of how I want to put all the different recipes on there.
 
+### Wednesday Evening Sidequest
+
+I was originally going to sleep but I got sidequested with this banger. Enjoy!!
+
+> remove the underscore from the top function and press _ctrl+enter_ to drop the beat.
+
+<iframe src="https://strudel.cc/#CnNldENwcygxNDAvNjAvNCkKCl8kOiBzKCJzYmQ6MiE0IikuZHVjaygiMjozOjQiKS5kdWNrYXR0YWNrKC4yKS5kdWNrZGVwdGgoMikuX3Njb3BlKCkKJDogbigiPDNAMyA0IDUgQDMgNj4qMiIuYWRkKCItMTQsIC0yMSIpKS5zY2FsZSgiZzptaW5vciIpCi5zKCJzdXBlcnNhdyIpCi5vcmJpdCgyKQouc2VnKDE2KQoubHBlbnYoMikKCiQ6IG4oIjBAMiA8LTcgWy01IC0yXT5AMyA8MCAtMyAyIDE%2BQDMiLmFkZCg3KQogICAgLmFkZCgiPDUgNCAwIDwwIDI%2BPiIpCiAgICApCi5zY2FsZSgiZzptaW5vciIpCi5zKCJzdXBlcnNhdyIpCi5vcmJpdCgzKQouZGVsYXkoLjcpLnBhbihyYW5kKS5yb29tKDEpLnJvb21zaXplKDQpCi8vLmZtKC41KS5mbXdhdmUoIndoaXRlIikKLmxwZihzbGlkZXIoMTY0MCwgNDAwLCAyMDAwKSkKLmxwZW52KDIpLl9wdW5jaGNhcmQoKQpfJDpzKCJwdWxzZSExNiIpLmRlYyguMSkuZm0odGltZSkuZm1oKHRpbWUpLm9yYml0KDQp"
+ width="100%" height="500"></iframe>
+
 ---
 
 <div class="week-grid" style="margin-top: 2em;">

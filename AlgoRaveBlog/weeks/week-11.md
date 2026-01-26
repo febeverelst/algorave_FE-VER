@@ -146,6 +146,17 @@ I was originally going to sleep but I got sidequested with this banger. Enjoy!!
 <iframe src="https://strudel.cc/#CnNldENwcygxNDAvNjAvNCkKCl8kOiBzKCJzYmQ6MiE0IikuZHVjaygiMjozOjQiKS5kdWNrYXR0YWNrKC4yKS5kdWNrZGVwdGgoMikuX3Njb3BlKCkKJDogbigiPDNAMyA0IDUgQDMgNj4qMiIuYWRkKCItMTQsIC0yMSIpKS5zY2FsZSgiZzptaW5vciIpCi5zKCJzdXBlcnNhdyIpCi5vcmJpdCgyKQouc2VnKDE2KQoubHBlbnYoMikKCiQ6IG4oIjBAMiA8LTcgWy01IC0yXT5AMyA8MCAtMyAyIDE%2BQDMiLmFkZCg3KQogICAgLmFkZCgiPDUgNCAwIDwwIDI%2BPiIpCiAgICApCi5zY2FsZSgiZzptaW5vciIpCi5zKCJzdXBlcnNhdyIpCi5vcmJpdCgzKQouZGVsYXkoLjcpLnBhbihyYW5kKS5yb29tKDEpLnJvb21zaXplKDQpCi8vLmZtKC41KS5mbXdhdmUoIndoaXRlIikKLmxwZihzbGlkZXIoMTY0MCwgNDAwLCAyMDAwKSkKLmxwZW52KDIpLl9wdW5jaGNhcmQoKQpfJDpzKCJwdWxzZSExNiIpLmRlYyguMSkuZm0odGltZSkuZm1oKHRpbWUpLm9yYml0KDQp"
  width="100%" height="500"></iframe>
 
+## Thurdays
+
+Right now i really have to force myself to start adding all the content to the cookbook and make it as complete as possible. I would really like to test it this weekend with my sister and maybe some friends if I have time.
+
+> I git a little sidetracked once again and looked back at some old sessions that I did and with all the new knowledge I have obtained these past fex weeks did some modification to make it sound even better
+
+<iframe src="https://strudel.cc/#CnNldENwcygxODAvNDAvNCkKY29uc3QgbHBmID0gc2xpZGVyKDY1Ny4xLDEwMCwgMTAwMCkKCkxFQURISUdIOiBuKGlyYW5kKDgpLnNlZyg0KS5hZGQoIi03LCAtMjEiKSkuc291bmQoInNhdyIpLnNjYWxlKCJmIzM6bWlub3I6cGVudGF0b25pYyIpLmxwZihscGYpCiAgLnNsb3coIjEgMiAwLjUgMiIpLnJldigpLnJvb20oMSkuZGVjYXkoMC43NSkvLy5ocGYoODAwKQogIC8vLm9yYml0KDIpCi5fcHVuY2hjYXJkKCkKCkxFQURNRUxPRFk6IG4oIjwwIDRAMyAwIDQgMEA0IDwxIDAgMj5AMj4qNCIuYWRkKCI1LCAtNywgMCIpLmFkZCgiPDUgNCAwIDwxIDM%2BPi80IikpCiAgLnNvdW5kKCJzdXBlcnNhdyIpLnNjYWxlKCJmIzM6bWlub3I6cGVudGF0b25pYyIpCiAgLnNlZyg4KQogIC5kZWxheSguNCkucm9vbSgxKS5yb29tc2l6ZSg0KQogIC5vcmJpdCgiMyIpCiAgLy8uc2xvdygiMSAyIDAuNSIpLnZvd2VsKCJbaXx1XSIpCi5fcHVuY2hjYXJkKCkKCl9CQVNTS0lDSzogcygic2JkOjIhMiIpLl9wdW5jaGNhcmQoKQoubHBmKDIwMCkKCktJQ0s6IHMoImJkOjIhMiIpLmR1Y2soIjI6Mzo0IikuZHVja2F0dGFjayguMikuX3Njb3BlKCkKX0tJQ0syOiBzKCJoaDoyKjQiKS5fc2NvcGUoKQ%3D%3D"
+ width="100%" height="500"></iframe>
+
+ ### Cookbook Progress
+ I'm having a very hard time making progress with the cookbook because I'd rather experiment more with strudel and the opportunities there to get even better and make more impressive sets. But I've established the idea of making a cookbook for others to make it accessible so I'll have to stick with it.
 ---
 
 <div class="week-grid" style="margin-top: 2em;">

@@ -1,5 +1,6 @@
 ---
-const { title, course, level, risk, goal, usedWhen, ingredients } = Astro.props;
+const { title, course, level, risk, goal, usedWhen, ingredients, moreInfo } =
+    Astro.props;
 ---
 
 <article class="recipe">
@@ -34,8 +35,42 @@ const { title, course, level, risk, goal, usedWhen, ingredients } = Astro.props;
             <h2>Method</h2>
             <slot />
         </div>
-        <div class="more-info_container">
-            <h2>More info</h2>
-        </div>
+        {
+            moreInfo && (
+                <section class="more-info_container">
+                    <h2>More Info</h2>
+
+                    {moreInfo.description && (
+                        <div>
+                            {moreInfo.description.map((text) => (
+                                <p>{text}</p>
+                            ))}
+                        </div>
+                    )}
+
+                    {moreInfo.tips && (
+                        <div>
+                            <h3>Tips</h3>
+                            <ul>
+                                {moreInfo.tips.map((tip) => (
+                                    <li>{tip}</li>
+                                ))}
+                            </ul>
+                        </div>
+                    )}
+
+                    {moreInfo.warnings && (
+                        <div>
+                            <h3>Warnings</h3>
+                            <ul>
+                                {moreInfo.warnings.map((warn) => (
+                                    <li>{warn}</li>
+                                ))}
+                            </ul>
+                        </div>
+                    )}
+                </section>
+            )
+        }
     </section>
 </article>

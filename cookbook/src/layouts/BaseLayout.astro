@@ -69,16 +69,49 @@ const recipesByCourse = recipes.reduce<Record<string, Recipe[]>>(
                 <!-- Main Courses -->
                 <div class="nav-group">
                     <a href="/main-courses">Main Courses</a>
+                    <ul class="dropdown">
+                        {
+                            recipesByCourse["Main Courses"]?.map((recipe) => (
+                                <li>
+                                    <a href={`/recipes/${recipe.slug}`}>
+                                        {recipe.title}
+                                    </a>
+                                </li>
+                            ))
+                        }
+                    </ul>
                 </div>
 
                 <!-- Sides -->
                 <div class="nav-group">
                     <a href="/sides">Sides</a>
+                    <ul class="dropdown">
+                        {
+                            recipesByCourse["Sides"]?.map((recipe) => (
+                                <li>
+                                    <a href={`/recipes/${recipe.slug}`}>
+                                        {recipe.title}
+                                    </a>
+                                </li>
+                            ))
+                        }
+                    </ul>
                 </div>
 
                 <!-- Desserts -->
                 <div class="nav-group">
                     <a href="/desserts">Desserts</a>
+                    <ul class="dropdown">
+                        {
+                            recipesByCourse["Desserts"]?.map((recipe) => (
+                                <li>
+                                    <a href={`/recipes/${recipe.slug}`}>
+                                        {recipe.title}
+                                    </a>
+                                </li>
+                            ))
+                        }
+                    </ul>
                 </div>
             </nav>
             <hr />

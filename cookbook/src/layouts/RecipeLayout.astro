@@ -1,13 +1,36 @@
 ---
-const { title, course, level, risk, goal, usedWhen, ingredients, moreInfo } =
-    Astro.props;
+import { recipes } from "../data/recipes";
+import RecipeCard from "../components/RecipeCard.astro";
+
+const {
+    title,
+    course,
+    level,
+    risk,
+    goal,
+    usedWhen,
+    ingredients,
+    moreInfo,
+    slug,
+} = Astro.props;
+
+const getCourseUrl = (course) => {
+    const mapping = {
+        Entrées: "/entrees",
+        "Palate Cleansers": "/palate-cleansers",
+        "Main Courses": "/main-courses",
+        Sides: "/sides",
+        Desserts: "/desserts",
+    };
+    return mapping[course] || `/tags/${encodeURIComponent(course)}`;
+};
 ---
 
 <article class="recipe">
     <div class="recipe-tags">
-        <span class="tag">{course}</span>
-        <span class="tag">{level}</span>
-        <span class="tag">{risk}</span>
+        <a href={getCourseUrl(course)} class="tag">{course}</a>
+        <a href={`/tags/${encodeURIComponent(level)}`} class="tag">{level}</a>
+        <a href={`/tags/${encodeURIComponent(risk)}`} class="tag">{risk}</a>
     </div>
 
     <h1>{title}</h1>
@@ -35,6 +58,9 @@ const { title, course, level, risk, goal, usedWhen, ingredients, moreInfo } =
             <h2>Method</h2>
             <slot />
         </div>
+    </section>
+
+    <section class="more-and-related">
         {
             moreInfo && (
                 <section class="more-info_container">
@@ -72,5 +98,22 @@ const { title, course, level, risk, goal, usedWhen, ingredients, moreInfo } =
                 </section>
             )
         }
+
+        <section class="related-recipes">
+            <h2>Other {course} Recipes</h2>
+            <div class="recipe-grid">
+                {
+                    recipes
+                        .filter((r) => r.course === course && r.slug !== slug)
+                        .map((recipe) => (
+                            <RecipeCard
+                                title={recipe.title}
+                                level={recipe.level}
+                                slug={recipe.slug}
+                            />
+                        ))
+                }
+            </div>
+        </section>
     </section>
 </article>

@@ -82,7 +82,7 @@ This week I shifted focus toward visuals and structure, experimenting with Hydra
 
 ## <a id="week-11"></a>Week 11
 
-Coming soon...
+This week I focused on making the project more usable and performative by tackling custom sample importing, building a dedicated Cookbook website, and finally getting the AKAI MPD226 to communicate properly with Strudel. After resolving MIDI control issues and refining my workflow, I experimented with acid techno patterns, vocal samples, and hands-on hardware control to shape more expressive live sets. Alongside continued musical exploration, I pushed the Cookbook forward by restructuring its content, expanding recipes, and consolidating everything into a clearer system for others to use.
 
 ## <a id="week-12"></a>Week 12
 

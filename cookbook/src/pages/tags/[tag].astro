@@ -1,0 +1,42 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import RecipeCard from "../../components/RecipeCard.astro";
+import { recipes } from "../../data/recipes";
+
+export function getStaticPaths() {
+    const allTags = new Set();
+    recipes.forEach((r) => {
+        allTags.add(r.course);
+        allTags.add(r.level);
+        allTags.add(r.risk);
+    });
+    return Array.from(allTags).map((tag) => ({
+        params: { tag: encodeURIComponent(tag) },
+    }));
+}
+
+const { tag } = Astro.params;
+const decodedTag = decodeURIComponent(tag);
+const filteredRecipes = recipes.filter(
+    (r) =>
+        r.course === decodedTag ||
+        r.level === decodedTag ||
+        r.risk === decodedTag,
+);
+---
+
+<BaseLayout title={`Recipes tagged "${decodedTag}"`}>
+    <h1>Recipes tagged "{decodedTag}"</h1>
+
+    <div class="recipe-grid">
+        {
+            filteredRecipes.map((recipe) => (
+                <RecipeCard
+                    title={recipe.title}
+                    level={recipe.level}
+                    slug={recipe.slug}
+                />
+            ))
+        }
+    </div>
+</BaseLayout>

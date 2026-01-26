@@ -1,8 +1,24 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import RecipeCard from "../components/RecipeCard.astro";
+import { recipes } from "../data/recipes";
+
+const palateCleansers = recipes.filter((r) => r.course === "Palate Cleansers");
 ---
 
 <BaseLayout title="Palate Cleansers">
     <h1>Palate Cleansers</h1>
-    <p>Resets, reductions, and moments of contrast.</p>
+    <p>Resets, transitions, and palate cleansers.</p>
+
+    <div class="recipe-grid">
+        {
+            palateCleansers.map((recipe) => (
+                <RecipeCard
+                    title={recipe.title}
+                    level={recipe.level}
+                    slug={recipe.slug}
+                />
+            ))
+        }
+    </div>
 </BaseLayout>

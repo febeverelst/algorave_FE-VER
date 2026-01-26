@@ -1,8 +1,24 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import RecipeCard from "../components/RecipeCard.astro";
+import { recipes } from "../data/recipes";
+
+const mainCourses = recipes.filter((r) => r.course === "Main Courses");
 ---
 
 <BaseLayout title="Main Courses">
     <h1>Main Courses</h1>
     <p>Basslines, melodic systems, and long-form structures.</p>
+
+    <div class="recipe-grid">
+        {
+            mainCourses.map((recipe) => (
+                <RecipeCard
+                    title={recipe.title}
+                    level={recipe.level}
+                    slug={recipe.slug}
+                />
+            ))
+        }
+    </div>
 </BaseLayout>

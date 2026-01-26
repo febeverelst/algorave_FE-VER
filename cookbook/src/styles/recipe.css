@@ -22,6 +22,12 @@
     letter-spacing: 0.08em;
     padding: 0.3rem 0.5rem;
     border: 1px solid #111;
+    text-decoration: none;
+    color: inherit;
+}
+
+.tag:hover {
+    background: #e8e6df;
 }
 
 /* ------------------------------
@@ -37,7 +43,7 @@
     align-items: start;
 }
 
-.recipe-method h2{
+.recipe-method h2 {
     margin-top: 0;
 }
 
@@ -68,4 +74,15 @@
 .context ul {
     margin: 0 0 1.5rem 0;
     padding-left: 1.1rem;
+}
+
+/* ------------------------------
+   More Info and Related
+------------------------------ */
+
+.more-and-related {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-top: 3rem;
 }

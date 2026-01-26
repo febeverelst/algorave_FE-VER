@@ -301,6 +301,6 @@ I was experimenting in the strudel REPL to see how I could start writing down re
 	</a>
 	<a href="#" onclick="loadPage('blog', 'week-11'); return false;">
 		<h3>Week 11</h3>
-		<p>Placeholder for Week 11.</p>
+		<p>Cookbook & Midi-Controller</p>
 	</a>
 </div>

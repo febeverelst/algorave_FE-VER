@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import RecipeCard from "../components/RecipeCard.astro";
 import { recipes } from "../data/recipes";
 
 const entrees = recipes.filter((r) => r.course === "Entrées");
@@ -10,14 +11,15 @@ const entrees = recipes.filter((r) => r.course === "Entrées");
 
     <p>Foundational drum systems that establish pulse, trust, and momentum.</p>
 
-    <ul>
+    <div class="recipe-grid">
         {
             entrees.map((recipe) => (
-                <li>
-                    <a href={`/recipes/${recipe.slug}`}>{recipe.title}</a>—{" "}
-                    {recipe.level}
-                </li>
+                <RecipeCard
+                    title={recipe.title}
+                    level={recipe.level}
+                    slug={recipe.slug}
+                />
             ))
         }
-    </ul>
+    </div>
 </BaseLayout>

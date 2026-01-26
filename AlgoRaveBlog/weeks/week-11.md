@@ -157,6 +157,19 @@ Right now i really have to force myself to start adding all the content to the c
 
  ### Cookbook Progress
  I'm having a very hard time making progress with the cookbook because I'd rather experiment more with strudel and the opportunities there to get even better and make more impressive sets. But I've established the idea of making a cookbook for others to make it accessible so I'll have to stick with it.
+
+ I had a hard time finding a structure for myself to get all the content so I went back to _Notion_ and made a page there where I could collect all the information I need.
+<img src="assets/images/week11_notionCook.png" alt="notion cookbook" width="100%"> 
+
+ ## Friday
+ I added _Main Courses and Sides_ to the recipe content in _Notion_. I've come to realise that it's actually taking way longer to build the pre-sets for on the cookbook. Im also constantly testing if the work together with other things in the cookbook so that the people that would be using it can actually create something with it and not just use one segment without the others working alongside it.
+ 
+<img src="assets/images/cookbook_nav1.png" alt="notion cookbook" width="25%"> 
+<img src="assets/images/cookbook_nav2.png" alt="notion cookbook" width="25%"> 
+<img src="assets/images/cookbook_nav3.png" alt="notion cookbook" width="25%"> 
+<img src="assets/images/cookbook_nav4.png" alt="notion cookbook" width="25%"> 
+<img src="assets/images/cookbook_nav5.png" alt="notion cookbook" width="25%"> 
+
 ---
 
 <div class="week-grid" style="margin-top: 2em;">

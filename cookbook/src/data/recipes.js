@@ -373,8 +373,8 @@ export const recipes = [
     ------------------------------ */
 
     {
-        slug: "placeholder-1",
-        title: "Placeholder 1",
+        slug: "fader-ending",
+        title: "Fader Ending",
         course: "Desserts",
         level: "Beginner",
         risk: "low",
@@ -402,8 +402,8 @@ export const recipes = [
     },
 
     {
-        slug: "placeholder-2",
-        title: "Placeholder 2",
+        slug: "scratch-ending",
+        title: "Scratch Ending",
         course: "Desserts",
         level: "Intermediate",
         risk: "Mod",
@@ -431,8 +431,8 @@ export const recipes = [
     },
 
     {
-        slug: "placeholder-3",
-        title: "Placeholder 3",
+        slug: "midi-controller",
+        title: "Midi Controller",
         course: "Desserts",
         level: "Advanced",
         risk: "High",

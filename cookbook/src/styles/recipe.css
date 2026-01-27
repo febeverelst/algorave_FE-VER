@@ -40,11 +40,21 @@
     gap: 3rem;
     margin-top: 2rem;
     margin-bottom: 3rem;
-    align-items: start;
+    align-items: stretch;
+}
+
+.recipe-method {
+    display: flex;
+    flex-direction: column;
 }
 
 .recipe-method h2 {
     margin-top: 0;
+}
+
+.recipe-method iframe {
+    flex: 1;
+    height: 100%;
 }
 
 /* ------------------------------

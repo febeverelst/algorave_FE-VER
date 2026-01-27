@@ -346,26 +346,28 @@ export const recipes = [
         level: "Intermediate",
         risk: "Mod",
         goal:
-            "Import your own samples (pieces of vocals, music, sounds) to make it more personal.",
+            "Import and use your own audio files in Strudel so your set can include personal samples like vocals, field recordings, or custom sounds.",
         usedWhen: [
-            "",
-            "",
+            "You want to personalize your sound beyond built-in sample banks",
+            "You want to incorporate vocals, spoken word, or external audio material into a live set",
         ],
         ingredients: [
-            "",
-            "",
-            "",
-            ""
+            "A local folder containing audio files",
+            "s() to trigger imported sounds",
+            "playback modifiers (speed, gain, slice, etc.)",
         ],
         moreInfo: {
             description: [
-                ""
+                "Strudel allows you to load local audio files directly into the REPL, making it possible to use your own samples alongside built-in sounds. Once a folder is imported, its contents become available by name and index, just like any other sample bank. This makes it easy to integrate personal material—such as vocals, textures, or found sounds into existing patterns. Using local samples is a powerful way to give your performances a unique identity while still benefiting from Strudel’s pattern and modulation system."
             ],
             tips: [
-                ""
+                "Keep sample names short and consistent to make live coding faster",
+                "trim samples beforehand to avoid unexpected volume jumps",
+                "Experiment with speed and slicing to turn long recordings into rhythmic material",
+                "Naming convention: 'samplesFolder'/'vocals'/'audio.wav'"
             ]
         },
-        code: ""
+        code: "https://strudel.cc/#Ci8vIExvY2FsIHNhbXBsZXMgZG9udCBuZWVkIHRvIGJlIG1lbnRpb25lZCBpbiB0aGUgUkVQTAovLyBJbXBvcnQgdGhlbSBhdCAic291bmRzL2ltcG9ydC1zb3VuZHMiCi8vIHVzZWQgZm9sZGVyIHBhdGg6ICJzYW1wbGVzL2V4YW1wbGUvc291bmRUZXN0Lm1wMyIKCi8vIHRoaXMgaXMgZm9yIGEgc2luZ2xlIGF1ZGlvIGluIGEgZmlsZQokOiBzKCJleGFtcGxlIikKICAuY2hvcCgxNikubG9vcEF0KDEuMykKLl9wdW5jaGNhcmQoKQoKLy8gdXNlZCBmb2xkZXIgcGF0aDogInNhbXBsZXMvdm9jYWxzL2h1bVZveC53YXYiCi8vIG11bHRpcGxlIGF1ZGlvJ3MgaW4gYSBmaWxlCiQ6IHMoInZvY2FsczoxIikKICAuY2hvcCg2NCkuY3V0KDEpLmxvb3BBdCg0KQouX3B1bmNoY2FyZCgp"
     },
 
     {
@@ -375,23 +377,26 @@ export const recipes = [
         level: "Advanced",
         risk: "High",
         goal:
-            "Use other’s, or your own, samples from online hosting sites (ex. github) to personalize your perfomance.",
+            "Load and use samples hosted in an online GitHub repository so you can access custom sounds, from yourself and others, without storing them locally.",
         usedWhen: [
-            "",
-            "",
+            "You want to reuse the same sample set across multiple machines or sessions",
+            "You’re collaborating and want to share sounds easily with others",
         ],
         ingredients: [
-            "",
-            "",
-            "",
-            ""
+            "A public GitHub repository containing audio files",
+            "samples() to load the remote sample folder",
+            "s() to trigger online samples",
+            "playback modifiers (speed, gain, slice, etc.)"
         ],
         moreInfo: {
             description: [
-                ""
+                "Strudel can load samples directly from an online source, such as a public GitHub repository. Once the repository is loaded, its audio files behave exactly like local samples: they can be indexed, patterned, and processed using the full Strudel toolset. This approach is especially useful for collaboration, portability, or maintaining a shared sound identity across performances. As long as the repository remains accessible, your samples are always available in the REPL."
             ],
             tips: [
-                ""
+                "Keep repositories lightweight to reduce loading time during performances",
+                "Organize samples into clearly named folders to stay fast while live coding",
+                "Test loading the repository before performing to avoid surprises",
+                "Naming convention: 'samplesFolder'/'vocals'/'audio.wav'"
             ]
         },
         code: ""
@@ -408,55 +413,61 @@ export const recipes = [
         level: "Beginner",
         risk: "low",
         goal:
-            "",
+            "End a set gracefully by letting the sound fade out naturally, using filtering to dissolve the music into silence without an abrupt stop.",
         usedWhen: [
-            "",
-            "",
+            "Closing a set or performance",
+            "Transitioning from sound into silence",
+            "Letting the energy gently resolve instead of cutting hard"
         ],
         ingredients: [
-            "",
-            "",
-            "",
-            ""
+            "s() to trigger a final sustained sound",
+            "Long release (rel) for natural decay",
+            "Slow timing (slow, beat) to avoid frequent repetition",
         ],
         moreInfo: {
             description: [
-                ""
+                "The Fader Ending is designed to play once and then disappear on its own. Instead of relying on volume alone, it uses filtering to slowly strip away both high and low frequencies, leaving the sound thinner and thinner until it vanishes. This technique feels more musical than a simple mute and works especially well with sustained, harmonically rich sounds like supersaws. Because the fade is automated, you can trigger it and step away, letting the set end itself."
             ],
             tips: [
-                ""
+                "Longer releases make the ending feel more cinematic",
+                "Filter fades feel smoother than gain fades",
+                "Works best when drums and rhythmic elements are already muted",
+                "experiment with the sound banks to get your desired sound"
             ]
         },
-        code: ""
+        code: "https://strudel.cc/#CiQ6IHMoInN1cGVyc2F3LCBzYXciKS5kZXR1bmUoMSkucmVsKDYpLmJlYXQoMSwgMzIpLnNsb3coNSkKICAuZm0oIjIiKS5mbWgoMi4wNCkKICAucm9vbSgxKS5yb29tc2l6ZSg2KQouX3B1bmNoY2FyZCgp"
     },
 
     {
-        slug: "scratch-ending",
-        title: "Scratch Ending",
+        slug: "cursor-ending",
+        title: "Cursor Controlled Ending",
         course: "Desserts",
         level: "Intermediate",
         risk: "Mod",
         goal:
-            "",
+            "End a set using physical gesture instead of automation by mapping sound space and filtering directly to cursor movement.",
         usedWhen: [
-            "",
-            "",
+            "Ending a set in a performative, hands-on way",
+            "Letting a track dissolve naturally instead of cutting it",
+            "You want visible control over the fade-out"
         ],
         ingredients: [
-            "",
-            "",
-            "",
-            ""
+            "mouseX",
+            "mouseY",
+            "room()",
+            "low pass filter (lpf)"
         ],
         moreInfo: {
             description: [
-                ""
+                "This ending uses Strudel’s signal system to map cursor movement to global sound parameters. Horizontal mouse movement controls the amount of reverb space, while vertical movement closes the low-pass filter. By slowly moving the cursor, the sound can be expanded, filtered, and faded into silence in a single continuous gesture."
             ],
             tips: [
-                ""
+                "Move the cursor to the bottom-right corner for a smooth, washed-out fade",
+                "Works best on melodic or pad-like material with long tails",
+                "You can add this on all audio effect, have fun with it!"
             ]
         },
-        code: ""
+        code: "https://strudel.cc/#Ci8vIFVzaW5nIHRoZSBNYWluIENvdXJzZSdzIE51bWVyaWMgTWVsb2R5IGFzIGV4YW1wbGUKJDogbigiPDAgMyAwIDYgNyA3IDIgNT4qOCIpLnMoInNhdywgc3VwZXJzYXciKS5zY2FsZSgiZiMzOm1pbm9yOnBlbnRhdG9uaWMiKQogIC5scGYoc2xpZGVyKDEwNjEuMiw0MDAsODAwMCkpCiAgLmxwZW52KDIpLmRlbGF5KC41KQogIC8vLnNsb3coIjEgMC41IDwyIDE%2BIikucGx5KCIxQDIgMiIpCiAgLmRlY2F5KDAuNzUpLnJvb20oMSkucm9vbXNpemUoNCkKICAucGFuKHJhbmQpCi5fcHVuY2hjYXJkKCkKCi8vIGVuYWJsaW5nIHRoaXMgd2lsbCBvdmVycmlkZSB0aGUgc2V0IHZhbHVlcwphbGwoeCA9PiB4LnJvb20obW91c2VYLnJhbmdlKDAsIDIpKS5scGYobW91c2VZLnJhbmdlKDQwMDAsIDIwKSkp"
     },
 
     {
@@ -466,25 +477,29 @@ export const recipes = [
         level: "Advanced",
         risk: "High",
         goal:
-            "",
+            "Integrate a hardware MIDI controller with Strudel to manipulate sounds, filters, effects, or patterns in real time for live performance or expressive coding.",
         usedWhen: [
-            "",
-            "",
+            "You want hands-on control of your Strudel session",
+            "You want to map physical pads, sliders, or knobs to parameters for live performance",
+            "You want to replace mouse or slider controls with tactile interfaces"
         ],
         ingredients: [
-            "",
-            "",
-            "",
-            ""
+            "MIDI controller",
+            "A computer with MIDI input available",
+            "midin() function to read controller messages",
+            "CC numbers knowledge"
         ],
         moreInfo: {
             description: [
-                ""
+                "Strudel allows you to read and use MIDI control channels directly from your hardware to manipulate almost any parameter in your session. To do this, you first connect your MIDI device to the REPL using midin('Your Device Port'). Each pad, slider, or knob sends messages with a CC (control change) number. These numbers can differ from the manufacturer’s default documentation, so it’s essential to verify them using a MIDI testing website or software. Once the correct CC numbers are identified, you can map them to parameters like filter cutoff (lpf), resonance (lpq), volume, or even speed and effect modulation.",
+                "In the example with the AKAI MPD226, the correct slider CC numbers were 12, 13, 14, and 15 instead of the numbers listed in the official software. Once mapped correctly, moving the sliders directly affected the sound parameters in Strudel.This workflow can be adapted to almost any controller."
             ],
             tips: [
-                ""
+                "Use a MIDI tester website to verify CC numbers for pads, sliders, and knobs before mapping",
+                "check which port your device is connected to",
+                "Save working mappings for future sessions"
             ]
         },
-        code: ""
+        code: "https://strudel.cc/#Ci8vIENvbm5lY3QgdG8geW91ciBNSURJIGNvbnRyb2xsZXIKbGV0IGNjID0gYXdhaXQgbWlkaW4oJ01pZGkgbmFtZSBoZXJlJykKCi8vIE1hcCBzbGlkZXJzIHRvIGZpbHRlciBwYXJhbWV0ZXJzCm5vdGUoImMgYSBmIGUiKQogIC5zKCJzYXd0b290aCIpCiAgLmxwZihjYyhudW1iZXIgaGVyZSkucmFuZ2UoMCwgMTAwMCkpCiAgLmxwcShjYyhudW1iZXIgaGVyZSkucmFuZ2UoMCwgMTApKQo%3D"
     },
 ];

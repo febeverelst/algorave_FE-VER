@@ -17,6 +17,11 @@ Last week was a bit of a let down on my part. I wasn't as productive as the past
 
 <img src="assets/images/week12_planning.png" alt="week 12 planning" width="100%"> 
 
+## Tuesday
+I finished the cookbook so all the current recipes are in there. I decided to work with _Astro_ and have all the recipes in a _data-js_ file so that I can keep adding recipes by just adding a new entry to the file and it will automatically make a new recipe card with a slug to have it's own recipe page aswell.
+
+I removed the dead ends ont he recipe pages so you're able to go to other recipes without using the navigation.
+
 
 ---
 

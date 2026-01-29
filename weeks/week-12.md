@@ -71,6 +71,18 @@ _Cons_
 - If someone else wants to run my project, they need to install OBS and set up scenes correctly
 
 
+### Browser Approach
+_Screen capture + Canvas_
+
+A third browser window requests permission to capture tab 1 (strudel) and tab 2 (visuals) and draws both video streams into a `<canvas/>`.
+
+Practical:
+- In window 3, use `navigator.mediaDevices.getDisplayMedia()`
+- Capture Strudel tab
+- Capture visuals tab
+- Convert streams to <video> elements
+- Draw both onto <canvas> with positioning
+
 ---
 
 <div class="week-grid" style="margin-top: 2em;">

@@ -2,7 +2,7 @@
 const { title, level, slug, course } = Astro.props;
 ---
 
-<a href={`/recipes/${slug}`} class="recipe-card">
+<a href={`/cookbook/recipes/${slug}`} class="recipe-card">
     <h3>{title}</h3>
     <p>{level}</p>
     {course && <p class="course">{course}</p>}

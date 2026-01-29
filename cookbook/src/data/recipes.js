@@ -399,7 +399,7 @@ export const recipes = [
                 "Naming convention: 'samplesFolder'/'vocals'/'audio.wav'"
             ]
         },
-        code: ""
+        code: "https://strudel.cc/#Ci8vIFNUSUxMIFVOREVSIENPTlNUUlVDVElPTg%3D%3D"
     },
 
     /* ------------------------------

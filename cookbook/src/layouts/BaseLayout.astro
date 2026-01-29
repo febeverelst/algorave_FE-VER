@@ -28,18 +28,24 @@ const recipesByCourse = recipes.reduce<Record<string, Recipe[]>>(
     <body>
         <header>
             <nav class="main-nav">
-                <a href="/" class="nav-home">
-                    <img src="/fe_verLogo.png" alt="Cookbook Home" width="70" />
+                <a href="/cookbook" class="nav-home">
+                    <img
+                        src="/cookbook/fe_verLogo.png"
+                        alt="Cookbook Home"
+                        width="70"
+                    />
                 </a>
 
                 <!-- Entrées -->
                 <div class="nav-group">
-                    <a href="/entrees">Entrées</a>
+                    <a href="/cookbook/entrees">Entrées</a>
                     <ul class="dropdown">
                         {
                             recipesByCourse["Entrées"]?.map((recipe) => (
                                 <li>
-                                    <a href={`/recipes/${recipe.slug}`}>
+                                    <a
+                                        href={`/cookbook/recipes/${recipe.slug}`}
+                                    >
                                         {recipe.title}
                                     </a>
                                 </li>
@@ -50,13 +56,15 @@ const recipesByCourse = recipes.reduce<Record<string, Recipe[]>>(
 
                 <!-- Palate Cleansers -->
                 <div class="nav-group">
-                    <a href="/palate-cleansers">Palate Cleansers</a>
+                    <a href="/cookbook/palate-cleansers">Palate Cleansers</a>
                     <ul class="dropdown">
                         {
                             recipesByCourse["Palate Cleansers"]?.map(
                                 (recipe) => (
                                     <li>
-                                        <a href={`/recipes/${recipe.slug}`}>
+                                        <a
+                                            href={`/cookbook/recipes/${recipe.slug}`}
+                                        >
                                             {recipe.title}
                                         </a>
                                     </li>
@@ -68,12 +76,14 @@ const recipesByCourse = recipes.reduce<Record<string, Recipe[]>>(
 
                 <!-- Main Courses -->
                 <div class="nav-group">
-                    <a href="/main-courses">Main Courses</a>
+                    <a href="/cookbook/main-courses">Main Courses</a>
                     <ul class="dropdown">
                         {
                             recipesByCourse["Main Courses"]?.map((recipe) => (
                                 <li>
-                                    <a href={`/recipes/${recipe.slug}`}>
+                                    <a
+                                        href={`/cookbook/recipes/${recipe.slug}`}
+                                    >
                                         {recipe.title}
                                     </a>
                                 </li>
@@ -84,12 +94,14 @@ const recipesByCourse = recipes.reduce<Record<string, Recipe[]>>(
 
                 <!-- Sides -->
                 <div class="nav-group">
-                    <a href="/sides">Sides</a>
+                    <a href="/cookbook/sides">Sides</a>
                     <ul class="dropdown">
                         {
                             recipesByCourse["Sides"]?.map((recipe) => (
                                 <li>
-                                    <a href={`/recipes/${recipe.slug}`}>
+                                    <a
+                                        href={`/cookbook/recipes/${recipe.slug}`}
+                                    >
                                         {recipe.title}
                                     </a>
                                 </li>
@@ -100,12 +112,14 @@ const recipesByCourse = recipes.reduce<Record<string, Recipe[]>>(
 
                 <!-- Desserts -->
                 <div class="nav-group">
-                    <a href="/desserts">Desserts</a>
+                    <a href="/cookbook/desserts">Desserts</a>
                     <ul class="dropdown">
                         {
                             recipesByCourse["Desserts"]?.map((recipe) => (
                                 <li>
-                                    <a href={`/recipes/${recipe.slug}`}>
+                                    <a
+                                        href={`/cookbook/recipes/${recipe.slug}`}
+                                    >
                                         {recipe.title}
                                     </a>
                                 </li>

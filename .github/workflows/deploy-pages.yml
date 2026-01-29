@@ -13,16 +13,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Create a temporary folder that will become the GitHub Pages root
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install & build Cookbook
+        run: |
+          cd cookbook
+          npm install
+          npm run build
+          ls -la
+
       - name: Prepare site folder
         run: |
           mkdir site
           mkdir site/cookbook
-
-          # Copy blog (unchanged)
           cp -R AlgoRaveBlog/* site/
-
-          # Copy Astro build output
           cp -R cookbook/dist/* site/cookbook/
 
       - name: Deploy to GitHub Pages
@@ -31,4 +38,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./site
-          commit_message: "Deploy site: ${{ github.sha }}"

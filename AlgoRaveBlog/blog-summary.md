@@ -18,6 +18,7 @@ This page summarizes your activity across weeks. Use the cards or table below to
 | [Week 10](#week-link-10) | Hydra & Strudel | Hydra exploration & strudel structures | 2026-01-12 |
 | [Week 11](#week-link-11) | TBA | Placeholder for Week 11. | TBD |
 | [Week 12](#week-link-12) | TBA | Placeholder for Week 12. | TBD |
+| [Week 13](#week-link-13) | TBA | Placeholder for Week 13. | TBD |
 
 
 ### During Passion Project
@@ -37,6 +38,10 @@ This page summarizes your activity across weeks. Use the cards or table below to
     <a href="#" onclick="loadPage('blog', 'week-12'); return false;">
 		<h3>Week 12</h3>
 		<p>Placeholder for Week 12.</p>
+	</a>
+	<a href="#" onclick="loadPage('blog', 'week-13'); return false;">
+		<h3>Week 13</h3>
+		<p>Placeholder for Week 13.</p>
 	</a>
 </div>
 
@@ -87,3 +92,5 @@ This week I focused on making the project more usable and performative by tackli
 ## <a id="week-12"></a>Week 12
 
 Coming soon...
+
+## <a id="week-13"></a>Week 13

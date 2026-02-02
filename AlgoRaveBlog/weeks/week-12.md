@@ -80,8 +80,8 @@ Practical:
 - In window 3, use `navigator.mediaDevices.getDisplayMedia()`
 - Capture Strudel tab
 - Capture visuals tab
-- Convert streams to <video> elements
-- Draw both onto <canvas> with positioning
+- Convert streams to `<video>` elements
+- Draw both onto `<canvas>` with positioning
 
 ---
 
@@ -89,5 +89,9 @@ Practical:
 	<a href="#" onclick="loadPage('blog', 'week-11'); return false;">
 		<h3>Week 11</h3>
 		<p>Cookbook & Midi-Contoller</p>
+	</a>
+	<a href="#" onclick="loadPage('blog', 'week-12'); return false;">
+		<h3>Week 12</h3>
+		<p>Placeholder for Week 12.</p>
 	</a>
 </div>

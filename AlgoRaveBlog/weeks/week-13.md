@@ -61,6 +61,6 @@ To be able to see the Full screen you _right click_ anywhere in the editor and s
 <div class="week-grid" style="margin-top: 2em;">
     <a href="#" onclick="loadPage('blog', 'week-12'); return false;">
         <h3>Week 12</h3>
-        <p>Cookbook & Midi-Contoller</p>
+        <p>Finalizing Cookbook, website adjustments, and preparing live performance.</p>
     </a>
 </div>

@@ -297,10 +297,10 @@ I was experimenting in the strudel REPL to see how I could start writing down re
 <div class="week-grid" style="margin-top: 2em;">
 	<a href="#" onclick="loadPage('blog', 'week-9'); return false;">
 		<h3>Week 9</h3>
-		<p>Project Kick off & documentation research</p>
+		<p>Technical deep dive into Strudel samplers/JSON workflows.</p>
 	</a>
 	<a href="#" onclick="loadPage('blog', 'week-11'); return false;">
 		<h3>Week 11</h3>
-		<p>Cookbook & Midi-Controller</p>
+		<p>Custom sample importing and AKAI MPD226 integration.</p>
 	</a>
 </div>

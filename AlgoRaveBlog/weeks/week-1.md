@@ -74,6 +74,6 @@ During troubleshooting, I relied heavily on ChatGPT and other AI tools for guida
 <div class="week-grid" style="margin-top: 2em;">
 	<a href="#" onclick="loadPage('blog', 'week-2'); return false;">
 		<h3>Week 2</h3>
-		<p>Rhythms &amp; pattern experiments.</p>
+		<p>Learning patterns, scales, and audiovisual performance setups.</p>
 	</a>
 </div>

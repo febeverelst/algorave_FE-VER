@@ -72,11 +72,11 @@ This week was smaller, but important. It helped me realise how powerful **vocals
 <div class="week-grid" style="margin-top: 2em;">
 	<a href="#" onclick="loadPage('blog', 'week-6'); return false;">
 		<h3>Week 6</h3>
-		<p>Sample documentation &amp; tutorials</p>
+		<p>Long-form performance, sampling, and visuals.</p>
 	</a>
 	<a href="#" onclick="loadPage('blog', 'week-8'); return false;">
 		<h3>Week 8</h3>
-		<p>Experimentation</p>
+		<p>Controlled randomness, drum stacking, and live-adjustable energy.</p>
 	</a>
 </div>
 

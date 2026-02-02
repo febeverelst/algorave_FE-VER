@@ -80,10 +80,10 @@ This day i revisited a set that i did earlier this week to start selecting note 
 <div class="week-grid" style="margin-top: 2em;">
 	<a href="#" onclick="loadPage('blog', 'week-3'); return false;">
 		<h3>Week 3</h3>
-		<p>Synthesis and sound design notes.</p>
+		<p>Sound patterns, visuals, and live performance ideas.</p>
 	</a>
 	<a href="#" onclick="loadPage('blog', 'week-5'); return false;">
 		<h3>Week 5</h3>
-		<p>Youtube research &amp; DJ observation</p>
+		<p>Youtube research & DJ observation.</p>
 	</a>
 </div>

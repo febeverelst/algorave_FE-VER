@@ -35,10 +35,10 @@ This setup includes:
 <div class="week-grid" style="margin-top: 2em;">
 	<a href="#" onclick="loadPage('blog', 'week-7'); return false;">
 		<h3>Week 7</h3>
-		<p>Ambient vocals &amp; samplers</p>
+		<p>Vocal sampling, rhythmic foundations, and texture control.</p>
 	</a>
 	<a href="#" onclick="loadPage('blog', 'week-9'); return false;">
 		<h3>Week 9</h3>
-		<p>Project Kick off &amp; documentation research</p>
+		<p>Technical deep dive into Strudel samplers/JSON workflows.</p>
 	</a>
 </div>

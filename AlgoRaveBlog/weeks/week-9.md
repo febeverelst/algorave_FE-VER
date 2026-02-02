@@ -71,10 +71,10 @@ I used this day to convert my whole blog into markdown but im having struggles t
 <div class="week-grid" style="margin-top: 2em;">
 	<a href="#" onclick="loadPage('blog', 'week-8'); return false;">
 		<h3>Week 8</h3>
-		<p>Experimentation</p>
+		<p>Controlled randomness, drum stacking, and live-adjustable energy.</p>
 	</a>
 	<a href="#" onclick="loadPage('blog', 'week-10'); return false;">
 		<h3>Week 10</h3>
-		<p>Placeholder for Week 10.</p>
+		<p>Hydra/P5LIVE experiments and structuring the Cookbook.</p>
 	</a>
 </div>

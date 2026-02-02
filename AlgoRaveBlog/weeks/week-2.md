@@ -144,10 +144,10 @@ These segments function as **reusable studies** rather than finished composition
 <div class="week-grid" style="margin-top: 2em;">
 	<a href="#" onclick="loadPage('blog', 'week-1'); return false;">
 		<h3>Week 1</h3>
-		<p>Project setup, initial Strudel experiments and blog creation.</p>
+		<p>Tool research, TidalCycles installation attempts, and early friction</p>
 	</a>
 	<a href="#" onclick="loadPage('blog', 'week-3'); return false;">
 		<h3>Week 3</h3>
-		<p>Synthesis and sound design notes.</p>
+		<p>Sound patterns, visuals, and live performance ideas.</p>
 	</a>
 </div>

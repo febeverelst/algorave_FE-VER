@@ -61,11 +61,11 @@ This week mainly focused on **listening, observing, and analysing** how repetiti
 <div class="week-grid" style="margin-top: 2em;">
 	<a href="#" onclick="loadPage('blog', 'week-5'); return false;">
 		<h3>Week 5</h3>
-		<p>Youtube research &amp; DJ observation</p>
+		<p>Youtube research & DJ observation.</p>
 	</a>
 	<a href="#" onclick="loadPage('blog', 'week-7'); return false;">
 		<h3>Week 7</h3>
-		<p>Ambient vocals &amp; samplers</p>
+		<p>Vocal sampling, rhythmic foundations, and texture control.</p>
 	</a>
 </div>
 

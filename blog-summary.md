@@ -6,37 +6,42 @@ This page summarizes your activity across weeks. Use the cards or table below to
 
 | Week | Title | Description | Modified Date |
 |------|-------|-------------|----------------|
-| [Week 1](#week-link-1) | Project Setup | Project setup, initial Strudel experiments and blog creation. | 2025-09-15 |
-| [Week 2](#week-link-2) | Rhythms & Patterns | Rhythms & pattern experiments (placeholders). | 2025-09-22 |
-| [Week 3](#week-link-3) | Synthesis | Synthesis and sound design notes. | 2025-09-29 |
-| [Week 4](#week-link-4) | Performance | Performance & optimization ideas. | 2025-10-06 |
-| [Week 5](#week-link-5) | Research | Youtube research & DJ observation | 2025-10-13 |
-| [Week 6](#week-link-6) | Documentation | Sample documentation & tutorials | 2025-10-20 |
-| [Week 7](#week-link-7) | Vocals | Ambient vocals & samplers | 2025-10-27 |
-| [Week 8](#week-link-8) | Experimentation | Experimentation | 2025-11-03 |
-| [Week 9](#week-link-9) | Project Kickoff | Project Kick off & documentation research | 2026-01-05 |
-| [Week 10](#week-link-10) | Hydra & Strudel | Hydra exploration & strudel structures | 2026-01-12 |
-| [Week 11](#week-link-11) | TBA | Placeholder for Week 11. | TBD |
-| [Week 12](#week-link-12) | TBA | Placeholder for Week 12. | TBD |
+| [Week 1](#week-link-1) | Project Setup | Tool research, TidalCycles installation attempts, and early friction. | 2025-09-15 |
+| [Week 2](#week-link-2) | Strudel Exploration | Learning patterns, scales, and audiovisual performance setups. | 2025-09-22 |
+| [Week 3](#week-link-3) | Algorave Experiments | Sound patterns, visuals, and live performance ideas. | 2025-09-29 |
+| [Week 4](#week-link-4) | Refining Workflow | Live-coding practice and troubleshooting technical issues. | 2025-10-06 |
+| [Week 5](#week-link-5) | DJ & Visual Research | Youtube research & DJ observation. | 2025-10-13 |
+| [Week 6](#week-link-6) | Structure & Analysis | Long-form performance, sampling, and visuals. | 2025-10-20 |
+| [Week 7](#week-link-7) | Vocal Exploration | Vocal sampling, rhythmic foundations, and texture control. | 2025-10-27 |
+| [Week 8](#week-link-8) | Layering & Randomness | Controlled randomness, drum stacking, and live-adjustable energy. | 2025-11-03 |
+| [Week 9](#week-link-9) | Sampler Mastery | Technical deep dive into Strudel samplers/JSON workflows. | 2026-01-05 |
+| [Week 10](#week-link-10) | Visuals & Cookbook | Hydra/P5LIVE experiments and structuring the Cookbook. | 2026-01-12 |
+| [Week 11](#week-link-11) | Samples & MIDI Control | Custom sample importing and AKAI MPD226 integration. | TBD |
+| [Week 12](#week-link-12) | Performance Prep | Finalizing Cookbook, website adjustments, and preparing live performance. | TBD |
+| [Week 13](#week-link-13) | TBA | Placeholder for Week 13. | TBD |
 
 
 ### During Passion Project
 <div class="week-grid">
 	<a href="#" onclick="loadPage('blog', 'week-9'); return false;">
 		<h3>Week 9</h3>
-		<p>Project Kick off & documentation research</p>
+		<p>Technical deep dive into Strudel samplers/JSON workflows.</p>
 	</a>
     <a href="#" onclick="loadPage('blog', 'week-10'); return false;">
 		<h3>Week 10</h3>
-		<p>Hydra exploration & strudel structures</p>
+		<p>Hydra/P5LIVE experiments and structuring the Cookbook.</p>
 	</a>
     <a href="#" onclick="loadPage('blog', 'week-11'); return false;">
 		<h3>Week 11</h3>
-		<p>Placeholder for Week 11.</p>
+		<p>Custom sample importing and AKAI MPD226 integration.</p>
 	</a>
     <a href="#" onclick="loadPage('blog', 'week-12'); return false;">
 		<h3>Week 12</h3>
-		<p>Placeholder for Week 12.</p>
+		<p>Finalizing Cookbook, website adjustments, and preparing live performance.</p>
+	</a>
+	<a href="#" onclick="loadPage('blog', 'week-13'); return false;">
+		<h3>Week 13</h3>
+		<p>Coming Soon...</p>
 	</a>
 </div>
 
@@ -85,5 +90,9 @@ This week I shifted focus toward visuals and structure, experimenting with Hydra
 This week I focused on making the project more usable and performative by tackling custom sample importing, building a dedicated Cookbook website, and finally getting the AKAI MPD226 to communicate properly with Strudel. After resolving MIDI control issues and refining my workflow, I experimented with acid techno patterns, vocal samples, and hands-on hardware control to shape more expressive live sets. Alongside continued musical exploration, I pushed the Cookbook forward by restructuring its content, expanding recipes, and consolidating everything into a clearer system for others to use.
 
 ## <a id="week-12"></a>Week 12
+
+With the deadline approaching, I shifted into finishing and performance mode by completing the Cookbook, finalizing its structure, and tightening the website for fast, practical use. I focused on planning a clear 15-minute presentation and began thinking seriously about how the live performance should look and flow. This week also included researching technical solutions for combining Strudel and visuals into a single performance view, comparing browser-based approaches with OBS as a reliable real-time compositing tool.
+
+## <a id="week-13"></a>Week 13
 
 Coming soon...

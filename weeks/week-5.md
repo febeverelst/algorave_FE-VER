@@ -74,10 +74,10 @@ allowfullscreen></iframe>
 <div class="week-grid" style="margin-top: 2em;">
 	<a href="#" onclick="loadPage('blog', 'week-4'); return false;">
 		<h3>Week 4</h3>
-		<p>Performance &amp; optimization ideas.</p>
+		<p>Live-coding practice and troubleshooting technical issues.</p>
 	</a>
 	<a href="#" onclick="loadPage('blog', 'week-6'); return false;">
 		<h3>Week 6</h3>
-		<p>Sample documentation &amp; tutorials</p>
+		<p>Long-form performance, sampling, and visuals.</p>
 	</a>
 </div>

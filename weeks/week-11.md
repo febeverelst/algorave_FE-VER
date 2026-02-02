@@ -175,10 +175,10 @@ Right now i really have to force myself to start adding all the content to the c
 <div class="week-grid" style="margin-top: 2em;">
 	<a href="#" onclick="loadPage('blog', 'week-10'); return false;">
 		<h3>Week 10</h3>
-		<p>Placeholder for Week 10.</p>
+		<p>Hydra/P5LIVE experiments and structuring the Cookbook.</p>
 	</a>
 	<a href="#" onclick="loadPage('blog', 'week-12'); return false;">
 		<h3>Week 12</h3>
-		<p>Placeholder for Week 12.</p>
+		<p>Finalizing Cookbook, website adjustments, and preparing live performance.</p>
 	</a>
 </div>

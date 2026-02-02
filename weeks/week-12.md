@@ -80,14 +80,18 @@ Practical:
 - In window 3, use `navigator.mediaDevices.getDisplayMedia()`
 - Capture Strudel tab
 - Capture visuals tab
-- Convert streams to <video> elements
-- Draw both onto <canvas> with positioning
+- Convert streams to `<video>` elements
+- Draw both onto `<canvas>` with positioning
 
 ---
 
 <div class="week-grid" style="margin-top: 2em;">
 	<a href="#" onclick="loadPage('blog', 'week-11'); return false;">
 		<h3>Week 11</h3>
-		<p>Cookbook & Midi-Contoller</p>
+		<p>Custom sample importing and AKAI MPD226 integration.</p>
+	</a>
+	<a href="#" onclick="loadPage('blog', 'week-13'); return false;">
+		<h3>Week 13</h3>
+		<p>Coming Soon...</p>
 	</a>
 </div>

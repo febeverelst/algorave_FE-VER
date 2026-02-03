@@ -1,5 +1,6 @@
 ---
 const { title } = Astro.props;
+const BASE = import.meta.env.BASE_URL || "/";
 import "../styles/global.css";
 import { recipes } from "../data/recipes";
 
@@ -28,9 +29,9 @@ const recipesByCourse = recipes.reduce<Record<string, Recipe[]>>(
     <body>
         <header>
             <nav class="main-nav">
-                <a href="/algorave_FE-VER/cookbook" class="nav-home">
+                <a href={BASE} class="nav-home">
                     <img
-                        src="/algorave_FE-VER/cookbook/fe_verLogo.png"
+                        src={`${BASE}fe_verLogo.png`}
                         alt="Cookbook Home"
                         width="70"
                     />
@@ -38,14 +39,12 @@ const recipesByCourse = recipes.reduce<Record<string, Recipe[]>>(
 
                 <!-- Entrées -->
                 <div class="nav-group">
-                    <a href="/algorave_FE-VER/cookbook/entrees">Entrées</a>
+                    <a href={`${BASE}entrees`}>Entrées</a>
                     <ul class="dropdown">
                         {
                             recipesByCourse["Entrées"]?.map((recipe) => (
                                 <li>
-                                    <a
-                                        href={`/algorave_FE-VER/cookbook/recipes/${recipe.slug}`}
-                                    >
+                                    <a href={`${BASE}recipes/${recipe.slug}`}>
                                         {recipe.title}
                                     </a>
                                 </li>
@@ -56,16 +55,14 @@ const recipesByCourse = recipes.reduce<Record<string, Recipe[]>>(
 
                 <!-- Palate Cleansers -->
                 <div class="nav-group">
-                    <a href="/algorave_FE-VER/cookbook/palate-cleansers"
-                        >Palate Cleansers</a
-                    >
+                    <a href={`${BASE}palate-cleansers`}>Palate Cleansers</a>
                     <ul class="dropdown">
                         {
                             recipesByCourse["Palate Cleansers"]?.map(
                                 (recipe) => (
                                     <li>
                                         <a
-                                            href={`/algorave_FE-VER/cookbook/recipes/${recipe.slug}`}
+                                            href={`${BASE}recipes/${recipe.slug}`}
                                         >
                                             {recipe.title}
                                         </a>
@@ -78,16 +75,12 @@ const recipesByCourse = recipes.reduce<Record<string, Recipe[]>>(
 
                 <!-- Main Courses -->
                 <div class="nav-group">
-                    <a href="/algorave_FE-VER/cookbook/main-courses"
-                        >Main Courses</a
-                    >
+                    <a href={`${BASE}main-courses`}>Main Courses</a>
                     <ul class="dropdown">
                         {
                             recipesByCourse["Main Courses"]?.map((recipe) => (
                                 <li>
-                                    <a
-                                        href={`/algorave_FE-VER/cookbook/recipes/${recipe.slug}`}
-                                    >
+                                    <a href={`${BASE}recipes/${recipe.slug}`}>
                                         {recipe.title}
                                     </a>
                                 </li>
@@ -98,14 +91,12 @@ const recipesByCourse = recipes.reduce<Record<string, Recipe[]>>(
 
                 <!-- Sides -->
                 <div class="nav-group">
-                    <a href="/algorave_FE-VER/cookbook/sides">Sides</a>
+                    <a href={`${BASE}sides`}>Sides</a>
                     <ul class="dropdown">
                         {
                             recipesByCourse["Sides"]?.map((recipe) => (
                                 <li>
-                                    <a
-                                        href={`/algorave_FE-VER/cookbook/recipes/${recipe.slug}`}
-                                    >
+                                    <a href={`${BASE}recipes/${recipe.slug}`}>
                                         {recipe.title}
                                     </a>
                                 </li>
@@ -116,14 +107,12 @@ const recipesByCourse = recipes.reduce<Record<string, Recipe[]>>(
 
                 <!-- Desserts -->
                 <div class="nav-group">
-                    <a href="/algorave_FE-VER/cookbook/desserts">Desserts</a>
+                    <a href={`${BASE}desserts`}>Desserts</a>
                     <ul class="dropdown">
                         {
                             recipesByCourse["Desserts"]?.map((recipe) => (
                                 <li>
-                                    <a
-                                        href={`/algorave_FE-VER/cookbook/recipes/${recipe.slug}`}
-                                    >
+                                    <a href={`${BASE}recipes/${recipe.slug}`}>
                                         {recipe.title}
                                     </a>
                                 </li>

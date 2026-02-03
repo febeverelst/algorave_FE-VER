@@ -28,7 +28,7 @@ const recipesByCourse = recipes.reduce<Record<string, Recipe[]>>(
     <body>
         <header>
             <nav class="main-nav">
-                <a href="/cookbook" class="nav-home">
+                <a href="/algorave_FE-VER/cookbook" class="nav-home">
                     <img
                         src="/algorave_FE-VER/cookbook/fe_verLogo.png"
                         alt="Cookbook Home"
@@ -56,9 +56,7 @@ const recipesByCourse = recipes.reduce<Record<string, Recipe[]>>(
 
                 <!-- Palate Cleansers -->
                 <div class="nav-group">
-                    <a href="/cookbook/palate-cleansers"
-                        >Palate Cleansers</a
-                    >
+                    <a href="/cookbook/palate-cleansers">Palate Cleansers</a>
                     <ul class="dropdown">
                         {
                             recipesByCourse["Palate Cleansers"]?.map(
@@ -78,9 +76,7 @@ const recipesByCourse = recipes.reduce<Record<string, Recipe[]>>(
 
                 <!-- Main Courses -->
                 <div class="nav-group">
-                    <a href="/cookbook/main-courses"
-                        >Main Courses</a
-                    >
+                    <a href="/cookbook/main-courses">Main Courses</a>
                     <ul class="dropdown">
                         {
                             recipesByCourse["Main Courses"]?.map((recipe) => (

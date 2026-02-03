@@ -30,15 +30,25 @@ const getCourseUrl = (course) => {
         Sides: "/sides",
         Desserts: "/desserts",
     };
-    return mapping[course] || `/tags/${encodeURIComponent(course)}`;
+    return (
+        mapping[course] || `/algorave_FE-VER/cookbook/tags/${encodeURIComponent(course)}`
+    );
 };
 ---
 
 <article class="recipe">
     <div class="recipe-tags">
-        <a href={getCourseUrl(course)} class="tag">{course}</a>
-        <a href={`/tags/${encodeURIComponent(level)}`} class="tag">{level}</a>
-        <a href={`/tags/${encodeURIComponent(risk)}`} class="tag">{risk}</a>
+        <a href={`/algorave_FE-VER/cookbook${getCourseUrl(course)}`} class="tag"
+            >{course}</a
+        >
+        <a
+            href={`/algorave_FE-VER/cookbook/tags/${encodeURIComponent(level)}`}
+            class="tag">{level}</a
+        >
+        <a
+            href={`/algorave_FE-VER/cookbook/tags/${encodeURIComponent(risk)}`}
+            class="tag">{risk}</a
+        >
     </div>
 
     <h1>{title}</h1>

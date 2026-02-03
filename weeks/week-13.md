@@ -66,6 +66,16 @@ And I changed it to:
 
 <img src="assets/images/week13_astroConfig2.png" alt="v2 of astro.config.mjs" width="50%"> 
 
+
+> _UPDATE:_ I made a few VERY (!) rookie mistakes. I had to change the paths in my baselayout and then when I comitted i expected it to work... But it didn't. 
+> I changed and comitted around 4 times untill i realised that github pages only takes the dist-file from my astro project. Meaning that I had to re-build the project in order for the changes to be visible. So I went back to the version where I was certain that it would work. Re-build the project again and comitted it a final time before I gave myself some resting time because I was getting mad. 
+>
+> And ofcourse that was it! It works now
+
+Check out the First edition of the FE_VER Cookbook! :)
+
+https://febeverelst.github.io/algorave_FE-VER/cookbook/
+
 ---
 <div class="week-grid" style="margin-top: 2em;">
     <a href="#" onclick="loadPage('blog', 'week-12'); return false;">

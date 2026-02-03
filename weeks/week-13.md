@@ -53,9 +53,18 @@ At the moment, my layers are just ontop of eachother making only the top layer v
 
 To be able to see the Full screen you _right click_ anywhere in the editor and select _Open Preview Projector_
 
+## Tuesday
+I deployed the cookbook on friday but I just now noticed some issues with the URL path; The initial homepage is correct but then when you want to continue browsing to other pages it leaves out the `/algorave_FE-VER` after the `febeverelst.github.io`. 
 
+The correct basepath should be _febeverelst.github.io/algorave_FE-VER/cookbook_. Im guessing the problem is with the astro.config.mjs file because I had to specify the basepath there since im deploying with github pages. I also have the scenario where I deploy two separate folders in one repository.
 
+This was the astro.config.mjs when I had the issue:
 
+<img src="assets/images/week13_astroConfig1.png" alt="v1 of astro.config.mjs" width="50%"> 
+
+And I changed it to:
+
+<img src="assets/images/week13_astroConfig2.png" alt="v2 of astro.config.mjs" width="50%"> 
 
 ---
 <div class="week-grid" style="margin-top: 2em;">

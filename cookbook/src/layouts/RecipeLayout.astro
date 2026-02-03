@@ -13,7 +13,6 @@ const {
     moreInfo,
     slug,
 } = Astro.props;
-const BASE = import.meta.env.BASE_URL || "/";
 
 const getRandomRecipes = (count, excludeCourse, excludeSlug) => {
     const available = recipes.filter(
@@ -25,27 +24,29 @@ const getRandomRecipes = (count, excludeCourse, excludeSlug) => {
 
 const getCourseUrl = (course) => {
     const mapping = {
-        Entrées: "entrees",
-        "Palate Cleansers": "palate-cleansers",
-        "Main Courses": "main-courses",
-        Sides: "sides",
-        Desserts: "desserts",
+        Entrées: "/entrees",
+        "Palate Cleansers": "/palate-cleansers",
+        "Main Courses": "/main-courses",
+        Sides: "/sides",
+        Desserts: "/desserts",
     };
-    return mapping[course] || `tags/${encodeURIComponent(course)}`;
+    return (
+        mapping[course] || `/algorave_FE-VER/cookbook/tags/${encodeURIComponent(course)}`
+    );
 };
 ---
 
 <article class="recipe">
     <div class="recipe-tags">
-        <a href={`${BASE}${getCourseUrl(course)}`} class="tag"
+        <a href={`/algorave_FE-VER/cookbook/${getCourseUrl(course)}`} class="tag"
             >{course}</a
         >
         <a
-            href={`${BASE}tags/${encodeURIComponent(level)}`
+            href={`/algorave_FE-VER/cookbook/tags/${encodeURIComponent(level)}`}
             class="tag">{level}</a
         >
         <a
-            href={`${BASE}tags/${encodeURIComponent(risk)}`
+            href={`/algorave_FE-VER/cookbook/tags/${encodeURIComponent(risk)}`}
             class="tag">{risk}</a
         >
     </div>

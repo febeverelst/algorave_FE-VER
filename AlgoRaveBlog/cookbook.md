@@ -1,5 +1,10 @@
 # The Cookbook
 
+Check out the First edition of the FE_VER Cookbook! :)
+
+https://febeverelst.github.io/algorave_FE-VER/cookbook/
+
+
 The Cookbook is a collection of proven live-coding patterns from my Strudel performances. Both practical and reusable approaches for creating sounds, structures, and moments in a set.
 
 It’s a shortcut from experimentation to performance:
@@ -19,7 +24,7 @@ The Cookbook is divided into chapters inspired by a meal, each representing a di
 
 - _Sides_: Optional additions that enhance "flavor". Custom samples, accents, FX layers, and extra detail.
 
-- _Dessert_: Payoff and closure. Peak release and end-of-set techniques leaving an impression.
+- _Dessert_: The cherries on top. Closing with some extra spice.
 
 They aren’t meant to be followed in order. They’re states you can move between as a set evolves.
 
@@ -45,19 +50,7 @@ Use it when you want to:
 - Add evolving drum complexity  
 - Create texture or atmosphere  
 - Shape energy across a set  
-- Use your own external audio files  
-
-
-## Featured Recipes (Coming Soon)
-
-- Starter Drum Stack  
-- Acid Bass Fundamentals  
-- Melodic Scales & Patterns  
-- Sampling & Texture Building  
-- Vocal Processing Chains  
-- Structural Melody Builders  
-- Hardware Communication  
-- (Parameter-Driven Visuals)  
+- Use your own external audio files   
 
 
 ## Philosophy

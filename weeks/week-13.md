@@ -109,6 +109,99 @@ I tried it out a little bit and this is what that brought me. What i like about 
 
 <iframe src="https://strudel.cc/#CgovLyB3ZSBnYWFuIHdlcmtlbiBtZXQgZGUgQUtBSSBjb250cm9sbGVyCi8vIGRlIHNsaWRlcnMgemlqbiB2b29ybG9waWcgbm9nIGluIGRlIGZ1bmN0aWVzCgpzYW1wbGVzKCdnaXRodWI6dGlkYWxjeWNsZXMvZGlydC1zYW1wbGVzJykKc2FtcGxlcygnZ2l0aHViOmFsZ29yYXZlLWRhdmUvc2FtcGxlcycpCnNldENwcygxNDAvNjAvNCkKCi8vIOKWiOKWiOKWiOKWiOKWiOKWiOKWiOKVl%2BKWiOKWiOKWiOKWiOKWiOKWiOKWiOKVlyAgICAgICDilojilojilZcgICDilojilojilZfilojilojilojilojilojilojilojilZfilojilojilojilojilojilojilZcgCi8vIOKWiOKWiOKVlOKVkOKVkOKVkOKVkOKVneKWiOKWiOKVlOKVkOKVkOKVkOKVkOKVnSAgICAgICDilojilojilZEgICDilojilojilZHilojilojilZTilZDilZDilZDilZDilZ3ilojilojilZTilZDilZDilojilojilZcKLy8g4paI4paI4paI4paI4paI4pWXICDilojilojilojilojilojilZcgICAgICAgICDilojilojilZEgICDilojilojilZHilojilojilojilojilojilZcgIOKWiOKWiOKWiOKWiOKWiOKWiOKVlOKVnQovLyDilojilojilZTilZDilZDilZ0gIOKWiOKWiOKVlOKVkOKVkOKVnSAgICAgICAgIOKVmuKWiOKWiOKVlyDilojilojilZTilZ3ilojilojilZTilZDilZDilZ0gIOKWiOKWiOKVlOKVkOKVkOKWiOKWiOKVlwovLyDilojilojilZEgICAgIOKWiOKWiOKWiOKWiOKWiOKWiOKWiOKVl%2BKWiOKWiOKWiOKWiOKWiOKWiOKWiOKVl%2BKVmuKWiOKWiOKWiOKWiOKVlOKVnSDilojilojilojilojilojilojilojilZfilojilojilZEgIOKWiOKWiOKVkQovLyDilZrilZDilZ0gICAgIOKVmuKVkOKVkOKVkOKVkOKVkOKVkOKVneKVmuKVkOKVkOKVkOKVkOKVkOKVkOKVnSDilZrilZDilZDilZDilZ0gIOKVmuKVkOKVkOKVkOKVkOKVkOKVkOKVneKVmuKVkOKVnSAg4pWa4pWQ4pWdICAKCmNvbnN0IFN0cnVjdHVyZXMgPSBbCiAgInt%2BfSIsCiAgIngqNCIsCiAgInt4IH4hNiB4IH4gfiB4IH4hMyB4IH59JTE2IiwKICAie3ggfiEzIHggfiEzIHggfiEyIHggfiEyIHggfn0lMTYiLAogICJ7eCB%2BITkgeCB%2BITUgeCB%2BIHggfiE3IHggfiEzIDwgfiB4ID4gfn0lMTYiLAogICJ7eCB%2BITMgeCB%2BITMgeCB%2BITMgeCpbMnwzXSB%2BITN9JTgiCl0KCmNvbnN0IFBHID0gWwogICJ7MC44fSIsCiAgInswLjUgMC44fSIuZmFzdCg0KSwKICAiezAuMyAwLjghNiAwLjMgMC44ITIgMC4zIDAuOCEzIDAuMyAxfSIsCiAgInswLjMgMC44ITMgMC4zIDAuOCEzIDAuMyAwLjghMiAwLjMgMC44ITIgMC4zIDAuOH0lMTYiLAogICJ7MC40IDEhOSAwLjQgMSE1IDAuNCAxIDAuNCAxITcgMC40IDEhMyA8MSBPLjQ%2BIDF9JTE2IiwKXQoKY29uc3QgYmVhdCA9IDEKLy8wIC0gT0ZGCi8vMSAtIDRPVEYKLy8yIC0gSFIgTUFJTgovLzMgLSBKRVJTRVkgQ0xVQgovLzQgLSBHSTJNCi8vNSAtIElNUFJPCiAgICAgICAgCgoKCi8vIC8vXFwvL1xcLy9cXC8vXFwvL1xcLy9cXC8vXFwvL1xcLy9cXC8vXFwvL1xcLy9cXC8vXFwvL1xcLy9cXC8vXFwvL1xcLy9cXC8vXFwvL1xcLy9cXC8vXFwvL1xcLy9cXC8vXFwvL1xcLy9cXC8vXFwvL1xcLy9cXC8vXFwKX0ZFX1ZFUl9JRDogbigiPDAgMyAwIDYgNyA3IDIgNT4qOCIpLnNvdW5kKCJzYXd0b290aCwgc3VwZXJzYXcsIGp1bm8iKS5zY2FsZSgiZiMzOm1pbm9yOnBlbnRhdG9uaWMiKQogIC8vLnNsb3coIjEgMC41IDIiKQogIC8vLmRlY2F5KDAuMDc1KQogIC5kZWxheSguMikucm9vbSguNikKICAvLy5wbHkoIjFAMiAyIikKICAvLy5wYW4ocmFuZCkKICAub3JiaXQoMikKICAubHBmKHNsaWRlcigyNzU4LjQsIDIwMCwgODAwMCkpCiAgLy8ubHBlbnYoc2xpZGVyKDEuNzA3LDEsOCkpLmxwcSgxMikKICAvLy5qdXgocmV2KQogIC8vLmRpc3RvcnQoIjU6LjEiKQouX3B1bmNoY2FyZCgpCkZFVkVSX0hVTTogbigiMEA0IDIgMEA0IDFAMiIuYWRkKCItMTQsIC03IikpLnMoInN1cGVyc2F3Iikuc2NhbGUoImc6bWlub3IiKQoucm9vbSgxKQoub3JiaXQoMikKLnNlZygxNikKLmxwZihzbGlkZXIoNDkwMy40LCAyMDAsIDgwMDApKQoubHBlbnYoMikKLl9zY29wZSgpCgoKRkVWRVJfRFVQRTogbigiPDAgMyAwIDYgNyA3IDw8MiA1PiA8MCA4Pj4gPFswfDNdIFs8NywgMD58PDAgLDk%2BXT4gPio4Iikucygic2F3LCBqdW5vIikuc2NhbGUoImY6bWlub3I6cGVudGF0b25pYyIpCiAgLy8uZGVjYXkoMC4wNzUpCiAgLnJvb20oLjgpLnJvb21zaXplKDQpCiAgLmxwcSgxMikubHBlbnYoc2xpZGVyKDIuODU1LDEsOCkpCiAgLnNsb3coIjEgMC41IDIiKS5wbHkoIjFANCAyIFs0fDJdIikKICAubHBmKHNsaWRlcig2NDcxLjIsIDIwMCwgODAwMCkpCiAgLm9yYml0KDIpCiAgLy8ubHBmKGNjKDIxKS5yYW5nZSgyMDAsIDgwMDApKQoKXyQ6IHMoInB1bHNlIikub3JiaXQoNCkuc2VnKDE2KS5kZWMoMSkuZm0odGltZSkuZm1oKHRpbWUpCgpEUlVNUzogc3RhY2soCiAgcygidGVjaDo1IikucG9zdGdhaW4oNSkuaHBmKDc1KS5zdHJ1Y3QocGljayhTdHJ1Y3R1cmVzLCBiZWF0KSkuZHVjaygiMjozOjQiKS5kdWNrYXR0YWNrKC4yKS5kdWNrZGVwdGgoLjgpLAogIAogIC8vcygiW34gY3BdIikuYmFuaygiS29yZ0RETTExMCIpLnNwZWVkKDEpLmZhc3QoMikucG9zdGdhaW4oMC43KSwKICAvL3MoImhoIikuc3RydWN0KCJbeCEzIH4hMiB4ITEwIH5dIikucG9zdGdhaW4oMC43KS5iYW5rKCJSb2xhbmRUUjgwOCIpLnNwZWVkKDEuMjUpLnJvb20oc2luZS5yYW5nZSgwLjEsIDAuNCkpLmdhaW4oMC44KS5qdXgocmV2KSwKICAvL3MoIn4gaGgiKS5iYW5rKCJSb2xhbmRUUjgwOCIpLnJvb20oMC4yKS5zcGVlZCgwLjc1KS5nYWluKDAuNSkuZmFzdCg0KSwvLy5jbGlwKDAuMTUpLAogIC8vcygiYnJlYWtzMTY1IikuZ2FpbigwLjYpLmxvb3BBdCgxKS5maXQoKS5wb3N0Z2FpbihwaWNrKFBHLCBiZWF0KSksCiAgLy9zKCJwc3I6WzJ8MTJ8MjR8MjVdIi5mYXN0KDQpKS5zdHJ1Y3QoInghNyB%2BIHghMyB%2BIHghMyB%2BIikuanV4KHJldikuaHBmKDIwMCkucG9zdGdhaW4ocGljayhQRywgYmVhdCkpLnNwZWVkKDAuNSkuZ2FpbigwLjQpCik%3D" width="100%" height="1000px" style="border: 2px solid #8a2be2; border-radius: 8px;"></iframe>
 
+## Friday
+This day was fully dedicated to fixing all the issues that I had this week, preformance wise:
+- P5LIVE not updating unless it's window is focussed
+- crunched audio
+- laggy visuals
+
+### P5LIVE not Updating
+
+I asked chatGPT what the problem could be.
+> I Noticed a VERY BIG issue. I can overlay the two windows perfectly and that sort of works. But i noticed that my P5 (visual) window needs to be constantly active in order for it to react to the internal audio. But during my preformance i can't be on the P5 windown because i need ot be live coding on the strudel window. Is there a way to fix this?
+
+It gave me 3 option to fix this
+1. Disable background tab throttling in Chrome
+2. Explicitly resume AudioContext
+3. Put visuals in Fullscreen (even on another monitor)
+
+I went with the 3rd option because it gave me the feeling that it was the most reliable solution. 
+In P5LIVE you're able to split the Code and the Visuals in separate windows. So I plit the Visual from the main P5 window and orderd OBS to stream that layer. 
+
+Next Steps:
+- Put the p5 visuals tab in fullscreen
+- Moved it to a second monitor (this can be the projected screen on the jury)
+- Let OBS capture that fullscreen window
+- Focused Strudel on my main screen
+
+I tried this by having both the OBS and the visual window om my second monitor and the visuals kept running. 
+
+
+### Crunchy Audio
+> I've been using a multi-output device setup for capturing the internal audio using the macOS Audio MIDI Setup. After downloading blackhole 2ch and combining this with the multi-output selecting my desired secondary output (earpods, headphones, macbook speakers), I was able to both hear and record the internal audio. This sources was also redirected towards P5 where it then took the fft values and transformed those. But the Audio sounds very crunchy and at some times there isn't any audio at all. But when I use spotify to test the sound, the audio is clean.
+
+AI helped me diagnose the problem in the following steps
+
+#### What’s going wrong (the real cause)
+
+Spotify → clean
+
+Strudel → distorted / crunchy / unusable
+
+That usually means Strudel’s Web Audio output is being _resampled or duplicated_ badly somewhere in the chain.
+
+When I:
+- run Chrome with throttling disabled
+- fullscreen the visuals
+- capture audio via OBS
+
+I’ve introduced multiple clocks that all need to agree:
+- browser audio context sample rate
+- system audio device sample rate
+- OBS sample rate
+- audio buffer size
+
+#### Fix this in the correct order
+**_1_** Match OBS sample rate to your system
+
+in OBS, set the Sample Rate to 48kHz, don't leave it on Default.
+Why:
+- Most soundcards run at 48k
+- Web Audio hates being resampled mid-flight
+- Mismatches = distortion, zipper noise, crackling
+
+**_2_** Check your system audio device sample rate
+
+This must match OBS
+
+_macOS_
+- Audio MIDI Setup
+- Select output device
+- Format: 48,000 Hz
+
+_Windows_
+- Sound Settings → Device Properties → Advanced
+- Default Format: 48,000 Hz
+
+If system ≠ OBS → Strudel dies first.
+
+**_3_** Make sure OBS is NOT monitoring Strudel audio twice
+
+Instread of using the Multi-Outup with the blackhole and the chosen secondary outpit, just select the blackhole 2ch ad an output. 
+
+-> This causes me not being able to hear the audio (we'll fix that later) but P5LIVE will.
+
+The strudel audio was most likely giving the crunchy texture because I was being routed way too many times. Using only the blackhole-way, we can tell OBS to give us the internal audio as an output coming from the streaming platform.
+
+**_4_** Fix the Strudel routing
+
+On the control panel, go to settings -> "Adbanced Monitoring Device"  -> change the output to earpods instead of the default option.
+
+Then on the audio mixer panel, click the gear icons and change the _audio monitoring_ on the strudel tab to _Monitor and Output_ keep the other windows on _monitor off_
+
+
+
+
 
 
 ---

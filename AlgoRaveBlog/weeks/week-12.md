@@ -92,6 +92,6 @@ Practical:
 	</a>
 	<a href="#" onclick="loadPage('blog', 'week-13'); return false;">
 		<h3>Week 13</h3>
-		<p>Coming Soon...</p>
+		<p>Finishing Touches</p>
 	</a>
 </div>

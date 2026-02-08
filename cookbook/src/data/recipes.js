@@ -393,10 +393,12 @@ export const recipes = [
                 "Strudel can load samples directly from an online source, such as a public GitHub repository. Once the repository is loaded, its audio files behave exactly like local samples: they can be indexed, patterned, and processed using the full Strudel toolset. This approach is especially useful for collaboration, portability, or maintaining a shared sound identity across performances. As long as the repository remains accessible, your samples are always available in the REPL."
             ],
             tips: [
+                "Open the side bar and navigate to sounds > user to preview the samples",
+                "Look up 'strudel cc samples github' to find more samples",
                 "Keep repositories lightweight to reduce loading time during performances",
-                "Organize samples into clearly named folders to stay fast while live coding",
+                "When creating samples yourself: organize samples into clearly named folders to stay fast while live coding",
                 "Test loading the repository before performing to avoid surprises",
-                "Naming convention: 'samplesFolder'/'vocals'/'audio.wav'"
+                "Naming convention: 'samplesFolder'/'sampleName'/'audio.wav'"
             ]
         },
         code: "https://strudel.cc/#Ci8vIFNUSUxMIFVOREVSIENPTlNUUlVDVElPTg%3D%3D"

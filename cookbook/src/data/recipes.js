@@ -401,7 +401,7 @@ export const recipes = [
                 "Naming convention: 'samplesFolder'/'sampleName'/'audio.wav'"
             ]
         },
-        code: "https://strudel.cc/#Ci8vIFNUSUxMIFVOREVSIENPTlNUUlVDVElPTg%3D%3D"
+        code: "https://strudel.cc/#Ci8vIFRoZSBtb3N0IGNvbW1vbiBhbmQgdXNlZnVsbCBzYW1wbGVzIHdpbGwgYmUgZnJvbSB0aGUgVElEQUwgQ1lDTEVTIEdJVEhVQiBSRVBPCi8vIG92ZXIgMTAwKyBjdXN0b20gc291bmRzIGltcG9ydGVkIHdpdGggMSBsaW5lIG9mIGNvZGUKCnNhbXBsZXMoJ2dpdGh1Yjp0aWRhbGN5Y2xlcy9kaXJ0LXNhbXBsZXMnKQ%3D%3D"
     },
 
     /* ------------------------------

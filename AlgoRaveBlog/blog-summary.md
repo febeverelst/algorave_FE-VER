@@ -16,9 +16,9 @@ This page summarizes your activity across weeks. Use the cards or table below to
 | [Week 8](#week-link-8) | Layering & Randomness | Controlled randomness, drum stacking, and live-adjustable energy. | 2025-11-03 |
 | [Week 9](#week-link-9) | Sampler Mastery | Technical deep dive into Strudel samplers/JSON workflows. | 2026-01-05 |
 | [Week 10](#week-link-10) | Visuals & Cookbook | Hydra/P5LIVE experiments and structuring the Cookbook. | 2026-01-12 |
-| [Week 11](#week-link-11) | Samples & MIDI Control | Custom sample importing and AKAI MPD226 integration. | TBD |
-| [Week 12](#week-link-12) | Performance Prep | Finalizing Cookbook, website adjustments, and preparing live performance. | TBD |
-| [Week 13](#week-link-13) | TBA | Placeholder for Week 13. | TBD |
+| [Week 11](#week-link-11) | Samples & MIDI Control | Custom sample importing and AKAI MPD226 integration. | 2026-01-19 |
+| [Week 12](#week-link-12) | Performance Prep | Finalizing Cookbook, website adjustments, and preparing live performance. | 2026-01-26 |
+| [Week 13](#week-link-13) | TBA | Final touches | 2026-02-02 |
 
 
 ### During Passion Project
@@ -41,7 +41,7 @@ This page summarizes your activity across weeks. Use the cards or table below to
 	</a>
 	<a href="#" onclick="loadPage('blog', 'week-13'); return false;">
 		<h3>Week 13</h3>
-		<p>Coming Soon...</p>
+		<p>Finishing Touches</p>
 	</a>
 </div>
 

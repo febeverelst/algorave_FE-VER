@@ -95,4 +95,4 @@ With the deadline approaching, I shifted into finishing and performance mode by 
 
 ## <a id="week-13"></a>Week 13
 
-Coming soon...
+This week consisted of the final touches. I really enjoyed this project and I'm Excited to keep working on it and improving my skills in the algorave community. Even you can open up (STRUDEL REPL)[https://strudel.cc/#Ci8vIEhJIFNUQVJUIFlPVVIgU1RSVURFTCBFWFBFUklFTkNFCi8vIE5PVCBTVVJFIFdIRVJFIFRPIEJFR0lOPyBQUkVTUyAiTEVBUk4iIElOIFRIRSBUT1AgUklHSFQgQ09STkVS] and start becoming a coding DJ.

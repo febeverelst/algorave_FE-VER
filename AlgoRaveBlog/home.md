@@ -1,67 +1,46 @@
 # Welcome to FE_VER
 
-FE_VER is my personal project, playground, and research archive for an ongoing exploration into **algorave, live coding, and generative music**.  
-<a href="#" onclick="loadPage('blog'); return false;">This blog</a> will document my whole project throughout these weeks. From what im thinking to what im actually doing while experimenting.
+Come along and discover how I am building my way into the live-coding techno scene from scratch. 
 
-
+An algorave (from an algorithm and rave) is an event where people dance to music generated from algorithms, often using live coding techniques.
 
 ## Who I Am
 
-I am a creative person who gets excited about things that not many people know about. It's the little twists and turns that interest me, and that's how I came to this project. I have been a dancer all my life and have been listening to music since I was a child. What started with contemporary sounds has now blossomed into the underground scene: techno, acid, trance, etc.
-
+I am a Digital Design & Development student at Howest in Kortrijk. In my third year, I specialized in creative coding and chose a passion project that allows me to combine my interests.
+I have been a dancer all my life and have been listening to music since I was a child. In 2022, I was introduced to the underground scene and have been fascinated by techno, trance, acid, and experimental EDM ever since.
 Lately, rather than just listening, I’m drawn to:
-- creating playlist to set the evening mood  
+
+- creating playlists that set the mood for an evening  
 - combining beats and grooves  
-- creating settings where people can have fun  
+- creating environments where people can have fun together
 
-FE_VER started as a way to make sense of that curiosity.
+I am a creative person who gets excited about things that not many people know about. It's the little twists and turns that interest me, and that's how I came to this project.
 
-
-
-## Why FE_VER?
-
-I started this project because I thought being a DJ was cool. But I also noticed that everyone wants to do it these days, which immediately put me off the idea. The hardware is also too expensive for my savings to buy and then not use it anymore. I like to keep things original, and while scrolling through TikTok one evening, I came across the best solution: live coding & Algoraves.
-
-Live coding appealed to me because:
-- it's free and accessible  
-- decisions happen in real time  
-- people are intrigued at what they're seeing  
-
-At the same time, the learning curve is steep.  
-Tooling breaks. Documentation is incomplete. AI tools help… until they don’t.  
-This blog exists to **document that friction honestly**.
-
-FE_VER is an abbreviation of my own name: Febe Verelst
+**_ALGORAVE LIVECODING WITH STRUDEL.CC_**
 
 
+---
 
-## What I’m Exploring
+## What This Website Is
 
-Throughout this project I experiment with:
+This website acts as a **creative notebook** where I document:
 
-- Live coding environments (currently Strudel)
-- Algorithmic rhythm and melody
-- The possibility of live audiovisual performance
+- experiments with sound and visuals  
+- technical discoveries while learning live coding  
+- reflections on the process of learning something new  
 
-Over time, the focus has started shifting from *just sound* toward **performance, embodiment, and interaction**.
+Most of this currently lives inside the **Passion Project**, where I explored algorave and live coding as both a technical and artistic practice.
 
+In the **Live Set Prep** you can find my exploration and experimentation in building setups that will support my live coding set for preformances
 
+---
 
-## How This Blog Works
+## Current Focus
 
-### Daily Log
-My process is documented weekly. Each week contains:
-- experiments and code studies  
-- influences and references  
-- reflections on what worked and what didn’t  
+Right now I am exploring:
 
+- live coding music with **Strudel**
+- algorithmic rhythm and melody
+- the possibility of performing sets live
 
-### Code Snippets
-Some experiments are worth keeping.  
-The **Code Snippets** page collects reusable patterns, functions, and ideas I want to return to later.
-
-
-## Goals for This Project
-
-- Become fluent enough to improvise live with code
-- Creating an accessible way for other people to start experimenting with strudel
+The long-term goal is to become comfortable enough with these tools to **perform for a live audience while coding music in real time.**

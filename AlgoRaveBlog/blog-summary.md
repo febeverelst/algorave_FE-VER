@@ -1,6 +1,6 @@
 # Daily Log Summary
 
-This page summarizes your activity across weeks. Use the cards or table below to jump to the week you want to read.
+This page summarizes my activity across weeks. Use the cards or table below to jump to the week you want to read.
 
 ## Overview Table
 
@@ -18,7 +18,7 @@ This page summarizes your activity across weeks. Use the cards or table below to
 | [Week 10](#week-link-10) | Visuals & Cookbook | Hydra/P5LIVE experiments and structuring the Cookbook. | 2026-01-12 |
 | [Week 11](#week-link-11) | Samples & MIDI Control | Custom sample importing and AKAI MPD226 integration. | 2026-01-19 |
 | [Week 12](#week-link-12) | Performance Prep | Finalizing Cookbook, website adjustments, and preparing live performance. | 2026-01-26 |
-| [Week 13](#week-link-13) | TBA | Final touches | 2026-02-02 |
+| [Week 13](#week-link-13) | Jury Week | Final touches | 2026-02-02 |
 
 
 ### During Passion Project

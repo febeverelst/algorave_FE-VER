@@ -28,3 +28,21 @@ During my jury I found a lot of people enjoying the tune I build then and there.
  Missing a drum? Copy the snippet below, paste it in the repl above and press update to add the bounce.
 
  `$: s("<sbd>*4").room(.3).hpf(75).gain(1.5)._scope()`
+
+  ## ACID intermezzo breakdown
+  
+  I was listening to my techno playlist during a walk and the song "Rave Baby" by Bassjackers was playing. 
+
+  <iframe width="50%" height="100%" src="https://www.youtube.com/embed/BNMV8uLs1Y8?si=Sha_TYOQJnR3S-nw" title="Rave Baby - Bassjackers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+This song has some catchy acid tones that I know how to create with a Roland TB-303 (for example, this is a popular synthesizer that a lot of artist use to create these kind of notes.) But because strudel works with code, it's a bit more limited in what variables can be modified.
+
+The modifiers in Acid on a hardware device are often: 
+ - __*Primary Waveforms*__ like a sawtooth or square
+ - __*The "Squelch"*__ being the core of the sound coming from applying a low-pass filter (18dB/24dB per octave) with high resonance(Q). 
+ - Some sort of __*modulation*__ created by modulating the cutoff frequency with an envelope.
+
+With all that in mind I tried creating my own acid transition piece. I my setup I used a new MIDI controller but for this blog I changed those variable to sliders so that you can exeriment with it yourself.
+
+<iframe   src="https://strudel.cc/#CnNldENwcygxNDAvNjAvNCkKCkFESUNfREVWOiBuKCI8MiAxIDw0IDEgMz4%2FPioxNiIpLnMoInNhd3Rvb3RoIikuc2NhbGUoImc6bWl4b2x5ZGlhbiIpCiAgLmxwZihzbGlkZXIoMTYzLjY2LCAxMCwgNDAwKSkKICAubHBlbnYoc2xpZGVyKDIuNjc2LCAwLCAxMikpCiAgLmJwcShzbGlkZXIoNS4yMDgsIDAsIDgpKQogIC50cmFuc3Bvc2UoWy0xNF0pCiAgLmZ0eXBlKCIyNGRiIikKICAuZGVjYXkoIi4xIikKICAuZGlzdG9ydCgiMi4yOi4zIikKICAubGVnYXRvKCI8MC45IDEuMiAwLjggMS4xPio4IikKICAuZGVsYXkoLjQpLnJvb20oLjIpLy8ucm9vbXNpemUoMikKICAucmFyZWx5KHggPT4geC5scGYoNjAwKSkKICAvLy5vKDMpCiAgLl9wdW5jaGNhcmQoKQo%3D"
+ width="100%" height="500"></iframe>
